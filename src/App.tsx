@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { FC } from 'react';
+import cn from 'classnames';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { Themes } from './constants/Themes';
+import { useTheme } from './hooks/useTheme';
+import { NavigationProvider } from './component/Navigation';
+import ContextContainer from './containers/ContextContainer';
+import ThemeContextContainer from './containers/ThemeContextContainer';
+import MainPage from './pages/MainPage';
+
+import styles from './App.module.scss';
+
+const App: FC = () => {
+    const { theme } = useTheme();
+
+    return (
+        <ThemeContextContainer>
+            <ContextContainer>
+                <NavigationProvider>
+                    <div
+                        id="base"
+                        className={cn(styles.app, { [styles.dark]: theme === Themes.DARK })}
+                    >
+                        <MainPage />
+                    </div>
+                </NavigationProvider>
+            </ContextContainer>
+        </ThemeContextContainer>
+    );
+};
 
 export default App;
