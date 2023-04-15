@@ -19,10 +19,11 @@ const MainPage: FC = () => {
         <div className={cn(styles.page, { [styles.dark]: theme === Themes.DARK })}>
             <MainHeader />
             <Switch>
+                <Route exact path='/index.html' render={() => <SongsPageRouter />} />
                 <Route path={ROUTE.SONGS} render={() => <SongsPageRouter />} />
                 <Route path={ROUTE.CHORDS} render={() => <ChordsPageRouter />} />
                 <Route path={ROUTE.ERROR} component={ErrorPage} />
-                <Redirect to={ROUTE.SONGS} />
+                <Redirect to='/index.html' />
             </Switch>
         </div>
     );

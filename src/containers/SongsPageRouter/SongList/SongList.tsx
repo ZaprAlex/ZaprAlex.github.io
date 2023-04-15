@@ -2,15 +2,15 @@ import React, { FC, useEffect, useState } from 'react';
 import { useHistory, useParams } from 'react-router-dom';
 import cn from 'classnames';
 
-import { SongsData } from '../../../constants/SongsData';
-import { ROUTE } from '../../../constants/route';
 import { useTheme } from '../../../hooks/useTheme';
 import { scrollToTop } from '../../../utils/helper';
+import { SongsData } from '../../../constants/SongsData';
+import { ROUTE } from '../../../constants/route';
 import { Themes } from '../../../constants/Themes';
-
-import styles from './SongList.module.scss';
 import { useAppNavigation } from '../../../component/Navigation';
 import AuthorsAlphabetPanel from '../../../component/AuthorsAlphabetPanel';
+
+import styles from './SongList.module.scss';
 
 type Params = {
     author?: string;

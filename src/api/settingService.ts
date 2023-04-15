@@ -7,5 +7,5 @@ export function saveTheme(theme: Themes) {
 }
 export function getTheme(): Themes {
     const theme = window.localStorage.getItem(THEME_KEY) as Themes | null;
-    return theme ? theme : Themes.LIGHT;
+    return theme ? theme : Themes.DARK;
 }
