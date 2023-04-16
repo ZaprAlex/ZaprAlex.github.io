@@ -6,7 +6,7 @@ import Button from '../Button';
 
 import { IInformContainer } from './types';
 
-import styles from './InformContainer.module.css';
+import styles from './InformContainer.module.scss';
 
 const InformContainer: React.FC<IInformContainer> = ({
     header,

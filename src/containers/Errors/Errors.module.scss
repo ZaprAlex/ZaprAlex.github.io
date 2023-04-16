@@ -7,7 +7,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background: rgba(0, 0, 0, 0.16);
+
+    :global(#base.dark) & {
+        background: rgba(0, 0, 0, 0.92);
+    }
 }
 
 .content {

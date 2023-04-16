@@ -4,7 +4,7 @@ import { shallow } from 'enzyme';
 import icon from './../../static/svgs/not-found.svg';
 
 import InformContainer, { IInformContainer } from './index';
-import styles from './InformContainer.module.css';
+import styles from './InformContainer.module.scss';
 
 const testHeader = 'TestHeader';
 const testButtonLabel = 'TestButtonLabel';

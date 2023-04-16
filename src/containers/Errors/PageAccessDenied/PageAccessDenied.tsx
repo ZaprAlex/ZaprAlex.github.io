@@ -4,7 +4,7 @@ import { noop } from '../../../utils/helper';
 import { IButton } from '../../../component/Button';
 import InformContainer from '../../../component/InformContainer';
 
-import styles from '../Errors.module.css';
+import styles from '../Errors.module.scss';
 
 export interface PageAccessDeniedProps {
     header?: string;

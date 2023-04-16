@@ -4,7 +4,7 @@ import { IButton } from '../../../component/Button';
 import { useAppNavigation } from '../../../component/Navigation';
 import InformContainer from '../../../component/InformContainer';
 
-import styles from '../Errors.module.css';
+import styles from '../Errors.module.scss';
 
 const Page404: React.FC = () => {
     const { goToSongs } = useAppNavigation();

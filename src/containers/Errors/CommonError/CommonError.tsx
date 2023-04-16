@@ -4,7 +4,7 @@ import { useAppNavigation } from '../../../component/Navigation';
 import { IButton } from '../../../component/Button';
 import InformContainer from '../../../component/InformContainer/InformContainer';
 
-import styles from '../Errors.module.css';
+import styles from '../Errors.module.scss';
 
 const CommonError: React.FC = () => {
     const { goBack } = useAppNavigation();
