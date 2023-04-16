@@ -51,10 +51,10 @@ const SongList: FC = () => {
     }
 
     return (
-        <>
+        <div className={styles.content}>
             <AuthorsAlphabetPanel onClick={onSignClick} />
             {hasAuthor && <p className={withThemeClassName(styles.header)}>{author}</p>}
-            <div className={styles.content}>
+            <div className={styles.list}>
                 {hasAuthor
                     ? Object.keys(SongsData[author]).map((name, index) => (
                           <div
@@ -75,7 +75,7 @@ const SongList: FC = () => {
                           </div>
                       ))}
             </div>
-        </>
+        </div>
     );
 };
 

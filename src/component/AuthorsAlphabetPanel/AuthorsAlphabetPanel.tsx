@@ -10,6 +10,7 @@ type Props = {
 
 const AuthorsAlphabetPanel: FC<Props> = ({ onClick }) => {
     const alphabet = Array.from(new Set(Object.keys(SongsData).map((author) => author.charAt(0))));
+
     return (
         <div className={styles.panel}>
             {alphabet.map((sign) => (
