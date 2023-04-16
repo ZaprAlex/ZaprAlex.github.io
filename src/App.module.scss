@@ -6,7 +6,8 @@
     display: flex;
     background: rgba(0, 0, 0, 0.16);
 
-    &.dark {
-        background: rgba(0, 0, 0, 0.92);
-    }
+}
+
+:global(#base.dark) {
+    background: rgba(0, 0, 0, 0.92);
 }
