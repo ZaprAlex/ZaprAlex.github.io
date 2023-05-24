@@ -1,0 +1,75 @@
+@import 'src/styles/variables';
+
+.content {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+  color: #000000;
+
+  :global(#base.dark) & {
+    color: #ff9900;
+  }
+}
+
+.author {
+  cursor: pointer;
+  color: blue;
+
+  :global(#base.dark) & {
+    color: deepskyblue;
+  }
+}
+
+.lyrics {
+  width: fit-content;
+
+  & > .row {
+    width: 100%;
+    font-family: 'Courier New', serif;
+    text-align: left;
+    white-space: pre-wrap;
+    color: #000000;
+
+    :global(#base.dark) & {
+      color: #ff9900;
+    }
+  }
+}
+
+.chord {
+  color: red !important;
+  // cursor: pointer;
+
+  :global(#base.dark) & {
+    color: #44d370;
+  }
+}
+
+.buttonsBlock {
+  position: fixed;
+  bottom: 54px;
+  right: 16px;
+  z-index: 50;
+  box-sizing: border-box;
+  width: auto;
+}
+
+.scrollToTopBtn {
+  //display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+
+  &:before {
+    content: '\f077';
+  }
+}

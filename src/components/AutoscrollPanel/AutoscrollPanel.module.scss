@@ -1,0 +1,48 @@
+@import "src/styles/variables";
+
+.panel {
+  --autoscroll-panel-color: #7e7e7e;
+
+  margin-left: auto;
+  width: fit-content;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 16px;
+  opacity: 0.7;
+
+  & > .button {
+    width: $button-size;
+    height: $button-size;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    opacity: .7;
+    font-family: sans-serif;
+    font-size: 17px;
+    border-radius: 12px;
+    text-align: center;
+    overflow: hidden;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #ffffff;
+    background: var(--autoscroll-panel-color);
+
+    &:hover,
+    &:active,
+    &:focus,
+    &:focus-visible {
+      background: var(--autoscroll-panel-color);
+    }
+
+    &:disabled {
+      background: #565555;
+      color: #ffffff;
+      cursor: crosshair;
+    }
+
+    &.active {
+      color: #21ba72;
+    }
+  }
+}

@@ -1,13 +1,18 @@
-import React from 'react';
-import './App.css';
+import React, { FC } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-    </div>
-  );
-}
+import ThemeContextContainer from './containers/ThemeContextContainer';
+import { NavigationProvider } from './components/Navigation';
+import MainPage from './pages/MainPage';
+import Layout from './components/Layout/Layout';
+
+const App: FC = () => (
+  <ThemeContextContainer>
+    <NavigationProvider>
+      <Layout>
+        <MainPage />
+      </Layout>
+    </NavigationProvider>
+  </ThemeContextContainer>
+);
 
 export default App;

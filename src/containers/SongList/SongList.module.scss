@@ -1,0 +1,41 @@
+@import '../../styles/mixins';
+
+.header {
+  margin-bottom: 20px;
+  color: #000000;
+
+  :global(#base.dark) & {
+    color: #ff9900;
+  }
+}
+
+.content {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 $side-offset 20px;
+}
+
+.list {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: fit-content;
+  max-width: 100%;
+  gap: 32px;
+  column-count: 3;
+
+  & > .text {
+    color: mediumblue;
+    cursor: pointer;
+
+    :global(#base.dark) & {
+      color: deepskyblue;
+    }
+  }
+}

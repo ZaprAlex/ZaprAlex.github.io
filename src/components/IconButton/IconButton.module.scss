@@ -1,0 +1,32 @@
+@import '../../styles/mixins';
+
+.wrapper {
+  --button-size: 24px;
+
+  box-sizing: border-box;
+  display: inline-block;
+  height: fit-content;
+  width: fit-content;
+  padding: 8px;
+  border-radius: 12px;
+  background: darkgrey;
+  overflow: hidden;
+  box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+  @include adaptive-for-mobile {
+  }
+
+  & > .button {
+    position: relative;
+    height: var(--button-size);
+    width: var(--button-size);
+    padding: 0;
+    border-radius: unset;
+    overflow: hidden;
+
+    & svg {
+      height: var(--button-size);
+      width: var(--button-size);
+    }
+  }
+}
