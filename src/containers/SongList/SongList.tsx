@@ -2,8 +2,7 @@ import React, { FC, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import cn from 'classnames';
 
-import { useTheme } from '../../hooks/useTheme';
-import useQuery from '../../hooks/useQuery';
+import { useQuery, useTheme } from '../../hooks';
 import { scrollToTop } from '../../utils/helper';
 import { SongsData } from '../../constants/SongsData';
 import { Themes } from '../../constants/Themes';
@@ -52,9 +51,11 @@ const SongList: FC = () => {
     return cn(classNames, { [styles.dark]: theme === Themes.DARK });
   }
 
+  const onAuthorClick = (value: string) => Object.keys(SongsData[value]).length === 1 ? goToSong(value, Object.keys(SongsData[value])[0]) : goToAuthor(value);
+
   return (
     <div className={styles.content}>
-      <AuthorsAlphabetPanel />
+      <AuthorsAlphabetPanel/>
       {hasAuthor && <p className={withThemeClassName(styles.header)}>{author}</p>}
       <div className={styles.list}>
         {hasAuthor
@@ -69,11 +70,11 @@ const SongList: FC = () => {
           ))
           : filteredAuthors.map((value, index) => (
             <div
-              key={`song-${index}`}
-              onClick={() => goToAuthor(value)}
+              key={`author-${index}`}
+              onClick={() => onAuthorClick(value)}
               className={withThemeClassName(styles.text)}
             >
-              {value} 
+              {value}
             </div>
           ))}
       </div>

@@ -1,28 +1,28 @@
 import React, { FC, useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import cn from 'classnames';
 import Button from '@mui/material/IconButton';
 
-import { useInterval } from '../../hooks/useInterval';
+import { useInterval } from '../../hooks';
 
 import styles from './AutoscrollPanel.module.scss';
 
-type Props = {
-  defaultSpeed?: number;
-}
-
 const DEFAULT_SPEED = 70;
-const SPEED_DELTA = 10;
 const TIMEOUT = 5;
 
-const AutoscrollPanel: FC<Props> = ({ defaultSpeed = DEFAULT_SPEED }) => {
-  const [speed, setSpeed] = useState<number>(0);
+const AutoscrollPanel: FC = () => {
+  const location = useLocation();
   const [time, setTime] = useState<number>(-1);
   const [scrollBtnLabel, setScrollBtnLabel] = useState<string>('!');
   const [scrollable, setScrollable] = useState<boolean>(false);
 
-  useEffect(() => {
-    setSpeed(defaultSpeed);
-  }, [defaultSpeed]);
+  const stopScroll = () => {
+    setScrollable(false);
+    setScrollBtnLabel('!');
+    setTime(-1);
+  };
+
+  useEffect(stopScroll, [location]);
 
   useEffect(() => {
     let timeout: number;
@@ -32,50 +32,30 @@ const AutoscrollPanel: FC<Props> = ({ defaultSpeed = DEFAULT_SPEED }) => {
         setTime((prevState) => prevState - 1);
       }, 1000);
     } else if (time === 0) {
-      setScrollBtnLabel(String(speed));
+      setScrollBtnLabel('X');
       setScrollable(true);
     }
     return () => window.clearTimeout(timeout);
-  }, [speed, time]);
+  }, [time]);
 
-  useInterval(() => window.scrollBy({ top: 0.5, behavior: 'smooth' }), scrollable ? defaultSpeed - speed * SPEED_DELTA : null);
+  useInterval(() => window.scrollBy({ top: 0.5, behavior: 'smooth' }), scrollable ? DEFAULT_SPEED : null);
 
   const toggleScrollable = async () => {
     if (time > 0 || scrollable) {
-      setScrollable(false);
-      setScrollBtnLabel('!');
-      setTime(-1);
+      stopScroll();
     } else {
       setScrollBtnLabel(String(TIMEOUT));
       setTime(TIMEOUT);
     }
   };
 
-  const increaseSpeed = () => setSpeed((prevValue) => prevValue + 1);
-
-  const decreaseSpeed = () => setSpeed((prevValue) => prevValue - 1);
-
   return (
     <div className={styles.panel}>
-      {scrollable && (
-        <>
-          <Button
-            onClick={decreaseSpeed}
-            disabled={speed <= -5}
-            className={styles.button}
-          >-</Button>
-          <Button
-            onClick={increaseSpeed}
-            disabled={speed >= 5}
-            className={styles.button}
-          >+</Button>
-        </>
-      )}
       <Button
         onClick={toggleScrollable}
         className={cn(styles.button, { [styles.active]: scrollable })}
       >
-        {scrollable ? String(speed) : scrollBtnLabel}
+        {scrollBtnLabel}
       </Button>
     </div>
   );

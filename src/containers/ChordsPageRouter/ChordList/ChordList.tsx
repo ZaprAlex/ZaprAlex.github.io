@@ -5,7 +5,7 @@ import cn from 'classnames';
 import { Chords } from '../../../constants/chords';
 import { Themes } from '../../../constants/Themes';
 import { useAppNavigation } from '../../../components/Navigation';
-import { useTheme } from '../../../hooks/useTheme';
+import { useTheme } from '../../../hooks';
 import { scrollToTop } from '../../../utils/helper';
 
 import styles from './ChordList.module.scss';

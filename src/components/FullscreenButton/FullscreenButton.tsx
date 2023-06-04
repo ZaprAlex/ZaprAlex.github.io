@@ -1,8 +1,10 @@
 import React, { type FC, useState } from 'react';
 
-import ExpandFullscreen from '../assets/ExpandFullscreen';
-import ExitFullscreen from '../assets/ExitFullscreen';
-import IconButton from './IconButton';
+import ExpandFullscreen from '../../assets/ExpandFullscreen';
+import ExitFullscreen from '../../assets/ExitFullscreen';
+import IconButton from '../IconButton';
+
+import styles from './FullscreenButton.module.scss';
 
 const FullscreenButton: FC = () => {
   const [fullScreenEnabled, setFullScreenEnabled] = useState(!!document.fullscreenElement);
@@ -23,6 +25,7 @@ const FullscreenButton: FC = () => {
     <IconButton
       onClick={toggleFullscreen}
       ariaLabel="toggle fullscrean"
+      className={styles.button}
     >
       {fullScreenEnabled ? <ExpandFullscreen /> : <ExitFullscreen />}
     </IconButton>

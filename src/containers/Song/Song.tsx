@@ -1,7 +1,7 @@
 import React, { FC, useCallback, useEffect, useState } from 'react';
 import cn from 'classnames';
 
-import { useTheme } from '../../hooks/useTheme';
+import { useTheme } from '../../hooks';
 import { getChordsFromString } from '../../utils/stringHelper';
 import { scrollToTop } from '../../utils/helper';
 import { Themes } from '../../constants/Themes';
@@ -80,9 +80,6 @@ const Song: FC<SongProps> = ({ author, song: { name, lyrics, speed: defaultSpeed
             )
           )}
         </div>
-      </div>
-      <div className={styles.buttonsBlock}>
-        <AutoscrollPanel defaultSpeed={defaultSpeed} />
       </div>
       <ChordsRowPopUp
         isOpen={isModalOpen}

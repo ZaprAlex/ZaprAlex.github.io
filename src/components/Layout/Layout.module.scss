@@ -1,4 +1,4 @@
-@import 'src/styles/variables';
+@import 'src/styles/mixins';
 
 .page {
   display: flex;
@@ -17,6 +17,34 @@
     flex-flow: column;
     flex-grow: 1;
     background: #ffffff;
+
+    @include adaptive-for-mobile {
+      padding-bottom: 90px;
+    }
+
+    & > .buttonsBlock {
+      position: fixed;
+      bottom: 54px;
+      right: 16px;
+      z-index: 50;
+      box-sizing: border-box;
+      width: auto;
+      display: flex;
+      flex-flow: column;
+      gap: 12px;
+      align-items: center;
+
+      @include adaptive-for-mobile {
+        bottom: 24px;
+      }
+
+      & > * {
+        opacity: .7;
+        & svg path {
+          fill: #000000;
+        }
+      }
+    }
   }
 
   &[class~="dark"] {

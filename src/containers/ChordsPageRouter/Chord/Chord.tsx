@@ -1,14 +1,14 @@
 import React, { FC, useEffect, useState } from 'react';
 import cn from 'classnames';
 
-import { useTheme } from '../../../hooks/useTheme';
+import { useTheme } from '../../../hooks';
 import { scrollToTop } from '../../../utils/helper';
 import { Chords, IChord } from '../../../constants/chords';
 import { Themes } from '../../../constants/Themes';
-import FullscreenButton from '../../../components/FullscreenButton';
+import FullscreenButton from '../../../components/FullscreenButton/FullscreenButton';
+import { useAppNavigation } from '../../../components/Navigation';
 
 import styles from './Chord.module.scss';
-import { useAppNavigation } from '../../../components/Navigation';
 
 type ChordProps = {
   chord: IChord;

@@ -3,7 +3,7 @@ import React, { FC } from 'react';
 import ThemeContextContainer from './containers/ThemeContextContainer';
 import { NavigationProvider } from './components/Navigation';
 import MainPage from './pages/MainPage';
-import Layout from './components/Layout/Layout';
+import Layout from './components/Layout';
 
 const App: FC = () => (
   <ThemeContextContainer>
