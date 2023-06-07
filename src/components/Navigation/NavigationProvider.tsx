@@ -12,23 +12,17 @@ const NavigationProvider: FC<PropsWithChildren> = ({ children }) => {
 
   const goRoot = useCallback(() => navigate(ROUTE.SONGS), [navigate]);
 
-  const goToSongs = useCallback(() => navigate(ROUTE.SONGS), [navigate]);
+  const goToSongs = useCallback((sign?: string) => navigate(`${ROUTE.SONGS}${sign ? `?char=${sign}`: ''}`), [navigate]);
+
+  const goToAuthors = useCallback((sign?: string) => navigate(`${ROUTE.AUTHORS}${sign ? `?char=${sign}`: ''}`), [navigate]);
 
   const goToAuthor = useCallback(
-    (author: string) => {
-      // console.log(`${ROUTE.SONGS}/${author}`)
-      return navigate(`${ROUTE.SONGS}/${author}`);
-    },
-    [navigate]
-  );
-
-  const goToSign = useCallback(
-    (sign: string) => navigate(`${ROUTE.SONGS}/?char=${sign}`),
+    (author: string) => navigate(`${ROUTE.AUTHORS}/${author}`),
     [navigate]
   );
 
   const goToSong = useCallback(
-    (author: string, name: string) => navigate(`${ROUTE.SONGS}/${author}/${name}`),
+    (author: string, name: string) => navigate(`${ROUTE.AUTHORS}/${author}/${name}`),
     [navigate]
   );
 
@@ -48,12 +42,12 @@ const NavigationProvider: FC<PropsWithChildren> = ({ children }) => {
       goToSongs,
       goToSong,
       goToAuthor,
-      goToSign,
+      goToAuthors,
       goToChords,
       goToChord,
       goTo404
     }),
-    [goBack, goRoot, goToAuthor, goToChord, goToChords, goToSign, goToSong, goToSongs, goTo404]
+    [goBack, goRoot, goToAuthor, goToAuthors, goToChord, goToChords, goToSongs, goTo404]
   );
 
   return <AppNavigationCtx.Provider value={navigation}>{children}</AppNavigationCtx.Provider>;

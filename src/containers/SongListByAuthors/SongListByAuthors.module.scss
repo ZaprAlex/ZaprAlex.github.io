@@ -1,6 +1,16 @@
 @import '../../styles/mixins';
 
+.header {
+  margin-bottom: 20px;
+  color: #000000;
+
+  :global(#base.dark) & {
+    color: #ff9900;
+  }
+}
+
 .content {
+  position: relative;
   box-sizing: border-box;
   display: flex;
   flex-flow: column wrap;
@@ -12,15 +22,14 @@
 }
 
 .list {
-  position: relative;
   box-sizing: border-box;
   display: flex;
-  flex-flow: column wrap;
-  align-items: flex-start;
+  flex-flow: row wrap;
+  align-items: center;
   width: fit-content;
   max-width: 100%;
   gap: 32px;
-  column-count: 1;
+  column-count: 3;
 
   & > .text {
     color: mediumblue;
@@ -31,12 +40,4 @@
       color: deepskyblue;
     }
   }
-}
-
-.author {
-  color: #ffffff;
-
-  &.active {
-    color: #ff9900;
-  } 
 }

@@ -7,9 +7,9 @@ import ChordProvider from './ChordProvider';
 
 const ChordsPageRouter: FC = () => (
   <Routes>
-    <Route path={`${ROUTE.CHORDS}/:chordName`} element={<ChordProvider />} />
-    <Route path={ROUTE.CHORDS} element={<ChordList />} />
-    <Route path="*" element={<Navigate to={ROUTE.CHORDS} replace />} />
+    {/*<Route path={`${ROUTE.CHORDS}/:chordName`} element={<ChordProvider />} />*/}
+    {/*<Route path={ROUTE.CHORDS} element={<ChordList />} />*/}
+    {/*<Route path="*" element={<Navigate to={ROUTE.CHORDS} replace />} />*/}
   </Routes>
 );
 

@@ -8,7 +8,6 @@ import { Themes } from '../../constants/Themes';
 import { ISong } from '../../constants/SongsData';
 import { useAppNavigation } from '../../components/Navigation';
 import ChordsRowPopUp from '../../components/ChordsRowPopUp';
-import AutoscrollPanel from '../../components/AutoscrollPanel';
 
 import styles from './Song.module.scss';
 

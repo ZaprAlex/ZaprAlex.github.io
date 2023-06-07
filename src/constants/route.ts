@@ -1,6 +1,7 @@
 export const ROUTE = {
   CORE: '/',
-  SONGS: 'songs',
+  AUTHORS: 'authors',
   CHORDS: 'chords',
+  SONGS: 'songs',
   _404: '404'
 };

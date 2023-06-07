@@ -1,85 +1,64 @@
 import React, { FC, useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
 import cn from 'classnames';
 
-import { useQuery, useTheme } from '../../hooks';
 import { scrollToTop } from '../../utils/helper';
-import { SongsData } from '../../constants/SongsData';
-import { Themes } from '../../constants/Themes';
+import { SongsData, SongsByAuthorsData, SongsAlphabet, SongsDataKeys } from '../../constants/SongsData';
+import { useQuery } from '../../hooks';
 import { useAppNavigation } from '../../components/Navigation';
-import AuthorsAlphabetPanel from '../../components/AuthorsAlphabetPanel';
+import AlphabetPanel from '../../components/AlphabetPanel';
 
 import styles from './SongList.module.scss';
 
-type Params = {
-  author?: string;
-};
-
-const SongList: FC = () => {
-  const { goToAuthor, goToSong, goToSongs } = useAppNavigation();
-  const { theme } = useTheme();
-  const { author = '' } = useParams<Params>();
+const SongListByAuthors: FC = () => {
+  const { goToSong, goToSongs } = useAppNavigation();
+  const [filteredSongs, setFilteredSongs] = useState<string[]>(SongsDataKeys);
   const search = useQuery();
   const char = search.get('char');
-  const hasAuthor = !!SongsData[author];
-  const [filteredAuthors, setFilteredAuthors] = useState<string[]>(Object.keys(SongsData));
 
   useEffect(scrollToTop, []);
 
   useEffect(() => {
-    const authors = char
-      ? Object.keys(SongsData).filter((author) => author.startsWith(char))
-      : Object.keys(SongsData);
-    if (authors.length === 1) {
-      goToAuthor(authors[0]);
+    if (char) {
+      setFilteredSongs(getFilteredSongs(char));
     } else {
-      setFilteredAuthors(authors);
+      setFilteredSongs(SongsDataKeys);
     }
-  }, [char, goToAuthor]);
+  }, [char, goToSong]);
 
-  useEffect(() => {
-    if (author.length && !hasAuthor) {
-      goToSongs();
+  const onSignClick = (sign: string) => {
+    const songs = getFilteredSongs(sign);
+    if (songs.length === 1) {
+      goToSong(SongsData[songs[0]].author, SongsData[songs[0]].name);
+    } else {
+      goToSongs(sign);
     }
-
-    if (author.length && hasAuthor && Object.keys(SongsData[author]).length === 1) {
-      goToSong(author, Object.keys(SongsData[author])[0]);
-    }
-  }, [author, goToSong, goToSongs, hasAuthor]);
-
-  function withThemeClassName(classNames: string) {
-    return cn(classNames, { [styles.dark]: theme === Themes.DARK });
-  }
-
-  const onAuthorClick = (value: string) => Object.keys(SongsData[value]).length === 1 ? goToSong(value, Object.keys(SongsData[value])[0]) : goToAuthor(value);
+  };
 
   return (
     <div className={styles.content}>
-      <AuthorsAlphabetPanel/>
-      {hasAuthor && <p className={withThemeClassName(styles.header)}>{author}</p>}
+      <AlphabetPanel alphabet={SongsAlphabet} onClick={onSignClick} />
       <div className={styles.list}>
-        {hasAuthor
-          ? Object.keys(SongsData[author]).map((name, index) => (
-            <div
-              key={`song-${index}`}
-              onClick={() => goToSong(author, name)}
-              className={withThemeClassName(styles.text)}
-            >
-              {name}
-            </div>
-          ))
-          : filteredAuthors.map((value, index) => (
+        {filteredSongs.map((value, index) => {
+          const author = SongsData[value].author;
+          const song = SongsData[value].name;
+
+          return (
             <div
               key={`author-${index}`}
-              onClick={() => onAuthorClick(value)}
-              className={withThemeClassName(styles.text)}
+              onClick={() => goToSong(author, song)}
+              className={styles.text}
             >
-              {value}
+              {`${song} - `}<span className={cn(styles.author, {[styles.active]: Object.keys(SongsByAuthorsData[author]).length > 1})}>{author}</span>
             </div>
-          ))}
+          );
+        })}
       </div>
     </div>
   );
 };
 
-export default SongList;
+function getFilteredSongs(char: string) {
+  return SongsDataKeys.filter((value) => value.toUpperCase().startsWith(char));
+}
+
+export default SongListByAuthors;

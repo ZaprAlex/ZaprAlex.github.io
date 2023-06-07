@@ -7,8 +7,8 @@ import styles from './Navbar.module.css';
 
 const Navbar: FC = () => (
   <div className={styles.block}>
-    <NavItem label="Authors" to={ROUTE.SONGS} dataTestId="nav-item-songs" />
-    <NavItem label="Chords" to={ROUTE.CHORDS} dataTestId="nav-item-chords" />
+    <NavItem label="Authors" to={ROUTE.AUTHORS} dataTestId="nav-item-authors" />
+    <NavItem label="Songs" to={ROUTE.SONGS} dataTestId="nav-item-songs" />
   </div>
 );
 

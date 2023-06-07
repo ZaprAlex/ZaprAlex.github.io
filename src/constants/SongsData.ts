@@ -13,8 +13,35 @@ export interface IStoredSong {
   speed?: number;
 }
 
+export interface IExtendedStoredSong extends IStoredSong {
+  author: string;
+  name: string;
+}
+
 type ISongList = Record<string, IStoredSong>;
 
-type IStoredSongs = Record<string, ISongList>;
+type ISongListWithExtendedData = Record<string, IExtendedStoredSong>;
 
-export const SongsData: IStoredSongs = songsJsonData;
+type IStoredSongsByAuthors = Record<string, ISongList>;
+
+export const SongsByAuthorsData: IStoredSongsByAuthors = songsJsonData;
+
+export const UnsortedSongsData = Object.keys(SongsByAuthorsData).reduce<ISongListWithExtendedData>((songs, author) => {
+  Object.keys(SongsByAuthorsData[author]).forEach((name) => {
+    songs[`${name} - ${author}`] = {...SongsByAuthorsData[author][name], author, name };
+  });
+  return songs;
+}, {});
+
+export const SongsData= Object.keys(UnsortedSongsData).sort().reduce<ISongListWithExtendedData>((sortedSongs, key) => {
+  sortedSongs[key] = UnsortedSongsData[key];
+  return sortedSongs;
+}, {});
+
+export const AuthorsAlphabet = Array.from(new Set(Object.keys(SongsByAuthorsData).map((author) => author.charAt(0).toUpperCase())));
+
+export const SongsAlphabet = Array.from(new Set(Object.keys(SongsData).map((author) => author.charAt(0).toUpperCase())));
+
+export const SongsDataKeys = Object.keys(SongsData);
+
+export const AuthorsDataKeys = Object.keys(SongsByAuthorsData);

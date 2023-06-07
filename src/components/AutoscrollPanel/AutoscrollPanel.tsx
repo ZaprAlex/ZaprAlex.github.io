@@ -4,6 +4,8 @@ import cn from 'classnames';
 import Button from '@mui/material/IconButton';
 
 import { useInterval } from '../../hooks';
+import IconButton from '../IconButton';
+import scrollDownIcon from '../../assets/double-down.png';
 
 import styles from './AutoscrollPanel.module.scss';
 
@@ -51,6 +53,11 @@ const AutoscrollPanel: FC = () => {
 
   return (
     <div className={styles.panel}>
+      {/*{!scrollable && (*/}
+      {/*  <IconButton onClick={toggleScrollable} ariaLabel='auto-scroll-btn' className={styles.button}>*/}
+      {/*    <img src={scrollDownIcon} alt='' />*/}
+      {/*  </IconButton>*/}
+      {/*)}*/}
       <Button
         onClick={toggleScrollable}
         className={cn(styles.button, { [styles.active]: scrollable })}

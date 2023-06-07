@@ -12,15 +12,12 @@
     width: 100%;
     max-width: $max-content-width;
     min-height: 100%;
+    padding-bottom: 100px;
     margin: 0 auto;
     display: flex;
     flex-flow: column;
     flex-grow: 1;
     background: #ffffff;
-
-    @include adaptive-for-mobile {
-      padding-bottom: 90px;
-    }
 
     & > .buttonsBlock {
       position: fixed;
