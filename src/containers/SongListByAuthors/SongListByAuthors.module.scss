@@ -1,11 +1,15 @@
 @import '../../styles/mixins';
 
-.header {
-  margin-bottom: 20px;
-  color: #000000;
+.page {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px $side-offset 20px;
+  display: flex;
+  flex-grow: 1;
+  gap: 16px;
 
-  :global(#base.dark) & {
-    color: #ff9900;
+  @include adaptive-for-mobile {
+    padding: 8px;
   }
 }
 
@@ -15,17 +19,24 @@
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  width: fit-content;
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 $side-offset 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+  color: #000000;
+
+  :global(#base.dark) & {
+    color: #ff9900;
+  }
 }
 
 .list {
   box-sizing: border-box;
   display: flex;
-  flex-flow: row wrap;
-  align-items: center;
+  flex-flow: column;
+  align-items: flex-start;
   width: fit-content;
   max-width: 100%;
   gap: 32px;

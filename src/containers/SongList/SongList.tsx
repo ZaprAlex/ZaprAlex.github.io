@@ -15,7 +15,7 @@ const SongListByAuthors: FC = () => {
   const search = useQuery();
   const char = search.get('char');
 
-  useEffect(scrollToTop, []);
+  useEffect(scrollToTop, [char]);
 
   useEffect(() => {
     if (char) {

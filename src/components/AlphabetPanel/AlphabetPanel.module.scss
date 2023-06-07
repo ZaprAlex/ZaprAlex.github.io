@@ -1,9 +1,9 @@
 .panel {
   width: auto;
   max-width: 100%;
-  margin: 0 auto 24px;
+  padding: 0 8px;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column nowrap;
   gap: 15px;
 }
 

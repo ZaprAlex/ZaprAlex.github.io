@@ -24,7 +24,7 @@ const SongListByAuthors: FC = () => {
   const hasAuthor = AuthorsDataKeys.includes(author);
   const [filteredAuthors, setFilteredAuthors] = useState<string[]>(AuthorsDataKeys);
 
-  useEffect(scrollToTop, []);
+  useEffect(scrollToTop, [char]);
 
   useEffect(() => {
     if (char) {
@@ -63,29 +63,31 @@ const SongListByAuthors: FC = () => {
       : goToAuthor(value);
 
   return (
-    <div className={styles.content}>
+    <div className={styles.page}>
       <AlphabetPanel alphabet={AuthorsAlphabet} onClick={onSignClick} />
-      {hasAuthor && <p className={withThemeClassName(styles.header)}>{author}</p>}
-      <div className={styles.list}>
-        {hasAuthor
-          ? Object.keys(SongsByAuthorsData[author]).map((name, index) => (
-            <div
-              key={`song-${index}`}
-              onClick={() => goToSong(author, name)}
-              className={withThemeClassName(styles.text)}
-            >
-              {name}
-            </div>
-          ))
-          : filteredAuthors.map((value, index) => (
-            <div
-              key={`author-${index}`}
-              onClick={() => onAuthorClick(value)}
-              className={withThemeClassName(styles.text)}
-            >
-              {value}
-            </div>
-          ))}
+      <div className={styles.content}>
+        {hasAuthor && <p className={withThemeClassName(styles.header)}>{author}</p>}
+        <div className={styles.list}>
+          {hasAuthor
+            ? Object.keys(SongsByAuthorsData[author]).map((name, index) => (
+              <div
+                key={`song-${index}`}
+                onClick={() => goToSong(author, name)}
+                className={withThemeClassName(styles.text)}
+              >
+                {name}
+              </div>
+            ))
+            : filteredAuthors.map((value, index) => (
+              <div
+                key={`author-${index}`}
+                onClick={() => onAuthorClick(value)}
+                className={withThemeClassName(styles.text)}
+              >
+                {value}
+              </div>
+            ))}
+        </div>
       </div>
     </div>
   );
