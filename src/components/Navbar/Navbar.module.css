@@ -1,9 +1,5 @@
 .block {
   display: flex;
   flex-wrap: nowrap;
-  gap: 15px;
-}
-
-.nav {
-
+  gap: 16px;
 }

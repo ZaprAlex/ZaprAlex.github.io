@@ -1,3 +1,4 @@
+import { sortByLocal } from '../utils/stringHelper';
 import songsJsonData from './songs.json';
 
 type ISongRow = string[];
@@ -33,15 +34,15 @@ export const UnsortedSongsData = Object.keys(SongsByAuthorsData).reduce<ISongLis
   return songs;
 }, {});
 
-export const SongsData= Object.keys(UnsortedSongsData).sort().reduce<ISongListWithExtendedData>((sortedSongs, key) => {
+export const SongsData= Object.keys(UnsortedSongsData).sort(sortByLocal).reduce<ISongListWithExtendedData>((sortedSongs, key) => {
   sortedSongs[key] = UnsortedSongsData[key];
   return sortedSongs;
 }, {});
 
-export const AuthorsAlphabet = Array.from(new Set(Object.keys(SongsByAuthorsData).map((author) => author.charAt(0).toUpperCase())));
+export const AuthorsAlphabet = Array.from(new Set(Object.keys(SongsByAuthorsData).sort(sortByLocal).map((author) => author.charAt(0).toUpperCase())));
 
 export const SongsAlphabet = Array.from(new Set(Object.keys(SongsData).map((author) => author.charAt(0).toUpperCase())));
 
-export const SongsDataKeys = Object.keys(SongsData);
+export const SongsDataKeys = Object.keys(SongsData).sort(sortByLocal);
 
-export const AuthorsDataKeys = Object.keys(SongsByAuthorsData);
+export const AuthorsDataKeys = Object.keys(SongsByAuthorsData).sort(sortByLocal);

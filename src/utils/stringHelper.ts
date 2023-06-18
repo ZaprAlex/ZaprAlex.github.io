@@ -37,3 +37,7 @@ export function isChordsRow(line: string): string[] {
   }
   return [];
 }
+
+export function sortByLocal(a: string, b: string) {
+  return new Intl.Collator(['ru', 'en']).compare(a, b);
+}

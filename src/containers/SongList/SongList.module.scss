@@ -3,7 +3,7 @@
 .content {
   box-sizing: border-box;
   width: 100%;
-  padding: 8px $side-offset 20px;
+  padding: 16px $side-offset 20px 0;
   display: flex;
   flex-grow: 1;
   flex-flow: row nowrap;
@@ -11,7 +11,7 @@
   gap: 16px;
 
   @include adaptive-for-mobile {
-    padding: 8px;
+    padding: 0 8px 8px 0;
   }
 }
 
@@ -19,13 +19,15 @@
   position: relative;
   box-sizing: border-box;
   width: fit-content;
-  max-width: 100%;
+  height: fit-content;
+  padding: 16px 16px 120px 0;
   margin: 0 auto;
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;
   gap: 32px;
   column-count: 1;
+  overflow-y: auto;
 
   & > .text {
     color: mediumblue;
@@ -39,7 +41,11 @@
 }
 
 .author {
-  color: #ffffff;
+  color: #000000;
+
+  :global(#base.dark) & {
+    color: #ffffff;
+  }
 
   &.active {
     color: #ff9900;

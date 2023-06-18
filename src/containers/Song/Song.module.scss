@@ -7,7 +7,7 @@
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  padding: 0 10px 20px;
+  padding: 0 16px 120px;
 }
 
 .header {
@@ -21,10 +21,18 @@
 
 .author {
   cursor: pointer;
-  color: blue;
+  color: #0e9756;
 
   :global(#base.dark) & {
-    color: deepskyblue;
+    color: #ffffff;
+  }
+
+  &Clickable {
+    color: blue;
+
+    :global(#base.dark) & {
+      color: deepskyblue;
+    }
   }
 }
 

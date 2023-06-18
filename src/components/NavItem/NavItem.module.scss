@@ -6,13 +6,13 @@
   align-items: center;
   justify-content: center;
   flex-flow: nowrap;
-
   padding: 12px;
   border-radius: 12px;
   background-color: transparent;
   font-family: sans-serif;
   font-size: 16px;
   letter-spacing: -0.1px;
+  border: 1px solid #000000;
   cursor: pointer;
 
   @include adaptive-for-mobile {
@@ -20,15 +20,17 @@
 
   :global(#base.dark) & {
     color: #ffffff;
+    border-color: #ffffff;
 
     &.active {
       color: #ff9900;
       background: #36454f;
+      border-color: #36454f;
     }
   }
 
   :global(#base.light) & {
-    color: rgba(0, 0, 0, 0.56);
+    color: rgb(0, 0, 0);
 
     &.active {
       color: #21ba72;
