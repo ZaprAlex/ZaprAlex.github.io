@@ -25,6 +25,18 @@ export function printTextWithWrap(
   context.fillText(line, x, y);
 }
 
+export function getTextMeasuredWidth(text: string, fontSize: number) {
+  const cnv = document.createElement('canvas');
+  const ctx = cnv.getContext('2d');
+  if (!ctx) {
+    return;
+  }
+  ctx.font = `${fontSize}px Courier New", serif`;
+  console.log(ctx.measureText(text).width, text);
+  ctx.fillText('width:' + ctx.measureText(text).width, 10, 50);
+  ctx.fillText(text, 10, 100);
+}
+
 export function printChord() {
   const cnv = document.createElement('canvas');
   cnv.width = 400;

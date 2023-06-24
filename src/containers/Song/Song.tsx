@@ -8,6 +8,8 @@ import { useAppNavigation } from '../../components/Navigation';
 import ChordsRowPopUp from '../../components/ChordsRowPopUp';
 
 import styles from './Song.module.scss';
+import { getTextMeasuredWidth } from '../../utils/canvasHelper';
+import { useWindowResize } from '../../hooks/windowEventHooks';
 
 type SongProps = {
   author: string;
@@ -23,6 +25,7 @@ const Song: FC<SongProps> = ({ author, song: { name, lyrics, speed: defaultSpeed
   const { goToAuthor } = useAppNavigation();
   const [{ isModalOpen, activeRowChords }, setIsModalState] = useState<ChordsModalState>({});
   const [chords, setChords] = useState<string[]>([]);
+  const [adaptiveLyrics, setAdaptiveLyrics] = useState<string[]>([]);
 
   useEffect(() => {
     scrollToTop();
@@ -34,6 +37,16 @@ const Song: FC<SongProps> = ({ author, song: { name, lyrics, speed: defaultSpeed
     });
     setChords(Array.from(allChords));
   }, [defaultSpeed, lyrics]);
+
+  function generateLyrics(){
+    console.log(lyrics);
+    // const newLyrics = lyrics.reduce<ISongRow[]>((arr, line) => {
+    //
+    // }, []);
+    // setAdaptiveLyrics();
+  }
+
+  useWindowResize(generateLyrics);
 
   const onAuthorClick = () => goToAuthor(author);
 
@@ -57,8 +70,9 @@ const Song: FC<SongProps> = ({ author, song: { name, lyrics, speed: defaultSpeed
           {` - ${name}`}
         </p>
         <div className={styles.lyrics}>
-          {lyrics.map(([text, isChordsRow], index) =>
-            isChordsRow ? (
+          {lyrics.map(([text, isChordsRow], index) => {
+            getTextMeasuredWidth(text,18);
+            return isChordsRow ? (
               <p
                 key={`row-${index}`}
                 className={cn(styles.row, styles.chord)}
@@ -70,8 +84,8 @@ const Song: FC<SongProps> = ({ author, song: { name, lyrics, speed: defaultSpeed
               <p key={`row-${index}`} className={styles.row}>
                 {text}
               </p>
-            )
-          )}
+            );
+          })}
         </div>
       </div>
       <ChordsRowPopUp
