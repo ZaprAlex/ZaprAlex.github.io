@@ -48,6 +48,10 @@
 
     :global(#base.dark) & {
       color: #ff9900;
+
+      &.chorus {
+        color: #ffffff;
+      }
     }
   }
 }

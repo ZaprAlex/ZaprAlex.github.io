@@ -1,5 +1,5 @@
 import { ISong, SongsByAuthorsData } from '../constants/SongsData';
-import { isChordsRow } from '../utils/stringHelper';
+import { getTrimmedRightString } from '../utils/stringHelper';
 
 export async function getSong(author?: string, name?: string): Promise<ISong> {
   if (!author || !name || !SongsByAuthorsData[author]?.[name]) {
@@ -16,9 +16,15 @@ export async function getSong(author?: string, name?: string): Promise<ISong> {
     name,
     lyrics: lines.map((line) => {
       if (line === `${author} - ${name}`) {
-        return [];
+        return { line: ''};
       }
-      return [!line.length ? '\n' : line, ...isChordsRow(line)];
+
+      if (line.match(/ _#$/)) {
+        return { line: getTrimmedRightString(line.substring(0, line.length - 3)), isChordsRow: true };
+      }
+
+      const trimmedLine = getTrimmedRightString(line);
+      return { line: !trimmedLine.length ? '\n' : trimmedLine };
     })
   };
 }

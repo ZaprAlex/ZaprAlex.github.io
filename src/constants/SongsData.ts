@@ -1,7 +1,10 @@
 import { sortByLocal } from '../utils/stringHelper';
 import songsJsonData from './songs.json';
 
-type ISongRow = string[];
+export type ISongRow = {
+  line: string;
+  isChordsRow?: boolean;
+};
 
 export interface ISong {
   name: string;

@@ -1,90 +1,93 @@
 Лепс Григорий - Вьюга
 
-Dm7:    x x 0 2 1 1
-Gm/B:   x 1 0 3 3 3
-A:      x 0 2 2 2 0
-Dm:     x x 0 2 3 1
-Gm6:    3 5 5 3 5 3
-Gm:     3 5 5 3 3 3
+Dm7:    x x 0 2 1 1 _#
+Gm/B:   x 1 0 3 3 3 _#
+A:      x 0 2 2 2 0 _#
+Dm:     x x 0 2 3 1 _#
+Gm6:    3 5 5 3 5 3 _#
+Gm:     3 5 5 3 3 3 _#
 
-Вступление: Dm7 Gm/B | A Dm }x2
-            Dm Gm6 | A Dm | Dm Gm | A Dm
+Вступление: Dm7 Gm/B | A Dm } x2 _#
+            Dm Gm6 | A Dm | Dm Gm | A Dm _#
 
-Dm         Gm6
+Dm         Gm6 _#
 Где-то там за окном
-F       A
+F       A _#
 Ходит зима,
-Dm         Gm6
+Dm         Gm6 _#
 Сеет снег, белый снег
-F       E7
+F       E7 _#
 Ночью и днем.
-Dm         Gm6
+Dm         Gm6 _#
 И меня тишиной
-F       A
+F       A _#
 Сводит с ума,
-Dm         Gm6
+Dm         Gm6 _#
 И опять не уснуть
-F       A
+F       A _#
 В доме пустом.
 
-	Dm7 Gm/B A       Dm
+Припев:
+	Dm7 Gm/B A       Dm _#
 	Тихо саваном белым,
-	Dm7 Gm/B A       Dm
+	Dm7 Gm/B A       Dm _#
 	Вьюга, дом мой укрой.
-	Dm7 Gm/B A       Dm
+	Dm7 Gm/B A       Dm _#
 	Где-то ты засыпаешь,
-	Dm7 Gm/B A           Dm
+	Dm7 Gm/B A           Dm _#
 	Где-то, но не со мной.
 
-Проигрыш: Dm Gm6/D | Dm Gm6 | Dm Gm/B | A
+Проигрыш: Dm Gm6/D | Dm Gm6 | Dm Gm/B | A _#
 
-Dm         Gm6
+Dm         Gm6 _#
 Где-то там в тишине
-F       A
+F       A _#
 Ходит февраль,
-Dm         Gm6
+Dm         Gm6 _#
 И ему, как и мне,
-F       A
+F       A _#
 Сон не найти
-Dm         Gm6
+Dm         Gm6 _#
 Где-то там вдалеке.
-F       A
+F       A _#
 Никогда ты не поймешь,
-Dm         Gm6
+Dm         Gm6 _#
 Где-то там, не со мной,
-F       A
+F       A _#
 Так и не узнаешь ты.
 
-	Dm Gm  A     Dm
+Припев:
+	Dm Gm  A     Dm _#
 	Кружит белая вьюга,
-	Dm Gm  A     Dm
+	Dm Gm  A     Dm _#
 	Тихо ходит зима.
-	Dm Gm  A     Dm
+	Dm Gm  A     Dm _#
 	Слышишь, как замерзаю
-	Dm Gm  A     Dm
+	Dm Gm  A     Dm _#
 	Снова я без тебя?
 
-Проигрыш: Dm Gm | A Dm }x2
+Проигрыш: Dm Gm | A Dm } x2 _#
 
 (Переход в тональность Em)
 
-Проигрыш: Em Am | B Em }x4
+Проигрыш: Em Am | B Em } x4 _#
 
-	Em Am B       Em
+Припев:
+	Em Am B       Em _#
 	Тихо саваном белым,
-	Em Am B       Em
+	Em Am B       Em _#
 	Вьюга, дом мой укрой.
-	Em Am B       Em
+	Em Am B       Em _#
 	Где-то ты засыпаешь,
-	Em Am B       Em
+	Em Am B       Em _#
 	Где-то, но не со мной.
-	Em Am B       Em
+	Em Am B       Em _#
 	Кружит белая вьюга,
-	Em Am B       Em
+	Em Am B       Em _#
 	Тихо ходит зима.
-	Em Am B       Em
+	Em Am B       Em _#
 	Слышишь, как замерзаю
-	Em Am B       Em
+	Em Am B       Em _#
 	Снова я без тебя?
 
-Заключение: Em F#m7-5/D | Em D/E | Em
+Заключение: Em F#m7-5/D | Em D/E | Em _#

@@ -30,14 +30,10 @@ export function decodeChord(chord: string) {
   return chord.replace(/_/g, '#').replace(/-/g, '/');
 }
 
-export function isChordsRow(line: string): string[] {
-  if (line.length) {
-    const pattern = new RegExp(CHORD_REGEX_PATTERN);
-    return line.match(pattern) ? ['chords_row'] : [];
-  }
-  return [];
-}
-
 export function sortByLocal(a: string, b: string) {
   return new Intl.Collator(['ru', 'en']).compare(a, b);
+}
+
+export function getTrimmedRightString(str: string) {
+  return str.replace(/\s+$/, '');
 }
