@@ -11,6 +11,17 @@
   overflow-y: auto;
 }
 
+.section {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 4px;
+  border-radius: 8px;
+  color: #c0c0c0;
+  background: #744a09;
+  cursor: pointer;
+}
+
 .sign {
   box-sizing: border-box;
   width: 100%;

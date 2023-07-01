@@ -1,8 +1,24 @@
+import { AlphabetData, AlphabetSections } from '../../constants/Aphabet';
 import { ISongRow } from '../../constants/SongsData';
 import { getTextWidth } from '../../utils/canvasHelper';
 
 export function isChorusLine(line: string) {
   return line.match(/^(Припев|Chorus):/i);
+}
+
+const { NUMBER, RUSSIAN, ENGLISH} = AlphabetSections;
+
+export function charArrayToAlphabetData(chars: string[]) {
+  return chars.reduce<AlphabetData>((obj, elem) => {
+    if (elem.match(/[0-9]/i)) {
+      obj[NUMBER].push(elem);
+    } else if (elem.match(/[а-я]/i)) {
+      obj[RUSSIAN].push(elem);
+    } else if (elem.match(/[a-z]/i)) {
+      obj[ENGLISH].push(elem);
+    }
+    return obj;
+  }, { number: [], russian: [], english: [] });
 }
 
 export function generateLyrics(lyrics: ISongRow[], fontSize: number){

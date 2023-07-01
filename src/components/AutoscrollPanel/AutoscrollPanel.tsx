@@ -25,17 +25,17 @@ const AutoscrollPanel: FC = () => {
     setTime(-1);
   };
 
-  const activatePauseScroll = () => setPaused(true);
-  const deactivatePauseScroll = () => setPaused(false);
-
-  const stopScrollAfterEnd = () => {
-    const pageDiv = document.getElementById('base');
-    if (pageDiv && window.scrollY + window.innerHeight >= pageDiv.scrollHeight) {
-      stopScroll();
-    }
-  };
-
   useEffect(() => {
+    const activatePauseScroll = () => setPaused(true);
+    const deactivatePauseScroll = () => setPaused(false);
+
+    const stopScrollAfterEnd = () => {
+      const pageDiv = document.getElementById('base');
+      if (pageDiv && window.scrollY + window.innerHeight >= pageDiv.scrollHeight) {
+        stopScroll();
+      }
+    };
+
     document.addEventListener('mousedown', activatePauseScroll);
     document.addEventListener('mouseup', deactivatePauseScroll);
     document.addEventListener('touchstart', activatePauseScroll);
