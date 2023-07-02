@@ -1,4 +1,4 @@
-import { AlphabetData, AlphabetSections } from '../../constants/Aphabet';
+import { AlphabetData, AlphabetSectionsType } from '../../constants/Aphabet';
 import { ISongRow } from '../../constants/SongsData';
 import { getTextWidth } from '../../utils/canvasHelper';
 
@@ -6,7 +6,7 @@ export function isChorusLine(line: string) {
   return line.match(/^(Припев|Chorus):/i);
 }
 
-const { NUMBER, RUSSIAN, ENGLISH} = AlphabetSections;
+const { NUMBER, RUSSIAN, ENGLISH} = AlphabetSectionsType;
 
 export function charArrayToAlphabetData(chars: string[]) {
   return chars.reduce<AlphabetData>((obj, elem) => {
