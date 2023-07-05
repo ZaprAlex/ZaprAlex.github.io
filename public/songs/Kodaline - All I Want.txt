@@ -1,136 +1,119 @@
 Kodaline - All I Want
 
-[Verse 1]
- 
-C             F       C
+C             F       C _#
 All I want is nothing more
-   C                 G/B    Am
+   C                 G/B    Am _#
 To hear you knocking at my door
-          F                          C
+          F                          C _#
 Cause' if I could see your face once more
-        F                   C
+        F                   C _#
 I could die a happy man I'm sure
  
-C                  F        C
+C                  F        C _#
 When you said your last goodbye
-  C             G/B   Am
+  C             G/B   Am _#
 I died a little bit inside
-  F                       C
+  F                       C _#
 I lay in tears in bed all night
- F                      C    G/B
+ F                      C    G/B _#
 Alone without you by my side
  
  
-[Chorus]
- 
-           Am
-But if you loved me
-          F
-Why'd' ya leave me
-        C
-Take my body
-        G
-Take my body
- 
-      Am
-All I want is
-          F
-And all I need is
-            C
-To find somebody
-              G
-I'll find somebody
- 
- 
-[Interlude]
- 
-     C      F      C
+Chorus:
+               Am _#
+    But if you loved me
+              F _#
+    Why'd' ya leave me
+            C _#
+    Take my body
+            G _#
+    Take my body
+
+          Am _#
+    All I want is
+              F _#
+    And all I need is
+                C _#
+    To find somebody
+                  G _#
+    I'll find somebody
+
+Interlude:
+     C      F      C _#
 Like youuu, ohhhh, oh
-C       G/B     Am
+C       G/B     Am _#
 ohhhhh, ohhhhh, oh
-F       C
+F       C _#
 youuuuuu
-     F       C
+     F       C _#
 Like youuuuuu
- 
- 
-[Verse 2]
- 
-   C                   F       C
+
+
+   C                   F       C _#
 So you brought out the best of me,
-  C               G/B    Am
+  C               G/B    Am _#
 A part of me I've never seen.
-    F                         C
+    F                         C _#
 You took my soul and wiped it clean.
-     F                      C       G/B
+     F                      C       G/B _#
 Our love was made for movie screens.
- 
- 
-[Chorus]
- 
-           Am
-But if you loved me
-          F
-Why'd' ya leave me
-        C
-Take my body
-        G
-Take my body
- 
-      Am
-All I want is
-          F
-And all I need is
-            C
-To find somebody
-              G
-I'll find somebody
- 
- 
-[Instrumental]
- 
-Dm  G
-Dm  G  G
- 
- 
-[Bridge]
- 
 
-     C      F      C
+Chorus:
+               Am _#
+    But if you loved me
+              F _#
+    Why'd' ya leave me
+            C _#
+    Take my body
+            G _#
+    Take my body
+
+          Am _#
+    All I want is
+              F _#
+    And all I need is
+                C _#
+    To find somebody
+                  G _#
+    I'll find somebody
+
+Instrumental:
+    Dm  G _#
+    Dm  G  G _#
+ 
+Bridge:
+
+     C      F      C _#
 Like youuu, ohhhh, oh
-C       G/B     Am
+C       G/B     Am _#
 ohhhhh, ohhhhh, oh
-F       C
+F       C _#
 youuuuuu
-     F       C
+     F       C _#
 Like youuuuuu
  
  
-[Instrumental]
+Instrumental:
+    Am  F  C  G _#
+    Am  F  C  G _#
  
-Am  F  C  G
-Am  F  C  G
+Chorus:
+               Am _#
+    But if you loved me
+              F _#
+    Why'd' ya leave me
+            C _#
+    Take my body
+            G _#
+    Take my body
  
- 
-[Chorus]
- 
-           Am
-But if you loved me
-          F
-Why'd' ya leave me
-        C
-Take my body
-        G
-Take my body
- 
-      Am
-All I want is
-          F
-And all I need is
-            C
-To find somebody
-              G
-I'll find somebody
-     C        F         C
-Like youuuuuuuohhhhhhh, ohhhhhhhh
-
+          Am _#
+    All I want is
+              F _#
+    And all I need is
+                C _#
+    To find somebody
+                  G _#
+    I'll find somebody
+         C        F         C _#
+    Like youuuuuuuohhhhhhh, ohhhhhhhh

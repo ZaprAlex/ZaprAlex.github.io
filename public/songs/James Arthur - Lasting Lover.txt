@@ -1,103 +1,98 @@
 James Arthur - Lasting Lover
 
-[Intro]
-C
- 
-[Verse 1]
-C
+Intro: C _#
+
+C _#
 I don't know why I can't quite get you out my sight
-       F
+       F _#
 You're always just behind, thought across my mind
-C
+C _#
 Keep crawling back to where we last left our love on hold
-     F
+     F _#
 I'm always up for more so what you waiting for?
  
-[Pre-Chorus]
-G                Am      G      F
+Pre-chorus:
+G                Am      G      F _#
 Wait, before you burn me to the ground
-       G              Am         G          F
+       G              Am         G          F _#
 Please stay until the beat of my heart runs out
  
-[Chorus]
-             C
-I don't wanna let go, let go
-                       G
-'Cause I've been tryna' hold on for too long
-                 Am
-I feel like I'm lost without a trace
+Chorus:
+                 C _#
+    I don't wanna let go, let go
+                           G _#
+    'Cause I've been tryna' hold on for too long
+                     Am _#
+    I feel like I'm lost without a trace
+
+    Take my heart and run away
+             F                                      C _#
+    She said, "I've been looking for a lasting lover to save me, save me
+                     G _#
+    From every single heartache, heartache"
+                     Am _#
+    I feel like I'm lost without a trace
+
+    Take my heart and run away
+             F                                       C _#
+    She said, "I've been looking for a lasting lover"
  
-Take my heart and run away
-         F                                      C
-She said, "I've been looking for a lasting lover to save me, save me
-                 G
-From every single heartache, heartache"
-                 Am
-I feel like I'm lost without a trace
+Instrumental: C G Am F _#
  
-Take my heart and run away
-         F                                       C
-She said, "I've been looking for a lasting lover"
- 
-[Instrumental]
-C G Am F
- 
-[Verse 2]
-C
+C _#
 One by one now and two by twice
-                                F
+                                F _#
 I've watched all my loves move on to something more
  
 Up and out the door
  
-[Pre-Chorus]
-G                Am      G      F
+Pre-Chorus:
+G                Am      G      F _#
 Caught in between every passing hour
-        G              Am            G           F
+        G              Am            G           F _#
 Oh please stay till the taste in your mouth turns sour
  
-[Chorus]
-             C
-I don't wanna let go, let go
-                       G
-'Cause I've been tryna' hold on for too long
-                 Am
-I feel like I'm lost without a trace
+Chorus:
+                 C _#
+    I don't wanna let go, let go
+                           G _#
+    'Cause I've been tryna' hold on for too long
+                     Am _#
+    I feel like I'm lost without a trace
+
+    Take my heart and run away
+             F                                      C _#
+    She said, "I've been looking for a lasting lover to save me, save me
+                     G _#
+    From every single heartache, heartache"
+                     Am _#
+    I feel like I'm lost without a trace
+                                        F _#
+    Take my heart and run away,
+
+    I’ve been looking for a lover
  
-Take my heart and run away
-         F                                      C
-She said, "I've been looking for a lasting lover to save me, save me
-                 G
-From every single heartache, heartache"
-                 Am
-I feel like I'm lost without a trace
-                                    F
-Take my heart and run away,
- 
-I’ve been looking for a lover
- 
-[Bridge]
-        G           Am         G          F
+Bridge:
+
+        G           Am         G          F _#
 So let me know, did we ever mean anything at all?
-           G            Am        G           F
+           G            Am        G           F _#
 So, let me know, did we ever mean anything at all?
-                 G
+                 G _#
 I feel like I'm lost without a trace
-        Am             G         F
+        Am             G         F _#
 Take my heart and run away, she said
-                 G
+                 G _#
 I feel like I'm lost without a trace
-         Am            G        F
+         Am            G        F _#
 Take my heart and run away, she said, “I’ve been looking for a lasting lover”
  
-[Instrumental]
-C G Am F
+Instrumental: C G Am F _#
  
-[Outro]
-C
+Outro:
+C _#
 “I’ve been looking for a lasting lover”
-G        Am
+G        Am _#
 Hey yeah, I’ve been looking for a lasting
-     F C*
+     F C* _#
 lover
-

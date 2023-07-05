@@ -1,13 +1,13 @@
 U2 - One
 
 Chords:
-C      x 3 2 0 1 0
-Fmaj7  x 3 3 2 1 0
-Am     x 0 3 3 2 0
-G      3 2 0 0 0 3
-Dadd2  x x x 2 3 x
+C      x 3 2 0 1 0 _#
+Fmaj7  x 3 3 2 1 0 _#
+Am     x 0 3 3 2 0 _#
+G      3 2 0 0 0 3 _#
+Dadd2  x x x 2 3 x _#
 
- Am                Dadd2             Fmaj7            G
+ Am                Dadd2             Fmaj7            G _#
 -----------------------------------------------------------------------------
 ---------------h-p-h-----------h-p-h-------------h-p-h-----------------------
 ----h---5--/9--7-9-7-9-------7-5-7-5-7---------9-7-9-7-9-7--------------h--p-
@@ -15,17 +15,17 @@ Dadd2  x x x 2 3 x
 -------0--------------0--------------------8----------------8/10--10--10-----
 -----------------------------------------------------------------------------
 
- Am           Dadd2
+ Am           Dadd2 _#
 Is it getting better
- Fmaj7             G
+ Fmaj7             G _#
 Or do you feel the same
- Am             Dadd2
+ Am             Dadd2 _#
 Will it make it easier on you
- Fmaj7                  G
+ Fmaj7                  G _#
 Now you got someone to blame
 
 Chorus riff:
- C               Am             Fmaj7          C
+ C               Am             Fmaj7          C _#
 ----------------------------------------------------------------------
 ------h-p-h-----------h-p-h----------h-p-h-------------h-p-h----------
 ----9-7-9-7-9-------9-7-9-7-9------9-7-9-7-9---------9-7-9-7-9--------
@@ -34,17 +34,17 @@ Chorus riff:
 ----------------------------------------------------------------------
 You say
 
- C        Am
+ C        Am _#
 One love, one life
- Fmaj7            C
+ Fmaj7            C _#
 When it´s one need in the night
-      Am
+      Am _#
 It´s one love we get to share it
-  Fmaj7                  C
+  Fmaj7                  C _#
 It leaves you baby if you don´t care for it
 
 2nd verse:
- Am            Dadd2         Fmaj7         G
+ Am            Dadd2         Fmaj7         G _#
 ---------------------------------------------------------------------
 ------------h-------------h-------------h----------------------------
 ---------9-7-9---------7-5-7---------9-7-9-------------h-------------
@@ -52,17 +52,17 @@ It leaves you baby if you don´t care for it
 ---------------------------------------------------------------------
 ---------------------------------------------------------------------
 
- Am           Dadd2
+ Am           Dadd2 _#
 Did I disappoint you
- Fmaj7             G
+ Fmaj7             G _#
 Or leave a bad taste in your mouth
- Am           Dadd2
+ Am           Dadd2 _#
 You act like you never had love
- Fmaj7            C
+ Fmaj7            C _#
 And you want me to go without
 
 Chorus riff:
- C               Am             Fmaj7          C
+ C               Am             Fmaj7          C _#
 ----------------------------------------------------------------------
 ------h-p-h-----------h-p-h----------h-p-h-------------h-p-h----------
 ----9-7-9-7-9-------9-7-9-7-9------9-7-9-7-9---------9-7-9-7-9--------
@@ -70,18 +70,18 @@ Chorus riff:
 -----------------0-----------0--8-----------8-------------------------
 ----------------------------------------------------------------------
 
- C        Am
+ C        Am _#
 Well it´s too late tonight
- Fmaj7            C
+ Fmaj7            C _#
 To drag the past out into the light
-      Am
+      Am _#
 We´re one, but we´re not the same
- Fmaj7            C
+ Fmaj7            C _#
 We get to carry each other, carry each other
 One
 
 Solo: (recommended 0.2 sec delay)
-  Am    Dadd2 Fmaj7  G
+  Am    Dadd2 Fmaj7  G _#
 -----------------------------------
 --13----10-----12----12-12-13-12---
 ---------------------12------------
@@ -89,17 +89,17 @@ Solo: (recommended 0.2 sec delay)
 -----------------------------------
 -----------------------------------
 
- Am           Dadd2
+ Am           Dadd2 _#
 Have you come here for forgiveness?
- Fmaj7             G
+ Fmaj7             G _#
 Have you come to raise the dead?
- Am           Dadd2
+ Am           Dadd2 _#
 Have you come here to play Jesus
- Fmaj7             G
+ Fmaj7             G _#
 To the lepers in your head?
 
 Chorus riff:
- C               Am             Fmaj7          C
+ C               Am             Fmaj7          C _#
 ----------------------------------------------------------------------
 ------h-p-h-----------h-p-h----------h-p-h-------------h-p-h----------
 ----9-7-9-7-9-------9-7-9-7-9------9-7-9-7-9---------9-7-9-7-9--------
@@ -107,29 +107,29 @@ Chorus riff:
 -----------------0-----------0--8-----------8-------------------------
 ----------------------------------------------------------------------
 
- C        Am
+ C        Am _#
 Did I ask too much, more than a lot
- Fmaj7            C
+ Fmaj7            C _#
 You gave me nothing, now it´s all I got
-           Am 
+           Am  _#
 We´re one, but we´re not the same
- Fmaj7            C
+ Fmaj7            C _#
 We hurt each other then we do it again
 
 You say
- C                Am
+ C                Am _#
 Love is a temple, Love a higher law
- C                Am
+ C                Am _#
 Love is a temple, Love the higher law
-     C                    G
+     C                    G _#
 You ask me to enter, but then you make me crawl
-        Fmaj7
+        Fmaj7 _#
 And I can´t be holding on to what you got
-       C
+       C _#
 When all you got is hurt
 
 Last chorus:
- C                         Am
+ C                         Am _#
 |-12-12-12-12-12-12-13-12-|-12-12-12-12-12-12-13-12-|
 |-13-13-13-13-13-13-13-13-|-13-13-13-13-13-13-13-13-|
 |-12-12-12-12-12-12-12-12-|-14-14-14-14-14-14-14-14-|
@@ -137,7 +137,7 @@ Last chorus:
 --------------------------|-------------------------|
 --------------------------|-------------------------|
 
- Fmaj7                     C
+ Fmaj7                     C _#
 |-12-12-12-12-12-12-13-12-|-12-12-12-12-13-12-13-12-|
 |-13-13-13-13-13-13-13-13-|-13-13-13-13-13-13-13-13-|
 |-14-14-14-14-14-14-14-14-|-12-12-12-12-12-12-12-12-|
@@ -145,22 +145,22 @@ Last chorus:
 --------------------------|-------------------------|
 --------------------------|-------------------------|
 
- C        Am
+ C        Am _#
 One love, one blood
- Fmaj7            C
+ Fmaj7            C _#
 One life, you got to do what you should
-         Am
+         Am _#
 One life with each other
- Fmaj7          C
+ Fmaj7          C _#
 Sisters, brothers
- C        Am
+ C        Am _#
 One life, but we´re not the same
- Fmaj7            C
+ Fmaj7            C _#
 We get to carry each other, carry each other
 One. One.
 
 Outro: (with 0.2 sec delay)
- C                         Am
+ C                         Am _#
 |--------12---------------|--------12---------------|
 |-15------------15-----13-|-15------------15-----13-|
 --------------------------|-------------------------|
@@ -168,11 +168,10 @@ Outro: (with 0.2 sec delay)
 --------------------------|-------------------------|
 --------------------------|-------------------------|
 
- Fmaj7                     C
+ Fmaj7                     C _#
 |--------12---------------|--------12-----13-----12-|
 |-15------------15-----13-|-15----------------------|
 --------------------------|-------------------------|
 --------------------------|-------------------------|
 --------------------------|-------------------------|
 --------------------------|-------------------------|
-

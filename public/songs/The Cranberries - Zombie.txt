@@ -1,84 +1,81 @@
 The Cranberries - Zombie
 
-Em      0 2 2 0 0 0
-Cmaj7   x 3 2 0 0 0
-G6:     3 2 0 0 0 0
-Em11/F# 2 0 0 0 0 0
+Em      0 2 2 0 0 0 _#
+Cmaj7   x 3 2 0 0 0 _#
+G6:     3 2 0 0 0 0 _#
+Em11/F# 2 0 0 0 0 0 _#
 
 Бой: ↓↓↓ ↓↑↑↓ ↑↓↑
 
-Вступление: Em | Cmaj7 | G6 | Em11/F# x4
+Intro: Em | Cmaj7 | G6 | Em11/F# } x4 _#
 
-Куплет 1:
-Em       Cmaj7
+Em       Cmaj7 _#
 Another head hangs lowly
-  G6               Em11/F#
+  G6               Em11/F# _#
 Child is slowly taken
-Em                Cmaj7
+Em                Cmaj7 _#
 And the violence caused such silence
-  G6             Em11/F#
+  G6             Em11/F# _#
 Who are we mistaken?
 
-Предприпев:
-         Em                         Cmaj7
+Pre-chorus:
+         Em                         Cmaj7 _#
 But you see, it’s not me, it’s not my family
-         G6                               Em11/F#
+         G6                               Em11/F# _#
 In your head, in your head, they are fightin’
-            Em                              Cmaj7
+            Em                              Cmaj7 _#
 With their tanks and their bombs and their bombs and their guns
-         G6                            Em11/F#
+         G6                            Em11/F# _#
 In your head, in your head, they are cryin’
 
-Припев:
-             Em            Cmaj7
+Chorus:
+             Em            Cmaj7 _#
     In your head, in your head
-        G6              Em11/F#
+        G6              Em11/F# _#
     Zombie, zombie, zombie-ie-ie
-                    Em            Cmaj7
+                    Em            Cmaj7 _#
     What’s in your head, in your head?
-        G6              Em11/F#
+        G6              Em11/F# _#
     Zombie, zombie, zombie-ie-ie-ie, oh
 
-Постприпев:
-Em
+Em _#
 Du, du, du, du
-Cmaj7
+Cmaj7 _#
 Du, du, du, du
-G6
+G6 _#
 Du, du, du, du
-Em11/F#
+Em11/F# _#
 Du, du, du, du
 
-Проигрыш: Em | Cmaj7 | G6 | Em11/F#
+Bridge: Em | Cmaj7 | G6 | Em11/F# _#
 
-Куплет 2:
-Em       Cmaj7
+Em       Cmaj7 _#
 Another mother’s breakin’
- G6               Em11/F#
+ G6               Em11/F# _#
 Heart is takin’ over
-  Em               Cmaj7
+  Em               Cmaj7 _#
 When the violence causes silence
-G6 Em11/F#
+G6 Em11/F# _#
 We must be mistaken
 
-Предприпев:
-          Em                                Cmaj7
+Pre-chorus:
+          Em                                Cmaj7 _#
 It’s the same old theme, since nineteen sixteen
-         G6                                    Em11/F#
+         G6                                    Em11/F# _#
 In your head, in your head, they’re still fightin’
-            Em                              Cmaj7
+            Em                              Cmaj7 _#
 With their tanks and their bombs and their bombs and their guns
-         G6                           Em11/F#
+         G6                           Em11/F# _#
 In your head, in your head, they are dyin’
 
-Припев:
-             Em            Cmaj7
+Chorus:
+             Em            Cmaj7 _#
     In your head, in your head
-        G6              Em11/F#
+        G6              Em11/F# _#
     Zombie, zombie, zombie-ie-ie
-                    Em            Cmaj7
+                    Em            Cmaj7 _#
     What’s in your head, in your head?
-        G6              Em11/F#
+        G6              Em11/F# _#
     Zombie, zombie, zombie-ie-ie-ie
 
-Проигрыш: Em | Cmaj7 | G6 | Em11/F# x8
+Outro: Em | Cmaj7 | G6 | Em11/F# } x8 _#

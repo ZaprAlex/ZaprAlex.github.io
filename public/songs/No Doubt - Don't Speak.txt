@@ -1,177 +1,154 @@
 No Doubt - Don't Speak
 
-[Intro]
+Intro: Am _#
 
-Am
-
-[Verse I]
-
-Am
+Am _#
 You and me
-  Em            Dm
+  Em            Dm _#
 We used to be together
-G           Em       Dm    G
+G           Em       Dm    G _#
 Every day together always
 
-  Am           Em
+  Am           Em _#
 I really feel
-         Dm        G
+         Dm        G _#
 That I'm losing my best friend
-  Em
+  Em _#
 I can't believe
-     Am        Dm      G
+     Am        Dm      G _#
 This could be the end
 
-   Am       Em    Dm              G
+   Am       Em    Dm              G _#
 It looks as though you're letting go
-    C
+    C _#
 And if it's real,
-     G               A
+     G               A _#
 Well I don't want to know
 
+Chorus:
+    Dm _#
+    Don't speak
+      Gm                    C _#
+    I know just what you're saying
+    A                 Gm _#
+    So please stop explaining
+          A                 Dm     Gm   A _#
+    Don't tell me 'cause it hurts
 
-[Chorus I]
+    Dm _#
+    Don't speak
+      Gm               C _#
+    I know what you're thinking
+    A                 Gm _#
+    I don't need your reasons
+          A                 Dm     Gm   C _#
+    Don't tell me 'cause it hurts
 
-Dm
-Don't speak
-  Gm                    C
-I know just what you're saying
-A                 Gm
-So please stop explaining
-      A                 Dm     Gm   A
-Don't tell me 'cause it hurts
-
-Dm
-Don't speak
-  Gm               C
-I know what you're thinking
-A                 Gm
-I don't need your reasons
-      A                 Dm     Gm   C
-Don't tell me 'cause it hurts
-
-
-[Verse II]
-
-    Am
+    Am _#
 Our memories
-Em             Dm
+Em             Dm _#
 They can be inviting
-              G
+              G _#
 But some are altogether
-Em      Dm          G
+Em      Dm          G _#
 Mighty frightening
 
-Am    Em  Dm            G    C
+Am    Em  Dm            G    C _#
 As we die, both you and I
-                   G
+                   G _#
 With my head in my hands
-           A
+           A _#
 I sit and cry
 
+Chorus:
+    Dm _#
+    Don't speak
+       Gm                    C _#
+    I know just what you're saying
+    A                 Gm _#
+    So please stop explaining
+           A                 Dm   Gm   A _#
+    Don't tell me 'cause it hurts
 
-[Chorus]
+    Dm _#
+    Don't speak
+    Gm                    C _#
+    I know what you're thinking
+    A                  Gm _#
+    I don't need your reasons
+           A                 Dm   C   A   F _#
+    Don't tell me 'cause it hurts
 
-Dm
-Don't speak
-   Gm                    C
-I know just what you're saying
-A                 Gm
-So please stop explaining
-       A                 Dm   Gm   A
-Don't tell me 'cause it hurts
-Dm
-Don't speak
-Gm                    C
-I know what you're thinking
-A                  Gm
-I don't need your reasons
-       A                 Dm   C   A   F
-Don't tell me 'cause it hurts
-
-
-[Bridge]
-
-Bb        F
+Bb        F _#
 It's all ending
-          Ab     Eb             Gb    Ebm/C  F7sus4 F7
+          Ab     Eb             Gb    Ebm/C  F7sus4 F7 _#
 I gotta stop pretending who we are...
 
+Solo: Am  Em  Dm  G } x3 _#
+      Em  Am  Dm _#
 
-[Solo]
-
-Am  Em  Dm  G
-Am  Em  Dm  G
-Am  Em  Dm  G
-Em  Am  Dm
-
-
-[Interlude]
-
-Am        Em
+Am        Em _#
 You and me
- Dm          G         Dm      G
+ Dm          G         Dm      G _#
 I can see us dying ... are we?
 
+Chorus:
+    Dm _#
+    Don't speak
+       Gm                     C _#
+    I know just what you're saying
+    A                 Gm _#
+    So please stop explaining
+           A                 Dm    Gm   A _#
+    Don't tell me 'cause it hurts… No   No…
 
-[Chorus]
+    Dm _#
+    Don't speak
+    Gm                   C _#
+    I know what you're thinking
+    A                   Gm _#
+    I don't need your reasons
+          A                 Dm _#
+    Don't tell me 'cause it hurts
+           Gm - A            Dm _#
+    Don't tell me 'cause it hurts
 
-Dm
-Don't speak
-   Gm                     C
+Gm                        C _#
 I know just what you're saying
-A                 Gm
+A                 Gm _#
 So please stop explaining
-       A                 Dm    Gm   A
-Don't tell me 'cause it hurts… No   No…
-Dm
-Don't speak
-Gm                   C
-I know what you're thinking
-A                   Gm
-I don't need your reasons
-      A                 Dm
-Don't tell me 'cause it hurts
-       Gm - A            Dm
-Don't tell me 'cause it hurts
-Gm                        C
-I know just what you're saying
-A                 Gm
-So please stop explaining
-A            Dm           Gm    A       Dm
+A            Dm           Gm    A       Dm _#
 Don’t speak, don’t speak, don’t speak   oh…
-Gm                 C
+Gm                 C _#
 I know what you're thinking and
-A                 Gm
+A                 Gm _#
 I don't need your reasons
-               A
+               A _#
 I know you’re good
-              Dm
+              Dm _#
 I know you’re good
-               Gm   A  Dm
+               Gm   A  Dm _#
 I know you’re real good oh
-Gm     C   A   Gm
+Gm     C   A   Gm _#
 Lalalala, lalalala,
-A      Dm     Gm   A
+A      Dm     Gm   A _#
 Don’t, don’t, Ooh ooh
 
 
-[Outro]
-
-Dm                Gm
+Dm                Gm _#
 Hush me, hush me darling
-C                 A
+C                 A _#
 Hush me, hush me darling
-Gm
+Gm _#
 Hush me, hush me,
-         A      Dm   Gm  A
+         A      Dm   Gm  A _#
 Don’t tell me ‘cause it hurts.
 
-Dm                Gm
+Dm                Gm _#
 Hush me, hush me darling
-C                 A
+C                 A _#
 Hush me, hush me darling
-Gm
+Gm _#
 Hush me, hush me,
-       A                Dm    Gm   A
+       A                Dm    Gm   A _#
 Don’t tell me ‘cause it hurts.

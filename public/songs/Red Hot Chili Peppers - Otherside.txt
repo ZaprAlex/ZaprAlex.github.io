@@ -4,120 +4,110 @@ Red Hot Chili Peppers - Otherside
 Strumming pattern: D DU UDU
 * = play the strumming pattern x2 on this chord
  
-[Intro]
-Am   F   C   G
+Intro: Am   F   C   G _#
  
-[Chorus]
-Am             F           C
- How long, how long will I slide?
-G            Am   F
-Separate my siiii-iiide
-  C      G                  Am   F
-I don't, don't believe it's baaa-aaad
-C                       G
-Slittin' my throat it's all I ever
+Chorus:
+    Am             F            C _#
+    How long, how long will I slide?
+    G            Am   F _#
+    Separate my siiii-iiide
+      C      G                  Am   F _#
+    I don't, don't believe it's baaa-aaad
+    C                       G _#
+    Slittin' my throat it's all I ever
  
-[Verse 1]
-Am                              Em
+Am                              Em _#
    I heard your voice through a photograph
-Am                             Em
+Am                             Em _#
    I thought it up and brought up the past
-Am                       Em
+Am                       Em _#
    Once you know you can never go back
-            G              A*
+            G              A* _#
 I've got to take it on the otherside
  
-[Verse 2]
-Am                      Em
+Am                      Em _#
   Centuries are what it meant to me
-Am                   Em
+Am                   Em _#
   A cemetery where I marry the sea
-Am                      Em
+Am                      Em _#
   Stranger things never change my mind
-            G              A
+            G              A _#
 I've got to take it on the otherside
-G              A
+G              A _#
 Take it on the otherside
-G*
+G* _#
 Take it on
-A*
+A* _#
 Take it on
  
-[Chorus]
-Am             F           C
- How long, how long will I slide?
-G            Am   F
-Separate my siiii-iiide
-  C      G                  Am   F
-I don't, don't believe it's baaa-aaad
-C                       G
-Slittin' my throat it's all I ever
+Chorus:
+    Am             F           C _#
+     How long, how long will I slide?
+    G            Am   F _#
+    Separate my siiii-iiide
+      C      G                  Am   F _#
+    I don't, don't believe it's baaa-aaad
+    C                       G _#
+    Slittin' my throat it's all I ever
  
-[Verse 3]
-Am                    Em
+Am                    Em _#
   Pour my life into a paper cup
-Am                           Em
+Am                           Em _#
   The ashtray's full and I'm spillin' my guts
-Am                       Em
+Am                       Em _#
   She wants to know am I still a slut
-            G              A*
+            G              A* _#
 I've got to take it on the otherside
- 
-[Verse 4]
-Am                          Em
+
+Am                          Em _#
   Scarlet starlet and she's in my bed
-Am                  Em
+Am                  Em _#
   A candidate for a soul mate bled
-Am                     Em
+Am                     Em _#
   Push the trigger and pull the thread
-            G              A
+            G              A _#
 I've got to take it on the otherside
-G              A
+G              A _#
 Take it on the otherside
-G*
+G* _#
 Take it on
-A*
+A* _#
 Take it on
  
-[Chorus]
-Am             F           C
- How long, how long will I slide?
-G            Am   F
-Separate my siiii-iiide
-  C      G                  Am   F
-I don't, don't believe it's baaa-aaad
-C                       G
-Slittin' my throat it's all I ever
+Chorus:
+    Am             F           C _#
+     How long, how long will I slide?
+    G            Am   F _#
+    Separate my siiii-iiide
+      C      G                  Am   F _#
+    I don't, don't believe it's baaa-aaad
+    C                       G _#
+    Slittin' my throat it's all I ever
  
-[Instrumental]
-Em* - C*
-Em* - C*
- 
-[Bridge]
-Em*
+Bridge: Em* - C* } x2 _#
+
+Em* _#
   Turn me on take me for a hard ride
-C*
+C* _#
   Burn me out leave me on the otherside
-Em*
+Em* _#
   I yell and tell it that it's not my friend
-C*
+C* _#
   I tear it down I tear it down, and then it's born again
  
-[Guitar Solo]
-Am   F   C   G
+Solo: Am   F   C   G _#
  
-[Chorus]
-Am              F           C
-  How long, how long will I slide?
-G           Am    F
-Separate my siiii-iiide
-  C      G                  Am   F
-I don't, don't believe it's baaa-aaad
-C                       G
-Slittin' my throat it's all I ever
+Chorus:
+    Am              F           C _#
+      How long, how long will I slide?
+    G           Am    F _#
+    Separate my siiii-iiide
+      C      G                  Am   F _#
+    I don't, don't believe it's baaa-aaad
+    C                       G _#
+    Slittin' my throat it's all I ever
  
-Am   F       C      G                  Am    F
+Am   F       C      G                  Am    F _#
 Haaa-aaad, I don't, don't believe it's saaa-aaad
-C                        G          Am
+C                        G          Am _#
 Slitting my throat, it's all I ever
-

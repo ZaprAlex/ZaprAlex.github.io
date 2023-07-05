@@ -1,12 +1,14 @@
 Limp Bizkit - Behind Blue Eyes
 
-Аккорды: Em, G6, Dsus2, Cadd9, Asus2, C, E, D, Bm, G.
+Аккорды:
+    Em, G6, Dsus2, Cadd9, Asus2, C, E, D, Bm, G  _#
+
 Схема переборов во вступлении:
-Em - 65431234 (играем 1 раз)
-G6 - 65431234 (играем 1 раз)
-Dsus2 - 43231232 (играем 2 раза)
-Cadd9 - 54241242 (играем 2 раза)
-Asus2 - 54241242 (играем 2 раза)
+Em:     6 5 4 3 1 2 3 4 (играем 1 раз) _#
+G6:     6 5 4 3 1 2 3 4 (играем 1 раз) _#
+Dsus2:  4 3 2 3 1 2 3 2 (играем 2 раза) _#
+Cadd9:  5 4 2 4 1 2 4 2 (играем 2 раза) _#
+Asus2:  5 4 2 4 1 2 4 2 (играем 2 раза) _#
 
 В куплете всё тоже самое, только на аккорде Asus2 играем боем: V^V_^V
 
@@ -23,68 +25,68 @@ D - V_V_^^VV
 Asus2 - V^V_V_^^VV (Схему на последний аккорд Asus2 играем 2 раза )
 
 
- Em                     G6
+ Em                     G6 _#
 No one knows what it's like
-           Dsus2
+           Dsus2 _#
 To be the bad man
-           Cadd9
+           Cadd9 _#
 To be the sad man
-   Asus2
+   Asus2 _#
 Behind blue eyes 
 
-     Em                     G6
+     Em                     G6 _#
 And no one knows what it's like
-       Dsus2
+       Dsus2 _#
 To be hated
-       Cadd9
+       Cadd9 _#
 To be faded
-           Asus2
+           Asus2 _#
 To telling only lies 
 
 Припев:
-             Cadd9 D
+             Cadd9 D _#
     But my dre-e-e-eams
-                   G
+                   G _#
     They aren't as empty
-           C          D        E
+           C          D        E _#
     As my conscience seems to be 
 
-           Bm          C
+           Bm          C _#
    I have hours, only lonely
-               D
+               D _#
    My love is vengeance
-                  Asus2
+                  Asus2 _#
    That's never free 
 
- Em                     G6
+ Em                     G6 _#
 No one knows what it's like
-               Dsus2
+               Dsus2 _#
 To feel these feelings
-          Cadd9
+          Cadd9 _#
 Like I do-o
-            Asus2
+            Asus2 _#
 And I blame you 
 
- Em                   G6
+ Em                   G6 _#
 No one bites back as hard
-         Dsus2
+         Dsus2 _#
 On their anger
-            Cadd9
+            Cadd9 _#
 None of my pain woe
-            Asus2
+            Asus2 _#
 Can show through
 
 Припев:
-             Cadd9 D
+             Cadd9 D _#
     But my dre-e-e-eams
-                   G
+                   G _#
     They aren't as empty
-           C          D        E
+           C          D        E _#
     As my conscience seems to be 
 
-           Bm          C
+           Bm          C _#
    I have hours, only lonely
-               D
+               D _#
    My love is vengeance
-                  Asus2
+                  Asus2 _#
    That's never free
