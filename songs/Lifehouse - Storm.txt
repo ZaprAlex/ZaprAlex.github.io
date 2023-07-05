@@ -1,88 +1,81 @@
 Lifehouse - Storm
 
-Em              C2
-  how long have I
-             G
+Em:   0 2 2 0 3 0 _#
+C2:   x 3 2 0 3 3 _#
+D:    x x 0 2 3 2 _#
+D/F#: 2 x 0 2 3 2 _#
+G:    3 2 0 0 3 3 _#
+
+Em            C2 _#
+how long have I
+               G _#
 been in this storm
-Em        D                               G
-  so overwhelmed by the ocean's shapeless form
-Em                C2        G
-  water's getting harder to tread
-Em           D                      G
-  with these waves crashing over my head
+Em       D                               G _#
+so overwhelmed by the ocean's shapeless form
+Em               C2         G _#
+water's getting harder to tread
+Em          D                      G _#
+with these waves crashing over my head
  
- 
-                    Em
+Pre-chorus:
+                    Em _#
 if I could just see you
-C2                   G
-  everything will be alright
-         Em
+C2                 G _#
+everything will be alright
+         Em _#
 if I see you
-    D                     G
+    D                     G _#
 the darkness will turn to light
  
+Chorus:
+    Em    C              G _#
+      and I will walk on water
+    Em             D             G _#
+      and you will catch me if I fall
+    Em    C2         G    D/F#      Em _#
+      and I will get lost into your eyes
+    C2            D               G     D/F# _#
+      I know everything will be alright
+    Em          D/F#         Em _#
+      I know everything is alright
  
-Em    C              G
-  and I will walk on water
-Em             D             G
-  and you will catch me if I fall
-Em    C2         G    D/F#      Em
-  and I will get lost into your eyes
-C2            D               G     D/F#
-  I know everything will be alright
-Em          D/F#         Em
-  I know everything is alright
- 
- 
-Em
+Em _#
 I know you didn't
-C2                   G
+C2                   G _#
 bring me out here to drown
-   Em                D                G
+   Em                D                G _#
 so why am I ten feet under and upside down
-Em          C2                 G
+Em          C2                 G _#
 barely surviving has become my purpose
-      Em             D                      G
+      Em             D                      G _#
 cause I'm so used to living underneath the surface
  
- 
-                    Em
+Pre-chorus:
+                    Em _#
 if I could just see you
-C2                   G
-  everything will be alright
-         Em
+C2                    G _#
+everything will be alright
+         Em _#
 if I see you
-    D                     G
+     D                     G _#
 the darkness will turn to light
  
- 
-Em    C              G
-  and I will walk on water
-Em             D             G
-  and you will catch me if I fall
-Em    C2         G    D/F#      Em
-  and I will get lost into your eyes
-C2            D               G
-  I know everything will be alright
-Em    C              G
-  and I will walk on water
-Em             D             G
-  and you will catch me if I fall
-Em    C2         G    D/F#      Em
-  and I will get lost into your eyes
-C2            D               G     D/F#
-  I know everything will be alright
-Em          D/F#         Em
-  I know everything is alright
- 
- 
- 
- 
-Chords
- 
-Em   022030
-C2   x32033
-D    xx0232
-D/F# 2x0232
-G    320033
-
+Chorus:
+    Em    C              G _#
+      and I will walk on water
+    Em             D             G _#
+      and you will catch me if I fall
+    Em    C2         G    D/F#      Em _#
+      and I will get lost into your eyes
+    C2            D               G _#
+      I know everything will be alright
+    Em    C              G _#
+      and I will walk on water
+    Em             D             G _#
+      and you will catch me if I fall
+    Em    C2         G    D/F#      Em _#
+      and I will get lost into your eyes
+    C2            D               G     D/F# _#
+      I know everything will be alright
+    Em          D/F#         Em _#
+      I know everything is alright

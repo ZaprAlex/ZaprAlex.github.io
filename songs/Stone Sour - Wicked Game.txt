@@ -1,75 +1,75 @@
 Stone Sour - Wicked Game
 
-Bm:     x 2 4 4 3 2
-A:      x 0 2 2 2 0
-E:      0 2 2 1 0 0
-F#m7:   2 4 2 2 5 2
+Bm:     x 2 4 4 3 2 _#
+A:      x 0 2 2 2 0 _#
+E:      0 2 2 1 0 0 _#
+F#m7:   2 4 2 2 5 2 _#
 
-Intro: Bm A E }x2
+Intro: Bm A E } x2 _#
 
- Bm                          A                    E
+ Bm                          A                    E _#
 The world was on fire and no one could save me but you.
- Bm                          A                E
+ Bm                          A                E _#
 Strange what desire will make foolish people do.
- Bm                          A                  E
+ Bm                          A                  E _#
 And I never dreamed that I'd meet somebody like you,
- Bm                          F#m7                 E
+ Bm                          F#m7                 E _#
 And I never dreamed that I'd lose somebody like you.
 
-Припев:
- Bm      A                  E
-No, I don't wanna fall in love
-  Bm      A                 E
-No, I don't wanna fall in love
-   Bm  A E
-With you
-   Bm  A E
-With you
+Chorus:
+     Bm      A                  E _#
+    No, I don't wanna fall in love
+      Bm      A                 E _#
+    No, I don't wanna fall in love
+       Bm  A E _#
+    With you
+       Bm  A E _#
+    With you
 
-  Bm                A
-  What a wicked game to play
-  E
-  To make me feel this way
-  Bm                A
-  What a wicked thing to do
-  E
-  To make me dream of you
-  Bm                A
-  What a wicked thing to say
-  E
-  You never felt that way
-  Bm                A
-  What a wicked thing to do
-  E
-  To make me dream of you
+Bm                A _#
+What a wicked game to play
+E _#
+To make me feel this way
+Bm                A _#
+What a wicked thing to do
+E _#
+To make me dream of you
+Bm                A _#
+What a wicked thing to say
+E _#
+You never felt that way
+Bm                A _#
+What a wicked thing to do
+E _#
+To make me dream of you
 
-Припев:
- Bm      A                  E
-No, I don't wanna fall in love
-  Bm      A                 E
-No, I don't wanna fall in love
-   Bm  A E
-With you
-   Bm  A E
-With you
+Chorus:
+     Bm      A                  E _#
+    No, I don't wanna fall in love
+      Bm      A                 E _#
+    No, I don't wanna fall in love
+       Bm  A E _#
+    With you
+       Bm  A E _#
+    With you
 
- Bm                          A                    E
+ Bm                          A                    E _#
 World was on fire and no one could save me but you.
- Bm                          A                E
+ Bm                          A                E _#
 Strange what desire will make foolish people do.
- Bm                          A                  E
+ Bm                          A                  E _#
 And I never dreamed that I'd meet somebody like you,
- Bm                          F#m7                 E
+ Bm                          F#m7                 E _#
 And I never dreamed that I'd lose somebody like you.
 
-Припев:
- Bm      A                  E
-No, I don't wanna fall in love
-  Bm      A                 E
-No, I don't wanna fall in love
-   Bm  A E
-No I
-   Bm  A E
-No I
+Chorus:
+     Bm      A                  E _#
+    No, I don't wanna fall in love
+      Bm      A                 E _#
+    No, I don't wanna fall in love
+       Bm  A E _#
+    No I
+       Bm  A E _#
+    No I
 
 Nobody loves no one

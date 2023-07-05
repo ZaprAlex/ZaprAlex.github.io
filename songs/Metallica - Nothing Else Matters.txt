@@ -1,100 +1,94 @@
 Metallica - Nothing Else Matters
 
-[Verse]
-Em                   D      C
+Em                   D      C _#
   So close no matter how far
-Em                      D             C
+Em                      D             C _#
   couldn't be much more from the heart
-Em                 D       C
+Em                 D       C _#
   forever trusting who we are
-G     B7           Em
+G     B7           Em _#
   and nothing else matters
  
-Em               D            C
+Em               D            C _#
   never opened myself this way
-Em                         D      C
+Em                         D      C _#
   life is ours, we live it our way
-Em                  D              C
+Em                  D              C _#
   all these words I don't just say
-G     B7           Em
+G     B7           Em _#
   and nothing else matters
  
-Em                   D          C
+Em                   D          C _#
   trust I seek and I find in you
-Em                 D            C
+Em                 D            C _#
   every day for us something new
-Em                D             C
+Em                D             C _#
   open mind for a different view
-G     B7           Em      C  A
+G     B7           Em      C  A _#
   and nothing else matters
  
-[Chorus]
-D                        C  A
-never cared for what they do
-D                        C  A
-never cared for what they know
-D     Em
-but I know
+Chorus:
+    D                        C  A _#
+    never cared for what they do
+    D                        C  A _#
+    never cared for what they know
+    D     Em _#
+    but I know
  
-[Verse]
-Em                   D      C
+Em                   D      C _#
   So close no matter how far
-Em                      D             C
+Em                      D             C _#
   couldn't be much more from the heart
-Em                 D       C
+Em                 D       C _#
   forever trusting who we are
-G     B7           Em     C  A
+G     B7           Em     C  A _#
   and nothing else matters
  
-[Chorus]
-D                        C  A
-never cared for what they do
-D                        C  A
-never cared for what they know
-D     Em
-but I know
+Chorus:
+    D                        C  A _#
+    never cared for what they do
+    D                        C  A _#
+    never cared for what they know
+    D     Em _#
+    but I know
  
-[Verse]
-Em               D            C
+Em               D            C _#
   never opened myself this way
-Em                         D      C
+Em                         D      C _#
   life is ours, we live it our way
-Em                  D              C
+Em                  D              C _#
   all these words I don't just say
-G     B7           Em
+G     B7           Em _#
   and nothing else matters
  
-Em                   D          C
+Em                   D          C _#
   trust I seek and I find in you
-Em                 D            C
+Em                 D            C _#
   every day for us something new
-Em                D             C
+Em                D             C _#
   open mind for a different view
-G     B7           Em     C   A
+G     B7           Em     C   A _#
   and nothing else matter-ers
  
-[Chorus]
-D                        C  A
-never cared for what they say
-D                        C  A
-never cared for games they play
-D                        C  A
-never cared for what they do
-D                        C  A
-never cared for what they know
-D     Em
-and I know
+Chorus:
+    D                        C  A _#
+    never cared for what they say
+    D                        C  A _#
+    never cared for games they play
+    D                        C  A _#
+    never cared for what they do
+    D                        C  A _#
+    never cared for what they know
+    D     Em _#
+    and I know
  
-[Verse]
-Em                   D      C
+Em                   D      C _#
   So close no matter how far
-Em                      D             C
+Em                      D             C _#
   couldn't be much more from the heart
-Em                 D       C
+Em                 D       C _#
   forever trusting who we are
-G     B7           Em
+G     B7           Em _#
   no, nothing else matters
  
-[Outro]
-Em
-
+Outro: Em _#

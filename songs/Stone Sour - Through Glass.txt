@@ -16,169 +16,166 @@ Db|---5-------------|---7-------------|-----------------|
 Ab|-3---------------|-5---------------|-----------------|
 Eb|-----------------|-----------------|-0---------------|
  
-[Chorus]
-                      C
-I'm looking at you through the glass
-                     D
-Don't know how much time has passed
-            Em
-Oh God, it feels like forever
+Chorus:
+                          C _#
+    I'm looking at you through the glass
+                         D _#
+    Don't know how much time has passed
+                Em _#
+    Oh God, it feels like forever
+
+    But no one ever tells you
+           C _#
+    That forever feels like home
+     D                            Em _#
+    Sitting all alone inside your head
  
-But no one ever tells you
-       C
-That forever feels like home
- D                            Em
-Sitting all alone inside your head
+                               C _#
+    Cause I'm looking at you through the glass
+                         D _#
+    Don't know how much time has passed
+                           Em _#
+    All I know is that it feels like forever
+
+    But no one ever tells you
+            C _#
+    That forever feels like home
+     D                            Em _#
+    Sitting all alone inside your head
  
-                           C
-Cause I'm looking at you through the glass
-                     D
-Don't know how much time has passed
-                       Em
-All I know is that it feels like forever
- 
-But no one ever tells you
-        C
-That forever feels like home
- D                            Em
-Sitting all alone inside your head
- 
-[Verse 1]
-             C
+             C _#
 How do you feel?
-                D
+                D _#
 That is the question
-         Em
+         Em _#
 But I forget
  
 You don't expect an easy answer
-      C
+      C _#
 When something like a soul
-          D
+          D _#
 Becomes initialized
-                    Em
+                    Em _#
 And folded up like paper dolls and little notes
  
 You can't expect the bitter folks
-       C
+       C _#
 And while you're outside looking in
-     D
+     D _#
 Describing what you see
-   Em
+   Em _#
 Remember what you're staring at is me
  
-[Chorus]
-                           C
-Cause I'm looking at you through the glass
-                     D
-Don't know how much time has past
-                       Em
-All I know is that it feels like forever
+Chorus:
+                               C _#
+    Cause I'm looking at you through the glass
+                         D _#
+    Don't know how much time has past
+                           Em _#
+    All I know is that it feels like forever
+
+    And no one ever tells you
+            C _#
+    That forever feels like home
+     D                            Em _#
+    Sitting all alone inside your head
  
-And no one ever tells you
-        C
-That forever feels like home
- D                            Em
-Sitting all alone inside your head
- 
-[Verse 2]
-             C
+             C _#
 How much is real?
-             D
+             D _#
 So much to question
-       Em
+       Em _#
 An epidemic of the mannequins
  
 Contaminating everything
-    C
+    C _#
 we thought came from the heart
-    D
+    D _#
 It never did, right from the start
-Em
+Em _#
   Just listen to the noises (Null and void instead of voices)
-C
-  Before you tell yourself
-      D
+C _#
+Before you tell yourself
+      D _#
 It's just a different scene
-  Em
+  Em _#
 Remember it's just different from what you've seen
  
-[Chorus]
-                     C
-I'm looking at you through the glass
-                     D
-Don't know how much time has passed
-                       Em
-All I know is that it feels like forever
+Chorus:
+                         C _#
+    I'm looking at you through the glass
+                         D _#
+    Don't know how much time has passed
+                           Em _#
+    All I know is that it feels like forever
+
+    But no one ever tells you
+            C _#
+    That forever feels like home
+     D                            Em _#
+    Sitting all alone inside your head
  
-But no one ever tells you
-        C
-That forever feels like home
- D                            Em
-Sitting all alone inside your head
+                               C _#
+    Cause I'm looking at you through the glass
+                         D _#
+    Don't know how much time has passed
+                           Em _#
+    All I know is that it feels like forever
+
+    And no one ever tells you
+            C _#
+    That forever feels like home
+     D                            Em _#
+    Sitting all alone inside your head
  
-                           C
-Cause I'm looking at you through the glass
-                     D
-Don't know how much time has passed
-                       Em
-All I know is that it feels like forever
- 
-And no one ever tells you
-        C
-That forever feels like home
- D                            Em
-Sitting all alone inside your head
- 
-[Bridge]
-              C           D            Em
+Bridge:
+              C           D            Em _#
 And it's the stars...the stars...that shine for you
-              C           D           Em
+              C           D           Em _#
 And it's the stars...the stars...that lie to you, yeah yeah
-              C           D            Em
+              C           D            Em _#
 And it's the stars...the stars...that shine for you
-              C           D           Em
+              C           D           Em _#
 And it's the stars...the stars...that lie to you, yeah yeah
  
-[Chorus]
-                     C
-I'm looking at you through the glass
-                     D
-Don't know how much time has passed
-            Em
-Oh God, it feels like forever
+Chorus:
+                         C _#
+    I'm looking at you through the glass
+                         D _#
+    Don't know how much time has passed
+                Em _#
+    Oh God, it feels like forever
+
+    But no one ever tells you
+            C _#
+    That forever feels like home
+     D                            Em _#
+    Sitting all alone inside your head
  
-But no one ever tells you
-        C
-That forever feels like home
- D                            Em
-Sitting all alone inside your head
+                               C _#
+    Cause I'm looking at you through the glass
+                         D _#
+    Don't know how much time has passed
+                           Em _#
+    All I know is that it feels like forever
+
+    But no one ever tells you
+            C _#
+    That forever feels like home
+     D                            A _#
+    Sitting all alone inside your head
  
-                           C
-Cause I'm looking at you through the glass
-                     D
-Don't know how much time has passed
-                       Em
-All I know is that it feels like forever
- 
-But no one ever tells you
-        C
-That forever feels like home
- D                            A
-Sitting all alone inside your head
- 
-[Outro]
-              C           D            Em
+Outro:
+              C           D            Em _#
 And it's the stars...the stars...that shine for you, yeah yeah
-              C           D           Em
+              C           D           Em _#
 And it's the stars...the stars...that lie to you, yeah yeah
-              C           D            Em
+              C           D            Em _#
 And it's the stars...the stars...that shine for you, yeah yeah
-              C           D           Em
+              C           D           Em _#
 And it's the stars...the stars...that lie to you, yeah yeah
  
-C   D   Em
+C   D   Em _#
  
-C                     D                           Em
+C                     D                           Em _#
   Oh, when the stars... Oh, when the stars...they lie
-  

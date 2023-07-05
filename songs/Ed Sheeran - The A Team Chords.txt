@@ -1,185 +1,164 @@
 Ed Sheeran - The A Team Chords
 
-[Intro]
- 
-G     G   D/F# Em   C G
- 
- 
-[Verse 1]
- 
-G
+Intro: G     G   D/F# Em   C G _#
+
+G _#
 White lips, pale face
-               D/F# Em
+               D/F# Em _#
 Breathing in snowflakes
-              C    G
+              C    G _#
 Burnt lungs, sour taste
-G
+G _#
 Light's gone, day's end
-              D/F# Em
+              D/F# Em _#
 Struggling to pay rent
-                C    G
+                C    G _#
 Long nights, strange men
- 
- 
-[Pre-Chorus]
- 
-      Am
+
+Pre-chorus:
+      Am _#
 And they say
-                   C
+                   C _#
 She's in the Class A Team
-               G
+               G _#
 Stuck in her daydream
-                    D/F#
+                    D/F# _#
 Been this way since 18
-                Am
+                Am _#
 But lately her face seems
-                 C
+                 C _#
 Slowly sinking, wasting
-                G
+                G _#
 Crumbling like pastries
  
 And they scream
-     D/F#
+     D/F# _#
 The worst things in life come free to us
- 
- 
-[Chorus]
- 
-            Em            C
-Cos we're just under the upperhand
-G
-And go mad for a couple grams
-Em                    C      G
-And she don't want to go outside tonight
-          Em                    C
-And in a pipe she flies to the Motherland
-G
-Or sells love to another man
-Em        C       G
-It's too cold outside
-              Em  C  G
-For angels to fly
-           Em  C  G
-Angels to fly
- 
- 
-[Verse 2]
- 
-G
+
+Chorus:
+                Em            C _#
+    Cos we're just under the upperhand
+    G _#
+    And go mad for a couple grams
+    Em                    C      G _#
+    And she don't want to go outside tonight
+              Em                    C _#
+    And in a pipe she flies to the Motherland
+    G _#
+    Or sells love to another man
+    Em        C       G _#
+    It's too cold outside
+                  Em  C  G _#
+    For angels to fly
+               Em  C  G _#
+    Angels to fly
+
+G _#
 Ripped gloves, raincoat
-                    D/F#  Em
+                    D/F#  Em _#
 Tried to swim and stay afloat
-            C   G
+            C   G _#
 Dry house, wet clothes
-G
+G _#
 Loose change, bank notes
-             D/F# Em
+             D/F# Em _#
 Weary-eyed, dry throat
-           C    G
+           C    G _#
 Call girl, no phone
- 
- 
-[Pre-Chorus]
- 
-      Am
+
+Pre-chorus:
+      Am _#
 And they say
-                   C
+                   C _#
 She's in the Class A Team
-              G
+              G _#
 Stuck in her daydream
-                    D/F#
+                    D/F# _#
 Been this way since 18
-               Am
+               Am _#
 But lately her face seems
-                 C
+                 C _#
 Slowly sinking, wasting
-                G
+                G _#
 Crumbling like pastries
  
 And they scream
-     D/F#
+     D/F# _#
 The worst things in life come free to us
- 
- 
-[Chorus]
- 
-           Em                  C
-Cos we're just under the upperhand
-G
-And go mad for a couple grams
-Em                    C      G
-And she don't want to go outside tonight
-         Em                     C
-And in a pipe she flies to the Motherland
-G
-Or sells love to another man
-Em        C       G
-It's too cold outside
-              Am
-For angels to fly
- 
- 
-[Bridge]
- 
-Am             C
+
+Chorus:
+               Em                  C _#
+    Cos we're just under the upperhand
+    G _#
+    And go mad for a couple grams
+    Em                    C      G _#
+    And she don't want to go outside tonight
+             Em                     C _#
+    And in a pipe she flies to the Motherland
+    G _#
+    Or sells love to another man
+    Em        C       G _#
+    It's too cold outside
+                  Am _#
+    For angels to fly
+
+Bridge:
+
+Am             C _#
 An angel will die
-             Em
+             Em _#
 Covered in white
  
 Closed eye
-         G
+         G _#
 And hoping for a better life
-Am                         C
+Am                         C _#
 This time, we'll fade out tonight
-                  Em C G
+                  Em C G _#
 Straight down the line
- 
-Em C G
- 
-[Pre-Chorus]
- 
-      Am
+
+Em C G _#
+
+Pre-chorus:
+      Am _#
 And they say
-                   C
+                   C _#
 She's in the Class A Team
-              G
+              G _#
 Stuck in her daydream
-                    D/F#
+                    D/F# _#
 Been this way since 18
-               Am
+               Am _#
 But lately her face seems
-                 C
+                 C _#
 Slowly sinking, wasting
-                G
+                G _#
 Crumbling like pastries
  
 And they scream
-     D/F#
+     D/F# _#
 The worst things in life come free to us
- 
- 
-[Chorus/Outro]
- 
-          Em             C
-Cos we're all under the upperhand
-G
-And go mad for a couple grams
-Em                   C     G
-And we don't want to go outside tonight
-          Em                 C
-And in a pipe we fly to the Motherland
-G
-Or sell love to another man
-Em        C       G
-It's too cold outside
-               Em C G
-For angels to fly
-            Em C G
-Angels to fly
-   Em C  G
-To fly, fly
-           Em      C       G
-Angels to fly, to fly, to fly
-   D/F#    G
-Angels to die
 
+Chorus:
+              Em             C _#
+    Cos we're all under the upperhand
+    G _#
+    And go mad for a couple grams
+    Em                   C     G _#
+    And we don't want to go outside tonight
+              Em                 C _#
+    And in a pipe we fly to the Motherland
+    G _#
+    Or sell love to another man
+    Em        C       G _#
+    It's too cold outside
+                   Em C G _#
+    For angels to fly
+                Em C G _#
+    Angels to fly
+       Em C  G _#
+    To fly, fly
+               Em      C       G _#
+    Angels to fly, to fly, to fly
+       D/F#    G _#
+    Angels to die

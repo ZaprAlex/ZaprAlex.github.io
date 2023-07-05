@@ -1,81 +1,60 @@
 System of a Down - Aerials
 
-
-[Verse 1]
-Gm
+Gm _#
 Life is a waterfall,
-        Fm                      Abm                    Cm
+        Fm                      Abm                    Cm _#
 We're one in the river and one again after the fall.
-Gm
+Gm _#
 Swimming through the void
-                       Fm                  Abm         Cm
+                       Fm                  Abm         Cm _#
 We hear the word, we lose ourselves, but we find it all!
-Gm
+Gm _#
 Cause we are the ones that want to play,
-Fm                          Abm             Cm
+Fm                          Abm             Cm _#
 Always want to go, but you never want to stay.
-Gm
+Gm _#
 And we are the ones that want to choose,
-Fm                           Abm                Cm
+Fm                           Abm                Cm _#
 Always want to play, but you never want to lose.
  
-Eb5  Dm Cm Fm Eb5 D5 Eb5 Fm Gm Abm Gm Eb5 Dm Cm
+Eb5  Dm Cm Fm Eb5 D5 Eb5 Fm Gm Abm Gm Eb5 Dm Cm _#
  
-[Chorus]
- 
-Eb5 Dm Cm Fm Eb5 D5
-Aerials, in the sky,
-Eb5  Fm   Gm  Abm    Gm
-When you lose small mind,
-Fm  Eb5   Dm   Cm
-You free your life.
- 
- 
-[Verse 2]
-Gm
-Life is a waterfall,
-   Fm                            Abm                      Cm
-We drink from the river, then we turn around and put up our walls.
-Gm
-Swimming through the void,
-   Fm                  Abm                        Cm
-We hear the word, we lose ourselves, but we find it all!
-Gm
-Cause we are the ones that want to play,
-Fm                          Abm             Cm
-Always want to go, but you never want to stay.
-Fm
-And we are the ones that want to choose,
-Gm                                           Bbm   Cm
-Always want to play, but you never want to lose.
- 
-Eb5  Dm Cm Fm Eb5 D5 Eb5 Fm Gm Abm Gm Eb5 Dm Cm
- 
-[Chorus]
- 
-Eb5 Dm Cm Fm Eb5 D5
-Aerials, in the sky,
-Eb5  Fm   Gm  Abm    Gm
-When you lose small mind,
-Fm  Eb5   Dm   Cm
-You free your life.
-Eb5 Dm Cm Fm Eb5 D5
-Aerials, so up high,
-Eb5  Fm  Gm   Abm  Gm  Fm Eb5 Dm  Cm
-When you free your eyes eternal prize.
- 
- 
-[Outro]
- 
-Eb5 Dm Cm Fm Eb5 D5
-Aerials, in the sky,
-Eb5  Fm   Gm  Abm    Gm
-When you lose small mind,
-Fm  Eb5   Dm   Cm
-You free your life.
- 
-Eb5 Dm Cm Fm Eb5 D5
-Aerials, so up high,
-Eb5  Fm  Gm   Abm  Gm  Fm Eb5 Dm  Cm
-When you free your eyes eternal prize.
+Chorus:
+    Eb5 Dm Cm Fm Eb5 D5 _#
+    Aerials, in the sky,
+    Eb5  Fm   Gm  Abm    Gm _#
+    When you lose small mind,
+    Fm  Eb5   Dm   Cm _#
+    You free your life.
 
+Gm _#
+Life is a waterfall,
+   Fm                            Abm                      Cm _#
+We drink from the river, then we turn around and put up our walls.
+Gm _#
+Swimming through the void,
+   Fm                  Abm                        Cm _#
+We hear the word, we lose ourselves, but we find it all!
+Gm _#
+Cause we are the ones that want to play,
+Fm                          Abm             Cm _#
+Always want to go, but you never want to stay.
+Fm _#
+And we are the ones that want to choose,
+Gm                                           Bbm   Cm _#
+Always want to play, but you never want to lose.
+ 
+Eb5  Dm Cm Fm Eb5 D5 Eb5 Fm Gm Abm Gm Eb5 Dm Cm _#
+ 
+Chorus: x2
+    Eb5 Dm Cm Fm Eb5 D5 _#
+    Aerials, in the sky,
+    Eb5  Fm   Gm  Abm    Gm _#
+    When you lose small mind,
+    Fm  Eb5   Dm   Cm _#
+    You free your life.
+
+    Eb5 Dm Cm Fm Eb5 D5 _#
+    Aerials, so up high,
+    Eb5  Fm  Gm   Abm  Gm  Fm Eb5 Dm  Cm _#
+    When you free your eyes eternal prize.
