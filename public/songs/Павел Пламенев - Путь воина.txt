@@ -102,8 +102,9 @@ E                Am Em  F/E _#
     Gsus2        Am      Esus4/G _#
     Не           потеряй».
 
-Outro: F/E C Dm C E Am Em _#
-       F/E C Dm C6/G Esus4/Ab Am Em/A _#
-       F/E Cadd9(no5)/A D7sus4/G Gadd9 Am _#
-       Em/A F/E D F/E Gadd9 Am D _#
-       F/E Gadd9 Am D F+7 G5/D Am D F+7 Gsus2 Asus4 _#
+Outro:
+    F/E C Dm C E Am Em _#
+    F/E C Dm C6/G Esus4/Ab Am Em/A _#
+    F/E Cadd9(no5)/A D7sus4/G Gadd9 Am _#
+    Em/A F/E D F/E Gadd9 Am D _#
+    F/E Gadd9 Am D F+7 G5/D Am D F+7 Gsus2 Asus4 _#

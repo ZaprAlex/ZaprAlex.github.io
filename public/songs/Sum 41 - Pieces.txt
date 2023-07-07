@@ -1,6 +1,7 @@
 Sum 41 - Pieces
 
-Intro: Am - F - C - G _#
+Intro:
+    Am - F - C - G _#
 
 Am             F                       C _#
 I tried tо be perfect but nоthing was wоrth it

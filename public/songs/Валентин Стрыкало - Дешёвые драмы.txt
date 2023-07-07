@@ -1,7 +1,8 @@
 Валентин Стрыкало - Дешёвые драмы
 
-Intro: Am C F E _#
-       Dm G F E E _#
+Intro:
+    Am C F E _#
+    Dm G F E E _#
 
 Am                  Am +4  _#
 Мы так любим дешёвые драмы

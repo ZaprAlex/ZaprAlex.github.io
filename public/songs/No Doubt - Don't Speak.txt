@@ -1,6 +1,7 @@
 No Doubt - Don't Speak
 
-Intro: Am _#
+Intro:
+    Am _#
 
 Am _#
 You and me
@@ -84,8 +85,9 @@ It's all ending
           Ab     Eb             Gb    Ebm/C  F7sus4 F7 _#
 I gotta stop pretending who we are...
 
-Solo: Am  Em  Dm  G } x3 _#
-      Em  Am  Dm _#
+Solo:
+    Am  Em  Dm  G } x3 _#
+    Em  Am  Dm _#
 
 Am        Em _#
 You and me

@@ -1,6 +1,7 @@
 Баста - Сансара
 
-Intro: C Am Em } x2 _#
+Intro:
+    C Am Em } x2 _#
 
 C _#
 Делай вопреки, делай от руки, 
@@ -60,4 +61,5 @@ Am                                Em _#
         Em                D _#
     Таков закон сансары, круговорот людей. (О-о-ой, мама…) 
 
-Outro: Am C G D C Am Em D } x2 _#
+Outro:
+    Am C G D C Am Em D } x2 _#

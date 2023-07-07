@@ -7,8 +7,9 @@ Dm:     x x 0 2 3 1 _#
 Gm6:    3 5 5 3 5 3 _#
 Gm:     3 5 5 3 3 3 _#
 
-Вступление: Dm7 Gm/B | A Dm } x2 _#
-            Dm Gm6 | A Dm | Dm Gm | A Dm _#
+Вступление:
+    Dm7 Gm/B | A Dm } x2 _#
+    Dm Gm6 | A Dm | Dm Gm | A Dm _#
 
 Dm         Gm6 _#
 Где-то там за окном
@@ -66,11 +67,13 @@ F       A _#
 	Dm Gm  A     Dm _#
 	Снова я без тебя?
 
-Проигрыш: Dm Gm | A Dm } x2 _#
+Проигрыш: x2
+    Dm Gm | A Dm _#
 
 (Переход в тональность Em)
 
-Проигрыш: Em Am | B Em } x4 _#
+Проигрыш: x4
+    Em Am | B Em _#
 
 Припев:
 	Em Am B       Em _#

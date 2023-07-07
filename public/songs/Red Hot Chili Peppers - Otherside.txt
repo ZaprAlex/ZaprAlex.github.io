@@ -4,7 +4,8 @@ Red Hot Chili Peppers - Otherside
 Strumming pattern: D DU UDU
 * = play the strumming pattern x2 on this chord
  
-Intro: Am   F   C   G _#
+Intro:
+    Am   F   C   G _#
  
 Chorus:
     Am             F            C _#
@@ -84,7 +85,8 @@ Chorus:
     C                       G _#
     Slittin' my throat it's all I ever
  
-Bridge: Em* - C* } x2 _#
+Bridge:
+    Em* - C* } x2 _#
 
 Em* _#
   Turn me on take me for a hard ride
@@ -95,7 +97,8 @@ Em* _#
 C* _#
   I tear it down I tear it down, and then it's born again
  
-Solo: Am   F   C   G _#
+Solo:
+    Am   F   C   G _#
  
 Chorus:
     Am              F           C _#

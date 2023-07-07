@@ -3,7 +3,7 @@ import { ISongRow } from '../../constants/SongsData';
 import { getTextWidth } from '../../utils/canvasHelper';
 
 export function isChorusLine(line: string) {
-  return line.match(/^(Припев|Пред-припев|Вступление|Проигрыш|Chorus|Pre-chorus|Intro|Interlude|Bridge|Solo|Outro):/i);
+  return line.match(/^(Припев|Пред-припев|Вступление|Проигрыш|Кода|Соло|Chorus|Pre-chorus|Intro|Interlude|Bridge|Solo|Outro):/i);
 }
 
 const { NUMBER, RUSSIAN, ENGLISH} = AlphabetSectionsType;

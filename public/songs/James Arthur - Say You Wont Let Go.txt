@@ -1,6 +1,7 @@
 James Arthur - Say You Wont Let Go
 
-Intro: G D Em C _#
+Intro:
+    G D Em C _#
 
 G _#
 I met you in the dark

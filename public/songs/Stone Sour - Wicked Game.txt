@@ -5,7 +5,8 @@ A:      x 0 2 2 2 0 _#
 E:      0 2 2 1 0 0 _#
 F#m7:   2 4 2 2 5 2 _#
 
-Intro: Bm A E } x2 _#
+Intro: x2
+    Bm A E _#
 
  Bm                          A                    E _#
 The world was on fire and no one could save me but you.

@@ -145,7 +145,8 @@ Dadd9/F#            Fmaj _#
            Am/G  D/F#          Dadd9/F# _#
 Если наш роман игра, мы проиграли.
 
-Соло: Amadd9 | Amadd9/G _#
-      Dm6 Dm7/C | Bm75- Bm75- E7add11 E7 _#
-      Amadd9 | Amadd9/G _#
-      Dm6 Dm7/C | Bm75- Bm75- E7add11 E7 _#
+Соло:
+    Amadd9 | Amadd9/G _#
+    Dm6 Dm7/C | Bm75- Bm75- E7add11 E7 _#
+    Amadd9 | Amadd9/G _#
+    Dm6 Dm7/C | Bm75- Bm75- E7add11 E7 _#

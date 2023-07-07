@@ -2,7 +2,8 @@ Lewis Capaldi - Someone You Loved
 
 ↡ ↑ ↓ ↑ ↓ ↑ ↓ ↑
 
-Intro: C   G   Am  F _#
+Intro:
+    C   G   Am  F _#
  
 C                         G                             Am     F _#
 I'm going under and this time I fear there's no one to save me

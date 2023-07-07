@@ -5,7 +5,8 @@ E:      0 2 2 1 0 0 _#
 D:      x x 0 2 3 2 _#
 A:      x 0 2 2 2 0 _#
 
-intro: F#m, E, D,  A _#
+intro:
+    F#m, E, D,  A _#
 
 Verse:
   F#m                    E     D        A _#
@@ -54,7 +55,8 @@ Chorus:
          D                                                          A     F#m _#
     My own was banished long ago / It took the Death of Hope to let you go
 
-Solo: F#m, E, D,  A _#
+Solo:
+    F#m, E, D,  A _#
 
 Chorus:
                                    E _#

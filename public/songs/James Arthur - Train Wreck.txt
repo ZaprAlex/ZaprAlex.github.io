@@ -1,6 +1,7 @@
 James Arthur - Train Wreck
 
-Intro: Em } x4 _#
+Intro:
+    Em } x4 _#
 
 Em _#
 Laying in the silence
@@ -121,4 +122,5 @@ Chorus:
             Em           D _#
     Pull me out, pull me out
 
-Outro: Em D C Em _#
+Outro:
+    Em D C Em _#

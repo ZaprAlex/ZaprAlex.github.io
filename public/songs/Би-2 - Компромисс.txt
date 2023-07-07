@@ -33,8 +33,9 @@ G     Am           F     C G _#
     G _#
     Ни вверх ни вниз
 
-Проигрыш: F Dm Am Am _#
-          F Dm Am G _#
+Проигрыш:
+    F Dm Am Am _#
+    F Dm Am G _#
 
 Am            F      C _#
 Друг дорогой как ты ладишь с тоской
@@ -69,6 +70,7 @@ G     Am             F      C  G  _#
     G _#
     Ни вверх ни вниз
 
-Проигрыш: F Dm Am Am _#
-          F Dm Am G _#
+Проигрыш:
+    F Dm Am Am _#
+    F Dm Am G _#
       

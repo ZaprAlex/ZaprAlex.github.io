@@ -1,6 +1,7 @@
 Ed Sheeran - The A Team Chords
 
-Intro: G     G   D/F# Em   C G _#
+Intro:
+    G     G   D/F# Em   C G _#
 
 G _#
 White lips, pale face

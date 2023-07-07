@@ -1,9 +1,9 @@
 Billie Eilish & Khalid - Lovely
 
-Intro 
-| Em     | _#
-| C      | Em  Bm  | _#
-| C      | Em  Bm  | _#
+Intro:
+    | Em     | _#
+    | C      | Em  Bm  | _#
+    | C      | Em  Bm  | _#
 
 C  _#
 Thought I found a way
