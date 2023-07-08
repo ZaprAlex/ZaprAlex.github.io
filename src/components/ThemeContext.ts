@@ -16,7 +16,7 @@ export type ChangeThemeAction = {
   };
 };
 
-export interface ThemeContext extends React.Context<any> {
+export interface ThemeContext extends React.Context<never> {
   state: ThemeState;
   dispatch: React.Dispatch<ChangeThemeAction>;
 }

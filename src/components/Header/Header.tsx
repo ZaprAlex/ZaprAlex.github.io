@@ -1,48 +1,24 @@
-import React, { FC, useCallback, useContext } from 'react';
+import React, { FC, useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
 import cn from 'classnames';
 
-import { saveTheme } from '../../api/settingService';
-import { Themes } from '../../constants/Themes';
-import { CHANGE_THEME_ACTION, ThemeContext } from '../ThemeContext';
 import IconButton from '../IconButton';
 import Navbar from '../Navbar';
+import { useSongPreferences } from '../../hooks';
 import { HeaderProps } from './types';
 import ArrowBack from '../../assets/ArrowBack';
-import Moon from '../../assets/Moon';
-import Sun from '../../assets/Sun';
+import Star from '../../assets/Star';
+import StarFilled from '../../assets/StarFilled';
 
 import styles from './Header.module.scss';
-import { useNavigate } from 'react-router-dom';
-
-const { DARK, LIGHT } = Themes;
 
 const Header: FC<HeaderProps> = ({
   position = 'sticky',
   className
 }) => {
   const navigate = useNavigate();
-  const {
-    state: { theme },
-    dispatch
-  } = useContext(ThemeContext);
-
+  const {showFavoritesOnly, switchFavorites} = useSongPreferences();
   const goBack = useCallback(() => navigate(-1), [navigate]);
-
-  function toggleTheme() {
-    if (theme === LIGHT) {
-      changeTheme(DARK);
-    } else {
-      changeTheme(LIGHT);
-    }
-  }
-
-  const changeTheme = (theme: Themes) => {
-    saveTheme(theme);
-    dispatch({
-      type: CHANGE_THEME_ACTION,
-      payload: { theme }
-    });
-  };
 
   return (
     <div
@@ -57,8 +33,8 @@ const Header: FC<HeaderProps> = ({
         </div>
         <div className={styles.slot}><Navbar /></div>
         <div className={styles.slot}>
-          <IconButton onClick={toggleTheme} ariaLabel="change theme">
-            {theme === Themes.LIGHT ? <Moon /> : <Sun />}
+          <IconButton onClick={switchFavorites} ariaLabel="switch favorite">
+            {showFavoritesOnly ? <StarFilled /> : <Star />}
           </IconButton>
         </div>
       </div>

@@ -1,47 +1,10 @@
+@import 'src/styles/common';
 @import 'src/styles/mixins';
 
 .page {
   display: flex;
   flex-grow: 1;
   min-height: 100vh;
-
-  .content {
-    box-sizing: border-box;
-    position: relative;
-    text-align: center;
-    width: 100%;
-    max-width: $max-content-width;
-    min-height: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-flow: column;
-    flex-grow: 1;
-    background: #ffffff;
-
-    & > .buttonsBlock {
-      position: fixed;
-      bottom: 54px;
-      right: 16px;
-      z-index: 50;
-      box-sizing: border-box;
-      width: auto;
-      display: flex;
-      flex-flow: column;
-      gap: 12px;
-      align-items: center;
-
-      @include adaptive-for-mobile {
-        bottom: 24px;
-      }
-
-      & > * {
-        opacity: .7;
-        & svg path {
-          fill: #000000;
-        }
-      }
-    }
-  }
 
   &[class~="dark"] {
     background: rgba(0,0,0,.92);
@@ -50,4 +13,82 @@
       background: #000000;
     }
   }
+}
+
+.content {
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  max-width: $max-content-width;
+  min-height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  background: #ffffff;
+}
+
+.settingsPanel {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 50;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:  50% 0 0 0;
+  background: rgba(169, 169, 169, 0.8);
+
+  & > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    & svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  & > * {
+    opacity: .7;
+    & svg path {
+      fill: #000000;
+    }
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+
+.modalContent {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 60px 32px 32px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 16px;
+  background: rgb(169, 169, 169);
+  border-radius: 100px 0 0 0;
+  outline: 0 none;
 }
