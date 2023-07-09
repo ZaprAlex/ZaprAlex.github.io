@@ -1,20 +1,20 @@
 import React, { FC } from 'react';
 
 import ThemeContextContainer from './containers/ThemeContextContainer';
-import SongsContextContainer from './containers/SongsContextContainer';
+import SettingsContextContainer from './containers/SettingsContextContainer';
 import { NavigationProvider } from './components/Navigation';
 import MainPage from './pages/MainPage';
 import Layout from './components/Layout';
 
 const App: FC = () => (
   <ThemeContextContainer>
-    <SongsContextContainer>
+    <SettingsContextContainer>
       <NavigationProvider>
         <Layout>
           <MainPage />
         </Layout>
       </NavigationProvider>
-    </SongsContextContainer>
+    </SettingsContextContainer>
   </ThemeContextContainer>
 );
 

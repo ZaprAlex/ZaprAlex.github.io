@@ -1,13 +1,13 @@
 import { useContext } from 'react';
 
-import { getShowFavoritesOnly, saveShowFavoritesOnly } from '../api/songService';
-import { SongsContext, SWITCH_FAVORITES_ACTION } from '../components/SongsContext';
+import { SettingsContext, SWITCH_FAVORITES_ACTION } from '../components/SettingsContext';
+import { getShowFavoritesOnly, saveShowFavoritesOnly } from '../api/settingService';
 
 export const useSongPreferences = () => {
   const {
     state: { showFavoritesOnly },
     dispatch
-  } = useContext(SongsContext);
+  } = useContext(SettingsContext);
 
   const switchFavorites = () => {
     saveShowFavoritesOnly(!showFavoritesOnly);

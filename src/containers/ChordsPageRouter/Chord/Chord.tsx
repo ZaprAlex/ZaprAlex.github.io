@@ -2,7 +2,6 @@ import React, { FC, useEffect, useState } from 'react';
 
 import { scrollToTop } from '../../../utils/helper';
 import { Chords, IChord } from '../../../constants/chords';
-import FullscreenButton from '../../../components/FullscreenButton/FullscreenButton';
 import { useAppNavigation } from '../../../components/Navigation';
 
 import styles from './Chord.module.scss';
@@ -41,9 +40,6 @@ const Chord: FC<ChordProps> = ({ chord: { chord, name, src } }) => {
             </div>
           ))}
         </div>
-      </div>
-      <div className={styles.buttonsBlock}>
-        <FullscreenButton />
       </div>
     </>
   );

@@ -2,21 +2,16 @@ import React, { FC, PropsWithChildren, useState } from 'react';
 import Modal from 'react-modal';
 import cn from 'classnames';
 
-import { Themes } from '../../constants/Themes';
 import { useTheme } from '../../hooks';
-import AutoscrollPanel from '../AutoscrollPanel';
-import FullscreenButton from '../FullscreenButton';
 import Header from '../../containers/MainHeader';
-import IconButton from '../IconButton';
-import Moon from '../../assets/Moon';
-import Sun from '../../assets/Sun';
+import SettingsPanel from './SettingsPanel';
 import SettingsGear from '../../assets/SettingsGear';
 
 import styles from './Layout.module.scss';
 
 
 const Layout: FC<PropsWithChildren> = ({ children }) => {
-  const { theme, switchTheme } = useTheme();
+  const { theme } = useTheme();
   const [isOpen, setIsOpen] = useState(false);
 
   const openModal = () => setIsOpen(true);
@@ -44,11 +39,7 @@ const Layout: FC<PropsWithChildren> = ({ children }) => {
         bodyOpenClassName={styles.bodyOpenClassName}
         ariaHideApp={false}
       >
-        <AutoscrollPanel />
-        <IconButton onClick={switchTheme} ariaLabel="change theme">
-          {theme === Themes.LIGHT ? <Moon /> : <Sun />}
-        </IconButton>
-        <FullscreenButton />
+        <SettingsPanel />
       </Modal>
     </div>
   );

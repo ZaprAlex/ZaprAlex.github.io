@@ -1,27 +1,21 @@
 import React, { FC, useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import cn from 'classnames';
-import Button from '@mui/material/IconButton';
 
-import { useInterval } from '../../hooks';
-import IconButton from '../IconButton';
-import scrollDownIcon from '../../assets/double-down.png';
+import { useInterval } from '../../../../hooks';
 
-import styles from './AutoscrollPanel.module.scss';
+import { FormControlLabel, Switch } from '@mui/material';
 
 const DEFAULT_SPEED = 70;
 const TIMEOUT = 0;
 
-const AutoscrollPanel: FC = () => {
+const AutoscrollSwitch: FC = () => {
   const location = useLocation();
   const [time, setTime] = useState<number>(-1);
-  const [scrollBtnLabel, setScrollBtnLabel] = useState<string>('!');
   const [scrollable, setScrollable] = useState<boolean>(false);
   const [paused, setPaused] = useState<boolean>(false);
 
   const stopScroll = () => {
     setScrollable(false);
-    setScrollBtnLabel('!');
     setTime(-1);
   };
 
@@ -57,11 +51,9 @@ const AutoscrollPanel: FC = () => {
     let timeout: number;
     if (time > 0) {
       timeout = window.setTimeout(() => {
-        setScrollBtnLabel(String(time - 1));
         setTime((prevState) => prevState - 1);
       }, 1000);
     } else if (time === 0) {
-      setScrollBtnLabel('X');
       setScrollable(true);
     }
     return () => window.clearTimeout(timeout);
@@ -73,26 +65,16 @@ const AutoscrollPanel: FC = () => {
     if (time > 0 || scrollable) {
       stopScroll();
     } else {
-      setScrollBtnLabel(String(TIMEOUT));
       setTime(TIMEOUT);
     }
   };
 
   return (
-    <div className={styles.panel}>
-      {/*{!scrollable && (*/}
-      {/*  <IconButton onClick={toggleScrollable} ariaLabel='auto-scroll-btn' className={styles.button}>*/}
-      {/*    <img src={scrollDownIcon} alt='' />*/}
-      {/*  </IconButton>*/}
-      {/*)}*/}
-      <Button
-        onClick={toggleScrollable}
-        className={cn(styles.button, { [styles.active]: scrollable })}
-      >
-        {scrollBtnLabel}
-      </Button>
-    </div>
+    <FormControlLabel
+      control={<Switch checked={scrollable} onChange={toggleScrollable} />}
+      label="Autoscroll"
+    />
   );
 };
 
-export default AutoscrollPanel;
+export default AutoscrollSwitch;

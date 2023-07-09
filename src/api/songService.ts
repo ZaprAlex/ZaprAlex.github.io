@@ -1,15 +1,6 @@
 import { ISong, SongsByAuthorsData } from '../constants/SongsData';
 import { getTrimmedRightString } from '../utils/stringHelper';
 
-const FAVORITES_KEY = 'show-favorites-only';
-
-export function saveShowFavoritesOnly(showFavoritesOnly: boolean) {
-  window.sessionStorage.setItem(FAVORITES_KEY, String(showFavoritesOnly));
-}
-export function getShowFavoritesOnly() {
-  return window.sessionStorage.getItem(FAVORITES_KEY) === 'true';
-}
-
 export async function getSong(author?: string, name?: string): Promise<ISong> {
   if (!author || !name || !SongsByAuthorsData[author]?.[name]) {
     return Promise.reject();
