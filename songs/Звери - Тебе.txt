@@ -9,7 +9,8 @@ E7:         0 2 0 1 3 0 _#
 F:          1 3 3 2 1 1 _#
 C:          x 3 2 0 1 0 _#
 
-Вступление: Am G Fmaj7 A E E _#
+Вступление:
+    Am G Fmaj7 A E E _#
 
 Am       G _#
 Идеальных не бывает,
@@ -84,7 +85,8 @@ Fmaj7            E7 _#
     F             E Am _#
     Не случайно ты и я...
 
-Outro: F G C G A C _#
-       F G A _#
-       F G C G A C _#
-       F G A _#
+Outro:
+    F G C G A C _#
+    F G A _#
+    F G C G A C _#
+    F G A _#

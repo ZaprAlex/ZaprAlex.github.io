@@ -1,6 +1,7 @@
 Brainstorm - Небо упало в нас
 
-Intro: G#m F# C#m E } x2 _#
+Intro:
+    G#m F# C#m E } x2 _#
 
  G#m                  F#  C#m E _#
 Сколько в мире звезды падали.
@@ -79,4 +80,5 @@ G#m E B F# } x2 _#
               G#m             E         B F# _#
     На горизонте там, таяли, таяли грезы.
 
-Outro: G#m E B F# _#
+Outro:
+    G#m E B F# _#

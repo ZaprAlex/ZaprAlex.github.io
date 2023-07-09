@@ -2,7 +2,8 @@ Taylor Swift - I Knew You Were Trouble
 
 Capo on 4
 
-Intro: D _#
+Intro:
+    D _#
 
 D _#
 Once upon a time, a few mistakes ago

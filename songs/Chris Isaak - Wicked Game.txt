@@ -5,7 +5,8 @@ Capo II
 D/F#:  2 0 0 2 3 2 _#
  
  
-Intro: Am  G  D/F#  D/F# } x2 _#
+Intro:
+    Am  G  D/F#  D/F# } x2 _#
  
 Am                        G                        D/F# _#
 The world was on fire and no one could save me but you.
@@ -41,7 +42,8 @@ Chorus:
          Am  G  D/F#
     With you.
  
-Solo: Am  G  D/F#  D/F# } x2 _#
+Solo:
+    Am  G  D/F#  D/F# } x2 _#
 
 Am                        G                        D/F# _#
 The world was on fire and no one could save me but you.

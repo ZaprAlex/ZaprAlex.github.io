@@ -27,7 +27,8 @@ Am _#
 Adim _#
 Его вдовой
    
-Проигрыш: Em C A7 D _#
+Проигрыш:
+    Em C A7 D _#
 
 Em _#
 Он будет погребен в нефритовом гробу,
@@ -83,10 +84,11 @@ Am _#
 Adim     _#
 И кровь одна.
   
-Проигрыш: F#m C# F#m C# _#
-          F#m D Bm E F#m D Bm E  _#
-          F#m D Bm E F#m D Bm E Em _#
-          Em Bm F#m Bm _#
+Проигрыш:
+    F#m C# F#m C# _#
+    F#m D Bm E F#m D Bm E  _#
+    F#m D Bm E F#m D Bm E Em _#
+    Em Bm F#m Bm _#
 
 C    Bm                   Am G _#
 Ветер, древний житель степной,

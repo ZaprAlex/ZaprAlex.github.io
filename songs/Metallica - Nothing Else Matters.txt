@@ -91,4 +91,5 @@ Em                 D       C _#
 G     B7           Em _#
   no, nothing else matters
  
-Outro: Em _#
+Outro:
+    Em _#

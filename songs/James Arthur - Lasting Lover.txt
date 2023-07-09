@@ -1,6 +1,7 @@
 James Arthur - Lasting Lover
 
-Intro: C _#
+Intro:
+    C _#
 
 C _#
 I don't know why I can't quite get you out my sight

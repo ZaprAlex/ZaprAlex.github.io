@@ -7,7 +7,8 @@ C/B: x 2 x 0 1 0 _#
 D:   x 0 0 2 3 2 _#
 A:   5 7 7 6 5 5 _#
  
-Intro: Am7 F  C  C/B } x2 _#
+Intro: x2
+    Am7 F  C  C/B _#
  
 Am7         F                   C _#
 Come up to meet you, tell you I'm sorry
@@ -38,7 +39,8 @@ Chorus:
     Dm7                       C _#
     Oh take me back to the start
  
-Interlude: Am7 F  C  C  Am7 F  C  C/B _#
+Interlude:
+    Am7 F  C  C  Am7 F  C  C/B _#
 
 Am7         F                       C _#
 I was just guessing at numbers and figures
