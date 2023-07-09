@@ -4,7 +4,7 @@ import cn from 'classnames';
 
 import IconButton from '../IconButton';
 import Navbar from '../Navbar';
-import { useSongPreferences } from '../../hooks';
+import { useSettings } from '../../hooks';
 import { HeaderProps } from './types';
 import ArrowBack from '../../assets/ArrowBack';
 import Star from '../../assets/Star';
@@ -17,7 +17,7 @@ const Header: FC<HeaderProps> = ({
   className
 }) => {
   const navigate = useNavigate();
-  const {showFavoritesOnly, switchFavorites} = useSongPreferences();
+  const { showFavoritesOnly, switchFavorites } = useSettings();
   const goBack = useCallback(() => navigate(-1), [navigate]);
 
   return (

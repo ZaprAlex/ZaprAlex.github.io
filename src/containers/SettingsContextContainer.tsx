@@ -1,23 +1,31 @@
 import React, { FC, PropsWithChildren, useReducer } from 'react';
 
 import {
+  CHANGE_THEME_ACTION,
+  SettingsAction,
+  SettingsContext,
+  SettingsState,
   SWITCH_FAVORITES_ACTION,
-  SwitchFavoritesAction,
+  TOGGLE_AUTOSCROLL
 } from '../components/SettingsContext';
-import { SettingsContext, SettingsState } from '../components/SettingsContext';
 
-import { getShowFavoritesOnly } from '../api/settingService';
+import { getShowFavoritesOnly, getTheme } from '../api/settingService';
 
-export function settingsReducer(state: SettingsState, action: SwitchFavoritesAction): SettingsState {
-  if (action.type === SWITCH_FAVORITES_ACTION) {
+export function settingsReducer(state: SettingsState, action: SettingsAction): SettingsState {
+  switch (action.type) {
+  case CHANGE_THEME_ACTION:
+  case SWITCH_FAVORITES_ACTION:
     return { ...state, ...action.payload };
-  } else {
+  case TOGGLE_AUTOSCROLL:
+    return { ...state, autoscrollEnabled: !state.autoscrollEnabled };
+  default:
     return state;
   }
 }
 
 const SettingsContextContainer: FC<PropsWithChildren> = ({ children }) => {
-  const [state, dispatch] = useReducer(settingsReducer, { showFavoritesOnly: getShowFavoritesOnly() });
+  const [state, dispatch] = useReducer(settingsReducer,
+    { showFavoritesOnly: getShowFavoritesOnly(), theme: getTheme(), autoscrollEnabled: false });
   const contextValue = { state, dispatch } as React.ContextType<typeof SettingsContext>;
 
   return <SettingsContext.Provider value={contextValue}>{children}</SettingsContext.Provider>;

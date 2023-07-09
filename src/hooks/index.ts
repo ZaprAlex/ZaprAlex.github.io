@@ -1,4 +1,5 @@
 export { useInterval } from './useInterval';
-export { useSongPreferences } from './useSongPreferences';
+export { useSettings } from './useSettings';
 export { useQuery } from './useQuery';
-export { useTheme } from './useTheme';
+export { useModal } from './useModal';
+export { useWindowResize } from './windowEventHooks';

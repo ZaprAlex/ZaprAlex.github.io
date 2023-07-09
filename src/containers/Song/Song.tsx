@@ -1,12 +1,12 @@
-import React, { FC, useCallback, useEffect, useState } from 'react';
+import React, { FC, useEffect, useState } from 'react';
 import cn from 'classnames';
 
 import { getChordsFromString } from '../../utils/stringHelper';
 import { scrollToTop } from '../../utils/helper';
-import { useWindowResize } from '../../hooks/windowEventHooks';
+import { useInterval, useModal, useSettings, useWindowResize } from '../../hooks';
 import { ISong, ISongRow, SongsByAuthorsData } from '../../constants/SongsData';
+import ModalTypes from '../../constants/ModalTypes';
 import { useAppNavigation } from '../../components/Navigation';
-import ChordsRowPopUp from '../../components/ChordsRowPopUp';
 import { generateLyrics, isChorusLine } from './helper';
 
 import styles from './Song.module.scss';
@@ -16,17 +16,51 @@ type SongProps = {
   song: ISong;
 };
 
-type ChordsModalState = {
-  activeRowChords?: string[];
-  isModalOpen?: boolean;
-};
+const DEFAULT_SPEED = 70;
 
 const Song: FC<SongProps> = ({ author, song: { name, lyrics, speed: defaultSpeed = 0 } }) => {
   const { goToAuthor } = useAppNavigation();
-  const [{ isModalOpen, activeRowChords }, setIsModalState] = useState<ChordsModalState>({});
-  const [chords, setChords] = useState<string[]>([]);
+  const { isOpen: isModalOpen, openModal} = useModal();
+  const { autoscrollEnabled } = useSettings();
   const [adaptiveLyrics, setAdaptiveLyrics] = useState<ISongRow[]>([]);
   const [fontSize, setFontSize] = useState(18);
+
+  const [paused, setPaused] = useState<boolean>(false);
+  const scrollable = autoscrollEnabled && !paused && !isModalOpen;
+  // console.log(paused, autoscrollEnabled);
+  useEffect(() => {
+    setPaused(false);
+  }, [location]);
+
+  useEffect(() => {
+    const activatePauseScroll = () => setPaused(true);
+    const deactivatePauseScroll = () => setPaused(false);
+
+    const stopScrollAfterEnd = () => {
+      const pageDiv = document.getElementById('base');
+      if (pageDiv && window.scrollY + window.innerHeight >= pageDiv.scrollHeight) {
+        setPaused(true);
+      }
+    };
+
+    document.addEventListener('mousedown', activatePauseScroll);
+    document.addEventListener('mouseup', deactivatePauseScroll);
+    document.addEventListener('touchstart', activatePauseScroll);
+    document.addEventListener('touchend', deactivatePauseScroll);
+    document.addEventListener('scroll', stopScrollAfterEnd);
+
+    return () => {
+      document.removeEventListener('mousedown', activatePauseScroll);
+      document.removeEventListener('mouseup', deactivatePauseScroll);
+      document.removeEventListener('touchstart', activatePauseScroll);
+      document.removeEventListener('touchend', deactivatePauseScroll);
+      document.removeEventListener('scroll', stopScrollAfterEnd);
+    };
+  }, [location]);
+
+  useInterval(() => window.scrollBy({ top: 0.5, behavior: 'smooth' }),
+    scrollable ? DEFAULT_SPEED : null
+  );
 
   function generateWrappedLyrics() {
     setAdaptiveLyrics(generateLyrics(lyrics, fontSize));
@@ -50,10 +84,10 @@ const Song: FC<SongProps> = ({ author, song: { name, lyrics, speed: defaultSpeed
 
   function onChordClick(chordsRow: string) {
     const chords = getChordsFromString(chordsRow);
-    setIsModalState({ isModalOpen: true, activeRowChords: chords });
+    if (chords.length) {
+      openModal(ModalTypes.CHORDS, chords);
+    }
   }
-
-  const onCloseModal = useCallback(() => setIsModalState({}), []);
 
   return (
     <>
@@ -85,11 +119,6 @@ const Song: FC<SongProps> = ({ author, song: { name, lyrics, speed: defaultSpeed
           })}
         </div>
       </div>
-      <ChordsRowPopUp
-        isOpen={isModalOpen}
-        chords={activeRowChords ?? chords}
-        onClose={onCloseModal}
-      />
     </>
   );
 };

@@ -4,9 +4,9 @@ import AutoscrollSwitch from './AutoscrollSwitch';
 import FullscreenSwitch from './FullscreenSwitch';
 import ThemeSwitch from './ThemeSwitch';
 
-import styles from './SettingsPanel.module.scss';
+import styles from './SettingsPanelPopUp.module.scss';
 
-const SettingsPanel: FC = () => (
+const SettingsPanelPopUp: FC = () => (
   <div className={styles.panel}>
     <AutoscrollSwitch />
     <ThemeSwitch />
@@ -14,4 +14,4 @@ const SettingsPanel: FC = () => (
   </div>
 );
 
-export default SettingsPanel;
+export default SettingsPanelPopUp;

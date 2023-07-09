@@ -1,13 +1,13 @@
 import React, { FC } from 'react';
 
-import ThemeContextContainer from './containers/ThemeContextContainer';
+import ModalContextContainer from './containers/ModalContextContainer';
 import SettingsContextContainer from './containers/SettingsContextContainer';
 import { NavigationProvider } from './components/Navigation';
 import MainPage from './pages/MainPage';
 import Layout from './components/Layout';
 
 const App: FC = () => (
-  <ThemeContextContainer>
+  <ModalContextContainer>
     <SettingsContextContainer>
       <NavigationProvider>
         <Layout>
@@ -15,7 +15,7 @@ const App: FC = () => (
         </Layout>
       </NavigationProvider>
     </SettingsContextContainer>
-  </ThemeContextContainer>
+  </ModalContextContainer>
 );
 
 export default App;

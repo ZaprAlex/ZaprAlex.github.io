@@ -1,7 +1,8 @@
-import { FormControlLabel, Palette, styled, Switch, Theme } from '@mui/material';
-import { Themes } from '../../../../constants/Themes';
 import React, { FC } from 'react';
-import { useTheme } from '../../../../hooks';
+import { FormControlLabel, Palette, styled, Switch, Theme } from '@mui/material';
+
+import { Themes } from '../../../../constants/Themes';
+import { useSettings } from '../../../../hooks';
 
 const CustomSwitch = styled(Switch)(({ theme }) => ({
   width: 62,
@@ -51,7 +52,7 @@ const CustomSwitch = styled(Switch)(({ theme }) => ({
 }));
 
 const ThemeSwitch: FC = () => {
-  const { theme, switchTheme } = useTheme();
+  const { theme, switchTheme } = useSettings();
 
   return <FormControlLabel
     control={

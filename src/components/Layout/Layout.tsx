@@ -1,46 +1,36 @@
-import React, { FC, PropsWithChildren, useState } from 'react';
-import Modal from 'react-modal';
+import React, { FC, PropsWithChildren } from 'react';
 import cn from 'classnames';
 
-import { useTheme } from '../../hooks';
+import { useModal, useSettings } from '../../hooks';
+import ModalTypes from '../../constants/ModalTypes';
 import Header from '../../containers/MainHeader';
-import SettingsPanel from './SettingsPanel';
+import PopUp from '../PopUp';
 import SettingsGear from '../../assets/SettingsGear';
 
 import styles from './Layout.module.scss';
 
 
 const Layout: FC<PropsWithChildren> = ({ children }) => {
-  const { theme } = useTheme();
-  const [isOpen, setIsOpen] = useState(false);
+  const { theme } = useSettings();
+  const { openModal } = useModal();
 
-  const openModal = () => setIsOpen(true);
-
-  const closeModal = () => setIsOpen(false);
+  const onSettingsClick = () => openModal(ModalTypes.SETTINGS);
 
   return (
     <div id="base" className={cn(styles.page, theme)}>
       <div className={styles.content}>
         <Header />
+
         {children}
 
-        <div className={styles.settingsPanel} onClick={openModal}>
+        <div className={styles.settingsPanel} onClick={onSettingsClick}>
           <span>
             <SettingsGear />
           </span>
         </div>
       </div>
 
-      <Modal
-        onRequestClose={closeModal}
-        isOpen={isOpen}
-        className={styles.modalContent}
-        overlayClassName={cn(styles.overlay)}
-        bodyOpenClassName={styles.bodyOpenClassName}
-        ariaHideApp={false}
-      >
-        <SettingsPanel />
-      </Modal>
+      <PopUp />
     </div>
   );
 };
