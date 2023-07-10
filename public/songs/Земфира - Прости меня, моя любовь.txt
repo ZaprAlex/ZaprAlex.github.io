@@ -22,7 +22,8 @@ Am _#
  Dm              E7 _#
 Прости меня моя любовь...
 
-Проигрыш: Am G Am G Dm G Em Dm Em _#
+Проигрыш:
+    Am G Am G Dm G Em Dm Em _#
 
 Am _#
 Джинсы
@@ -46,4 +47,5 @@ Am _#
  Dm              E7 _#
 Прости меня моя любовь...
 
-Проигрыш: Am G Am G Dm G Em Dm Em _#
+Проигрыш:
+    Am G Am G Dm G Em Dm Em _#

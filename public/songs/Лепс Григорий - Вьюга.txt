@@ -38,7 +38,8 @@ F       A _#
 	Dm7 Gm/B A           Dm _#
 	Где-то, но не со мной.
 
-Проигрыш: Dm Gm6/D | Dm Gm6 | Dm Gm/B | A _#
+Проигрыш:
+    Dm Gm6/D | Dm Gm6 | Dm Gm/B | A _#
 
 Dm         Gm6 _#
 Где-то там в тишине
