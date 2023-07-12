@@ -1,7 +1,28 @@
 .panel {
+  position: relative;
+
+}
+
+.settings {
+  padding: 60px 32px 32px 60px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 16px;
+}
+
+.cancelButton {
+  margin-left: auto;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & svg {
+    width: 32px;
+    height: 32px;
+    transform: rotate(45grad);
+  }
 }
