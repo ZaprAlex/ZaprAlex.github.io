@@ -8,7 +8,6 @@ A:      x 0 2 2 2 0 _#
 intro:
     F#m, E, D,  A _#
 
-Verse:
   F#m                    E     D        A _#
 Bury all your secrets in my skin
   F#m                        E    D                        A _#
@@ -32,7 +31,8 @@ Chorus:
          D                                                  A      F#m _#
     My smile was taken long ago / If I can change I hope I never know
 
-Pre Verse: F#m, E, D,  A _#
+Bridge:
+    F#m, E, D,  A _#
 
      F#m                    E       D          A _#
 I still press your letters to my lips
