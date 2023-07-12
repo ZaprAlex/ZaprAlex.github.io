@@ -13,8 +13,7 @@ type Params = {
 
 const SongProvider: FC = () => {
   const { goTo404 } = useAppNavigation();
-  const { author: authorName = '', songName  = ''} = useParams<Params>();
-  const author = authorName.split(' feat. ')[0];
+  const { author = '', songName  = ''} = useParams<Params>();
   const [{ song, lyrics, speed = 0 }, setState] = useState<{ song?: NewSong, lyrics: ISongRow[], speed?: number }>({ lyrics: []});
 
   useEffect(() => {

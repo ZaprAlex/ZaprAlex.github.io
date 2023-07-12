@@ -23,7 +23,7 @@ const NavigationProvider: FC<PropsWithChildren> = ({ children }) => {
   );
 
   const goToSong = useCallback(
-    ({ name, authorsName }: NewSong) => navigate(`${ROUTE.AUTHORS}/${authorsName}/${name}`),
+    ({ name }: NewSong, author: string) => navigate(`${ROUTE.AUTHORS}/${author}/${name}`),
     [navigate]
   );
 

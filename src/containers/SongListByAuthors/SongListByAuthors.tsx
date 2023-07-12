@@ -19,10 +19,9 @@ type Params = {
 
 const SongListByAuthors: FC = () => {
   const { goToAuthor, goToAuthors, goToSong, goToSongs } = useAppNavigation();
-  const { author: authorName = '' } = useParams<Params>();
+  const { author = '' } = useParams<Params>();
   const search = useQuery();
   const char = search.get('char');
-  const author = authorName.split(' feat. ')[0];
   const hasAuthor = Object.keys(SortedSongListByAuthors).includes(author);
   const [filteredAuthors, setFilteredAuthors] = useState<ISongListByAuthors>(SortedSongListByAuthors);
 
@@ -45,7 +44,7 @@ const SongListByAuthors: FC = () => {
     }
 
     if (author.length && hasAuthor && SortedSongListByAuthors[author].length === 1) {
-      goToSong(SortedSongListByAuthors[author][0]);
+      goToSong(SortedSongListByAuthors[author][0], author);
     }
   }, [author, goToSong, goToSongs, hasAuthor]);
 
@@ -59,7 +58,7 @@ const SongListByAuthors: FC = () => {
   };
 
   const onAuthorClick = (value: string) => SortedSongListByAuthors[value].length === 1
-    ? goToSong(SortedSongListByAuthors[value][0])
+    ? goToSong(SortedSongListByAuthors[value][0], value)
     : goToAuthor(value);
 
   return (
@@ -72,7 +71,7 @@ const SongListByAuthors: FC = () => {
             ? SortedSongListByAuthors[author].map((song, index) => (
               <div
                 key={`song-${index}`}
-                onClick={() => goToSong(song)}
+                onClick={() => goToSong(song, author)}
                 className={styles.text}
               >
                 {song.name}

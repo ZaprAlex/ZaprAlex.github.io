@@ -33,7 +33,8 @@ const SongListByAuthors: FC = () => {
   const onSignClick = (sign: string) => {
     const songs = SongList.filter(({ songAlphabet }) => songAlphabet.includes(sign));
     if (songs.length === 1) {
-      goToSong(songs[0]);
+      const song = songs[0];
+      goToSong(song, song.authors[0]);
     } else {
       goToSongs(sign);
     }
@@ -48,7 +49,7 @@ const SongListByAuthors: FC = () => {
           return (
             <div
               key={`song-${index}`}
-              onClick={() => goToSong(song)}
+              onClick={() => goToSong(song, authors[0])}
               className={styles.text}
             >
               {`${name} - `}
