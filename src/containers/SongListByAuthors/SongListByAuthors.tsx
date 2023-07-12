@@ -3,7 +3,11 @@ import { useParams } from 'react-router-dom';
 
 import { useQuery } from '../../hooks';
 import { scrollToTop } from '../../utils/helper';
-import { AuthorsAlphabet, AuthorsDataKeys, SongsByAuthorsData } from '../../constants/SongsData';
+import {
+  AuthorsAlphabet,
+  ISongListByAuthors,
+  SortedSongListByAuthors
+} from '../../constants/SongsData';
 import { useAppNavigation } from '../../components/Navigation';
 import AlphabetPanel from '../../components/AlphabetPanel';
 
@@ -15,29 +19,33 @@ type Params = {
 
 const SongListByAuthors: FC = () => {
   const { goToAuthor, goToAuthors, goToSong, goToSongs } = useAppNavigation();
-  const { author = '' } = useParams<Params>();
+  const { author: authorName = '' } = useParams<Params>();
   const search = useQuery();
   const char = search.get('char');
-  const hasAuthor = AuthorsDataKeys.includes(author);
-  const [filteredAuthors, setFilteredAuthors] = useState<string[]>(AuthorsDataKeys);
+  const author = authorName.split(' feat. ')[0];
+  const hasAuthor = Object.keys(SortedSongListByAuthors).includes(author);
+  const [filteredAuthors, setFilteredAuthors] = useState<ISongListByAuthors>(SortedSongListByAuthors);
 
   useEffect(scrollToTop, [char]);
 
   useEffect(() => {
     if (char) {
-      setFilteredAuthors(getFilteredAuthors(char));
+      setFilteredAuthors(Object.keys(SortedSongListByAuthors).filter((author) => author.toUpperCase().startsWith(char)).reduce<ISongListByAuthors>((acc, value) => {
+        acc[value] = SortedSongListByAuthors[value];
+        return acc;
+      }, {}));
     } else {
-      setFilteredAuthors(AuthorsDataKeys);
+      setFilteredAuthors(SortedSongListByAuthors);
     }
-  }, [char, goToAuthor]);
+  }, [char]);
 
   useEffect(() => {
     if (author.length && !hasAuthor) {
       goToSongs();
     }
 
-    if (author.length && hasAuthor && Object.keys(SongsByAuthorsData[author]).length === 1) {
-      goToSong(author, Object.keys(SongsByAuthorsData[author])[0]);
+    if (author.length && hasAuthor && SortedSongListByAuthors[author].length === 1) {
+      goToSong(SortedSongListByAuthors[author][0]);
     }
   }, [author, goToSong, goToSongs, hasAuthor]);
 
@@ -50,10 +58,9 @@ const SongListByAuthors: FC = () => {
     }
   };
 
-  const onAuthorClick = (value: string) =>
-    Object.keys(SongsByAuthorsData[value]).length === 1
-      ? goToSong(value, Object.keys(SongsByAuthorsData[value])[0])
-      : goToAuthor(value);
+  const onAuthorClick = (value: string) => SortedSongListByAuthors[value].length === 1
+    ? goToSong(SortedSongListByAuthors[value][0])
+    : goToAuthor(value);
 
   return (
     <div className={styles.page}>
@@ -62,16 +69,16 @@ const SongListByAuthors: FC = () => {
         {hasAuthor && <p className={styles.header}>{author}</p>}
         <div className={styles.list}>
           {hasAuthor
-            ? Object.keys(SongsByAuthorsData[author]).map((name, index) => (
+            ? SortedSongListByAuthors[author].map((song, index) => (
               <div
                 key={`song-${index}`}
-                onClick={() => goToSong(author, name)}
+                onClick={() => goToSong(song)}
                 className={styles.text}
               >
-                {name}
+                {song.name}
               </div>
             ))
-            : filteredAuthors.map((value, index) => (
+            : Object.keys(filteredAuthors).map((value, index) => (
               <div
                 key={`author-${index}`}
                 onClick={() => onAuthorClick(value)}
@@ -87,7 +94,7 @@ const SongListByAuthors: FC = () => {
 };
 
 function getFilteredAuthors(char: string) {
-  return AuthorsDataKeys.filter((author) => author.toUpperCase().startsWith(char));
+  return Object.keys(SortedSongListByAuthors).filter((author) => author.toUpperCase().startsWith(char));
 }
 
 export default SongListByAuthors;

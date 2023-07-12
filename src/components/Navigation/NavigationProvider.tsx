@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { ROUTE } from '../../constants/route';
 import { encodeChord } from '../../utils/stringHelper';
+import { NewSong } from '../../constants/SongsData';
 import { AppNavigationCtx } from '.';
 
 const NavigationProvider: FC<PropsWithChildren> = ({ children }) => {
@@ -22,7 +23,7 @@ const NavigationProvider: FC<PropsWithChildren> = ({ children }) => {
   );
 
   const goToSong = useCallback(
-    (author: string, name: string) => navigate(`${ROUTE.AUTHORS}/${author}/${name}`),
+    ({ name, authorsName }: NewSong) => navigate(`${ROUTE.AUTHORS}/${authorsName}/${name}`),
     [navigate]
   );
 

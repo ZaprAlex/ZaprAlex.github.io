@@ -16,7 +16,7 @@ src_dir = os.path.sep
 favoriteMarker = '_f_'
 extensionList = ['txt']  # only these file types will be uploaded
 
-song_map = {}
+song_map = []
 
 def parse_file(file):
     global song_map
@@ -24,17 +24,7 @@ def parse_file(file):
     if extension in extensionList:
         try:
             filename = os.path.basename(file)
-            parts = str(filename).split(' - ')
-            author = parts[0].strip()
-            name = parts[1].split('.txt')[0].strip()
-            isFavorite = name.endswith(favoriteMarker)
-            if isFavorite:
-                name = name.split(favoriteMarker)[0].strip()
-            if author not in song_map:
-                song_map[author] = {}
-            song_map[author][name] = {}
-            song_map[author][name]['path'] = filename
-            song_map[author][name]['favorite'] = isFavorite
+            song_map.append(filename)
         except Exception as e:
             print(file, COLOR_RED, '\n', e, COLOR_NORMAL, sep=' ')
 
@@ -50,7 +40,7 @@ def parse_all_files_in_dir(root_path):
 
 
 def print_usage():
-    print('usage:  ', COLOR_BLUE, 'python3  song-parser.py  ',
+    print('usage:  ', COLOR_BLUE, 'python3  song-list-parser.py  ',
           COLOR_GREEN, '{path}', COLOR_BLUE, '  [-h]', COLOR_NORMAL, sep='')
     print(COLOR_GREEN, '{path}', COLOR_NORMAL,
           '  -  base directory for uploading files. For example: \'../nginx/data\'.', sep='')
@@ -64,7 +54,7 @@ def main(av):
     path = None
 
     default_songs_path = os.path.join(os.getcwd(), 'public', 'songs')
-    destination_path = os.path.join(os.getcwd(), 'src/constants/songs.json')
+    destination_path = os.path.join(os.getcwd(), 'src/constants/songs-list.json')
     if len(av) == 0:
         print('parse songs from default directory - \'', default_songs_path, '\'', sep='')
     else:
@@ -89,14 +79,8 @@ def main(av):
             parse_all_files_in_dir(path)
     elif os.path.isdir(default_songs_path):
         parse_all_files_in_dir(default_songs_path)
-    sorted_list = {}
-    for author in sorted(song_map):
-        sorted_list[author] = {}
-        for song in sorted(song_map[author]):
-            sorted_list[author][song] = song_map[author][song]
-#     print(sorted_list)
     with open(destination_path, 'w') as f:
-        json.dump(sorted_list, f)
+        json.dump(song_map, f)
         print('write json data to file \'', destination_path, '\'', sep='')
 
 

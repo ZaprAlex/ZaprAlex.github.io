@@ -4,7 +4,7 @@ import cn from 'classnames';
 import { getChordsFromString } from '../../utils/stringHelper';
 import { scrollToTop } from '../../utils/helper';
 import { useInterval, useModal, useSettings, useWindowResize } from '../../hooks';
-import { ISong, ISongRow, SongsByAuthorsData } from '../../constants/SongsData';
+import { ISongRow, NewSong, SortedSongListByAuthors } from '../../constants/SongsData';
 import ModalTypes from '../../constants/ModalTypes';
 import { useAppNavigation } from '../../components/Navigation';
 import { generateLyrics, isChorusLine } from './helper';
@@ -12,22 +12,22 @@ import { generateLyrics, isChorusLine } from './helper';
 import styles from './Song.module.scss';
 
 type SongProps = {
-  author: string;
-  song: ISong;
+  song: NewSong;
+  lyrics: ISongRow[];
+  speed: number;
 };
 
 const DEFAULT_SPEED = 70;
 
-const Song: FC<SongProps> = ({ author, song: { name, lyrics, speed: defaultSpeed = 0 } }) => {
+const Song: FC<SongProps> = ({ song, lyrics, speed: defaultSpeed }) => {
   const { goToAuthor } = useAppNavigation();
   const { isOpen: isModalOpen, openModal} = useModal();
   const { autoscrollEnabled } = useSettings();
   const [adaptiveLyrics, setAdaptiveLyrics] = useState<ISongRow[]>([]);
   const [fontSize, setFontSize] = useState(18);
-
   const [paused, setPaused] = useState<boolean>(false);
   const scrollable = autoscrollEnabled && !paused && !isModalOpen;
-  // console.log(paused, autoscrollEnabled);
+
   useEffect(() => {
     setPaused(false);
   }, [location]);
@@ -80,7 +80,7 @@ const Song: FC<SongProps> = ({ author, song: { name, lyrics, speed: defaultSpeed
 
   useWindowResize(generateWrappedLyrics);
 
-  const onAuthorClick = () => goToAuthor(author);
+  const onAuthorClick = (author: string) => goToAuthor(author);
 
   function onChordClick(chordsRow: string) {
     const chords = getChordsFromString(chordsRow);
@@ -93,13 +93,20 @@ const Song: FC<SongProps> = ({ author, song: { name, lyrics, speed: defaultSpeed
     <>
       <div className={styles.content}>
         <p className={styles.header}>
-          <span { ...( Object.keys(SongsByAuthorsData[author]).length !== 1
-            ? { className: styles.authorClickable, onClick: onAuthorClick }
-            : { className: styles.author }) }
-          >
-            {author}
-          </span>
-          {` - ${name}`}
+          {song.authors.map((author, index) => (
+            <>
+              <span key={`author-${index}`} { ...( SortedSongListByAuthors[author].length !== 1
+                ? { className: styles.authorClickable, onClick: () => onAuthorClick(author) }
+                : { className: styles.author }) }
+              >
+                {author}
+              </span>
+              {index < song.authors.length - 1 && (
+                ' feat. '
+              )}
+            </>
+          ))}
+          {` - ${song.name}`}
         </p>
         <div className={styles.lyrics}>
           {adaptiveLyrics.map(({line, isChordsRow}, index) => {

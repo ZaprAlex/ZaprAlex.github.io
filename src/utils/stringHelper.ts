@@ -1,4 +1,5 @@
 import { ChordsKeys } from '../constants/chords';
+import { NewSong } from '../constants/SongsData';
 
 /**
  * Оригинальная регулярка:
@@ -31,6 +32,10 @@ export function decodeChord(chord: string) {
 }
 
 export function sortByLocal(a: string, b: string) {
+  return new Intl.Collator(['ru', 'en']).compare(a, b);
+}
+
+export function sortSongByLocal({ name: a }: NewSong, { name: b }: NewSong) {
   return new Intl.Collator(['ru', 'en']).compare(a, b);
 }
 
