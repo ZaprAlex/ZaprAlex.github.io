@@ -1,5 +1,5 @@
 import { ChordsKeys } from '../constants/chords';
-import { NewSong } from '../constants/SongsData';
+import { ISong } from '../constants/SongsData';
 
 /**
  * Оригинальная регулярка:
@@ -35,7 +35,7 @@ export function sortByLocal(a: string, b: string) {
   return new Intl.Collator(['ru', 'en']).compare(a, b);
 }
 
-export function sortSongByLocal({ name: a }: NewSong, { name: b }: NewSong) {
+export function sortSongByLocal({ name: a }: ISong, { name: b }: ISong) {
   return new Intl.Collator(['ru', 'en']).compare(a, b);
 }
 

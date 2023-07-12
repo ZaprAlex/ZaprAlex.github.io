@@ -5,10 +5,10 @@ import { scrollToTop } from '../../utils/helper';
 import {
   SongsAlphabet,
   SongList,
-  NewSong,
-  SortedSongListByAuthors
+  ISong,
+  SongDictionaryByAuthors, FavoriteSongsAlphabet, FavoriteSongList
 } from '../../constants/SongsData';
-import { useQuery } from '../../hooks';
+import { useQuery, useSettings } from '../../hooks';
 import { useAppNavigation } from '../../components/Navigation';
 import AlphabetPanel from '../../components/AlphabetPanel';
 
@@ -16,24 +16,26 @@ import styles from './SongList.module.scss';
 
 const SongListByAuthors: FC = () => {
   const { goToSong, goToSongs } = useAppNavigation();
-  const [filteredSongs, setFilteredSongs] = useState<NewSong[]>(SongList);
+  const { showFavoritesOnly } = useSettings();
+  const songs = showFavoritesOnly ? FavoriteSongList : SongList;
   const search = useQuery();
   const char = search.get('char');
+  const [filteredSongs, setFilteredSongs] = useState<ISong[]>(songs);
 
   useEffect(scrollToTop, [char]);
 
   useEffect(() => {
     if (char) {
-      setFilteredSongs(SongList.filter(({ songAlphabet }) => songAlphabet.includes(char)));
+      setFilteredSongs(songs.filter(({ songAlphabet }) => songAlphabet.includes(char)));
     } else {
-      setFilteredSongs(SongList);
+      setFilteredSongs(songs);
     }
-  }, [char, goToSong]);
+  }, [char, goToSong, songs]);
 
   const onSignClick = (sign: string) => {
-    const songs = SongList.filter(({ songAlphabet }) => songAlphabet.includes(sign));
-    if (songs.length === 1) {
-      const song = songs[0];
+    const filteredSongs = songs.filter(({ songAlphabet }) => songAlphabet.includes(sign));
+    if (filteredSongs.length === 1) {
+      const song = filteredSongs[0];
       goToSong(song, song.authors[0]);
     } else {
       goToSongs(sign);
@@ -42,7 +44,7 @@ const SongListByAuthors: FC = () => {
 
   return (
     <div className={styles.content}>
-      <AlphabetPanel alphabet={SongsAlphabet} onClick={onSignClick} />
+      <AlphabetPanel alphabet={showFavoritesOnly ? FavoriteSongsAlphabet : SongsAlphabet} onClick={onSignClick} />
       <div className={styles.list}>
         {filteredSongs.map((song, index) => {
           const { name, authors } = song;
@@ -53,9 +55,11 @@ const SongListByAuthors: FC = () => {
               className={styles.text}
             >
               {`${name} - `}
-              {authors.map((author, index1) => (
-                <span key={`author-${index}-${index1}`} className={cn(styles.author, {[styles.active]: SortedSongListByAuthors[author].length > 1})}>{author}</span>
-              ))}
+              {authors.map((author, index1) => {
+                console.log(SongDictionaryByAuthors[author].length > 1);
+                return (
+                  <span key={`author-${index}-${index1}`} className={cn(styles.author, {[styles.active]: SongDictionaryByAuthors[author].length > 1})}>{author}</span>
+                );})}
             </div>
           );
         })}

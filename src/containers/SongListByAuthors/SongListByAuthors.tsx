@@ -1,12 +1,14 @@
 import React, { FC, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-import { useQuery } from '../../hooks';
+import { useQuery, useSettings } from '../../hooks';
 import { scrollToTop } from '../../utils/helper';
 import {
   AuthorsAlphabet,
+  FavoriteAuthorsAlphabet,
+  FavoriteSongDictionaryByAuthors,
   ISongListByAuthors,
-  SortedSongListByAuthors
+  SongDictionaryByAuthors
 } from '../../constants/SongsData';
 import { useAppNavigation } from '../../components/Navigation';
 import AlphabetPanel from '../../components/AlphabetPanel';
@@ -19,56 +21,64 @@ type Params = {
 
 const SongListByAuthors: FC = () => {
   const { goToAuthor, goToAuthors, goToSong, goToSongs } = useAppNavigation();
+  const { showFavoritesOnly } = useSettings();
   const { author = '' } = useParams<Params>();
   const search = useQuery();
   const char = search.get('char');
-  const hasAuthor = Object.keys(SortedSongListByAuthors).includes(author);
-  const [filteredAuthors, setFilteredAuthors] = useState<ISongListByAuthors>(SortedSongListByAuthors);
+  const hasAuthor = Object.keys(SongDictionaryByAuthors).includes(author);
+  const authorsList = showFavoritesOnly ? FavoriteSongDictionaryByAuthors : SongDictionaryByAuthors;
+  const [filteredAuthors, setFilteredAuthors] = useState<ISongListByAuthors>(authorsList);
 
   useEffect(scrollToTop, [char]);
 
   useEffect(() => {
     if (char) {
-      setFilteredAuthors(Object.keys(SortedSongListByAuthors).filter((author) => author.toUpperCase().startsWith(char)).reduce<ISongListByAuthors>((acc, value) => {
-        acc[value] = SortedSongListByAuthors[value];
-        return acc;
-      }, {}));
+      setFilteredAuthors(Object.keys(authorsList)
+        .filter((author) => author.toUpperCase().startsWith(char))
+        .reduce<ISongListByAuthors>((acc, value) => {
+          acc[value] = SongDictionaryByAuthors[value];
+          return acc;
+        }, {}));
     } else {
-      setFilteredAuthors(SortedSongListByAuthors);
+      setFilteredAuthors(authorsList);
     }
-  }, [char]);
+  }, [char, authorsList]);
 
   useEffect(() => {
     if (author.length && !hasAuthor) {
       goToSongs();
     }
 
-    if (author.length && hasAuthor && SortedSongListByAuthors[author].length === 1) {
-      goToSong(SortedSongListByAuthors[author][0], author);
+    if (author.length && hasAuthor && SongDictionaryByAuthors[author].length === 1) {
+      goToSong(SongDictionaryByAuthors[author][0], author);
     }
   }, [author, goToSong, goToSongs, hasAuthor]);
 
   const onSignClick = (sign: string) => {
-    const authors = getFilteredAuthors(sign);
-    if (authors.length === 1) {
-      goToAuthor(authors[0]);
+    const filteredAuthors = Object.keys(authorsList).filter((author) => author.toUpperCase().startsWith(sign));
+    if (filteredAuthors.length === 1) {
+      if (SongDictionaryByAuthors[filteredAuthors[0]].length === 1) {
+        goToSong(SongDictionaryByAuthors[filteredAuthors[0]][0], filteredAuthors[0]);
+      } else {
+        goToAuthor(filteredAuthors[0]);
+      }
     } else {
       goToAuthors(sign);
     }
   };
 
-  const onAuthorClick = (value: string) => SortedSongListByAuthors[value].length === 1
-    ? goToSong(SortedSongListByAuthors[value][0], value)
+  const onAuthorClick = (value: string) => SongDictionaryByAuthors[value].length === 1
+    ? goToSong(SongDictionaryByAuthors[value][0], value)
     : goToAuthor(value);
 
   return (
     <div className={styles.page}>
-      <AlphabetPanel alphabet={AuthorsAlphabet} onClick={onSignClick} />
+      <AlphabetPanel alphabet={showFavoritesOnly ? FavoriteAuthorsAlphabet : AuthorsAlphabet} onClick={onSignClick} />
       <div className={styles.content}>
         {hasAuthor && <p className={styles.header}>{author}</p>}
         <div className={styles.list}>
           {hasAuthor
-            ? SortedSongListByAuthors[author].map((song, index) => (
+            ? SongDictionaryByAuthors[author].map((song, index) => (
               <div
                 key={`song-${index}`}
                 onClick={() => goToSong(song, author)}
@@ -91,9 +101,5 @@ const SongListByAuthors: FC = () => {
     </div>
   );
 };
-
-function getFilteredAuthors(char: string) {
-  return Object.keys(SortedSongListByAuthors).filter((author) => author.toUpperCase().startsWith(char));
-}
 
 export default SongListByAuthors;

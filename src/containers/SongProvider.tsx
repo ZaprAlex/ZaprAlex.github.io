@@ -2,7 +2,7 @@ import React, { FC, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
 import { getLyrics } from '../api/songService';
-import { ISongRow, NewSong, SortedSongListByAuthors } from '../constants/SongsData';
+import { ISongRow, ISong, SongDictionaryByAuthors } from '../constants/SongsData';
 import { useAppNavigation } from '../components/Navigation';
 import Song from './Song';
 
@@ -14,12 +14,12 @@ type Params = {
 const SongProvider: FC = () => {
   const { goTo404 } = useAppNavigation();
   const { author = '', songName  = ''} = useParams<Params>();
-  const [{ song, lyrics, speed = 0 }, setState] = useState<{ song?: NewSong, lyrics: ISongRow[], speed?: number }>({ lyrics: []});
+  const [{ song, lyrics, speed = 0 }, setState] = useState<{ song?: ISong, lyrics: ISongRow[], speed?: number }>({ lyrics: []});
 
   useEffect(() => {
     (async () => {
       try {
-        const song = SortedSongListByAuthors[author].find(({ name }) => name === songName);
+        const song = SongDictionaryByAuthors[author].find(({ name }) => name === songName);
         if (song) {
           const lyrics = await getLyrics(song);
           setState({ song, lyrics });

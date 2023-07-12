@@ -43,11 +43,15 @@
 .author {
   color: #000000;
 
-  :global(#base.dark) & {
-    color: #ffffff;
+  &.active {
+    color: #ff6600;
   }
 
-  &.active {
-    color: #ff9900;
-  } 
+  :global(#base.dark) & {
+    color: #ffffff;
+
+    &.active {
+      color: #ff9900;
+    }
+  }
 }

@@ -4,7 +4,8 @@ import cn from 'classnames';
 import { getChordsFromString } from '../../utils/stringHelper';
 import { scrollToTop } from '../../utils/helper';
 import { useInterval, useModal, useSettings, useWindowResize } from '../../hooks';
-import { ISongRow, NewSong, SortedSongListByAuthors } from '../../constants/SongsData';
+import { AUTHORS_UNION_BLOCK } from '../../constants/common';
+import { ISongRow, ISong, SongDictionaryByAuthors } from '../../constants/SongsData';
 import ModalTypes from '../../constants/ModalTypes';
 import { useAppNavigation } from '../../components/Navigation';
 import { generateLyrics, isChorusLine } from './helper';
@@ -12,19 +13,20 @@ import { generateLyrics, isChorusLine } from './helper';
 import styles from './Song.module.scss';
 
 type SongProps = {
-  song: NewSong;
+  song: ISong;
   lyrics: ISongRow[];
   speed: number;
 };
 
 const DEFAULT_SPEED = 70;
+const DEFAULT_FONT_SIZE = 18;
 
 const Song: FC<SongProps> = ({ song, lyrics, speed: defaultSpeed }) => {
   const { goToAuthor } = useAppNavigation();
   const { isOpen: isModalOpen, openModal} = useModal();
   const { autoscrollEnabled } = useSettings();
   const [adaptiveLyrics, setAdaptiveLyrics] = useState<ISongRow[]>([]);
-  const [fontSize, setFontSize] = useState(18);
+  const [fontSize, setFontSize] = useState(DEFAULT_FONT_SIZE);
   const [paused, setPaused] = useState<boolean>(false);
   const scrollable = autoscrollEnabled && !paused && !isModalOpen;
 
@@ -94,17 +96,17 @@ const Song: FC<SongProps> = ({ song, lyrics, speed: defaultSpeed }) => {
       <div className={styles.content}>
         <p className={styles.header}>
           {song.authors.map((author, index) => (
-            <>
-              <span key={`author-${index}`} { ...( SortedSongListByAuthors[author].length !== 1
+            <span key={`author-${index}`}>
+              <span { ...( SongDictionaryByAuthors[author].length !== 1
                 ? { className: styles.authorClickable, onClick: () => onAuthorClick(author) }
                 : { className: styles.author }) }
               >
                 {author}
               </span>
               {index < song.authors.length - 1 && (
-                ' feat. '
+                <span>{AUTHORS_UNION_BLOCK}</span>
               )}
-            </>
+            </span>
           ))}
           {` - ${song.name}`}
         </p>
@@ -112,7 +114,7 @@ const Song: FC<SongProps> = ({ song, lyrics, speed: defaultSpeed }) => {
           {adaptiveLyrics.map(({line, isChordsRow}, index) => {
             return isChordsRow ? (
               <p
-                key={`row-${index}`}
+                key={`chord-row-${index}`}
                 className={cn(styles.row, styles.chord)}
                 // onClick={() => onChordClick(line)}
               >
