@@ -13,6 +13,7 @@ import { useAppNavigation } from '../../components/Navigation';
 import AlphabetPanel from '../../components/AlphabetPanel';
 
 import styles from './SongList.module.scss';
+import { AUTHORS_UNION_BLOCK } from '../../constants/common';
 
 const SongListByAuthors: FC = () => {
   const { goToSong, goToSongs } = useAppNavigation();
@@ -55,11 +56,15 @@ const SongListByAuthors: FC = () => {
               className={styles.text}
             >
               {`${name} - `}
-              {authors.map((author, index1) => {
-                console.log(SongDictionaryByAuthors[author].length > 1);
-                return (
-                  <span key={`author-${index}-${index1}`} className={cn(styles.author, {[styles.active]: SongDictionaryByAuthors[author].length > 1})}>{author}</span>
-                );})}
+              {authors.map((author, index1) =>
+                (
+                  <span key={`author-${index1}`}>
+                    {index1 > 0 && (
+                      <span>{AUTHORS_UNION_BLOCK}</span>
+                    )}
+                    <span key={`author-${index}-${index1}`} className={cn(styles.author, {[styles.active]: SongDictionaryByAuthors[author].length > 1})}>{author}</span>
+                  </span>
+                ))}
             </div>
           );
         })}

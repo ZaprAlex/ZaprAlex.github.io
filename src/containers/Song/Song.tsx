@@ -97,15 +97,15 @@ const Song: FC<SongProps> = ({ song, lyrics, speed: defaultSpeed }) => {
         <p className={styles.header}>
           {song.authors.map((author, index) => (
             <span key={`author-${index}`}>
+              {index > 0 && (
+                <span>{AUTHORS_UNION_BLOCK}</span>
+              )}
               <span { ...( SongDictionaryByAuthors[author].length !== 1
                 ? { className: styles.authorClickable, onClick: () => onAuthorClick(author) }
                 : { className: styles.author }) }
               >
                 {author}
               </span>
-              {index < song.authors.length - 1 && (
-                <span>{AUTHORS_UNION_BLOCK}</span>
-              )}
             </span>
           ))}
           {` - ${song.name}`}
