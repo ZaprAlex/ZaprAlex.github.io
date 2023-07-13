@@ -4,7 +4,7 @@ import { useModal } from '../../../hooks';
 import AutoscrollSwitch from './AutoscrollSwitch';
 import FullscreenSwitch from './FullscreenSwitch';
 import ThemeSwitch from './ThemeSwitch';
-import DoubleArrowRight from '../../../assets/DoubleArrowRight';
+import Cross from '../../../assets/Cross';
 
 import styles from './SettingsPanelPopUp.module.scss';
 
@@ -19,7 +19,7 @@ const SettingsPanelPopUp: FC = () => {
         <FullscreenSwitch />
       </div>
       <div onClick={closeModal} className={styles.cancelButton}>
-        <DoubleArrowRight />
+        <Cross />
       </div>
     </div>
   );

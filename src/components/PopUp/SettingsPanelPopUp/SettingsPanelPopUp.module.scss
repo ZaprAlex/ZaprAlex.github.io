@@ -14,8 +14,8 @@
 
 .cancelButton {
   margin-left: auto;
-  width: 64px;
-  height: 64px;
+  width: 60px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,6 +23,5 @@
   & svg {
     width: 32px;
     height: 32px;
-    transform: rotate(45grad);
   }
 }
