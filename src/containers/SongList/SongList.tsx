@@ -2,39 +2,45 @@ import React, { FC, useEffect, useState } from 'react';
 import cn from 'classnames';
 
 import { scrollToTop } from '../../utils/helper';
+import { AUTHORS_UNION_BLOCK } from '../../constants/common';
 import {
   SongsAlphabet,
   SongList,
   ISong,
-  SongDictionaryByAuthors, FavoriteSongsAlphabet, FavoriteSongList
+  SongDictionaryByAuthors,
+  FavoriteSongsAlphabet,
+  FavoriteSongList
 } from '../../constants/SongsData';
 import { useQuery, useSettings } from '../../hooks';
 import { useAppNavigation } from '../../components/Navigation';
 import AlphabetPanel from '../../components/AlphabetPanel';
 
 import styles from './SongList.module.scss';
-import { AUTHORS_UNION_BLOCK } from '../../constants/common';
+
+const EMPTY_LIST_ERROR = 'С выбранными фильтрами ничего не нашлось. \n' +
+'Отключите режим "Избранное" или выберите другой фильтр';
+
+function getFilteredSongs(showFavoritesOnly: boolean, char: string | null) {
+  const allSongs = showFavoritesOnly ? FavoriteSongList : SongList;
+  return char ? allSongs.filter(({ songAlphabet }) => songAlphabet.includes(char)) : allSongs;
+}
 
 const SongListByAuthors: FC = () => {
   const { goToSong, goToSongs } = useAppNavigation();
   const { showFavoritesOnly } = useSettings();
-  const songs = showFavoritesOnly ? FavoriteSongList : SongList;
+  const allSongs = showFavoritesOnly ? FavoriteSongList : SongList;
   const search = useQuery();
   const char = search.get('char');
-  const [filteredSongs, setFilteredSongs] = useState<ISong[]>(songs);
+  const [songs, setSongs] = useState<ISong[]>(getFilteredSongs(showFavoritesOnly, char));
 
   useEffect(scrollToTop, [char]);
 
   useEffect(() => {
-    if (char) {
-      setFilteredSongs(songs.filter(({ songAlphabet }) => songAlphabet.includes(char)));
-    } else {
-      setFilteredSongs(songs);
-    }
-  }, [char, goToSong, songs]);
+    setSongs(getFilteredSongs(showFavoritesOnly, char));
+  }, [char, showFavoritesOnly]);
 
   const onSignClick = (sign: string) => {
-    const filteredSongs = songs.filter(({ songAlphabet }) => songAlphabet.includes(sign));
+    const filteredSongs = allSongs.filter(({ songAlphabet }) => songAlphabet.includes(sign));
     if (filteredSongs.length === 1) {
       const song = filteredSongs[0];
       goToSong(song, song.authors[0]);
@@ -47,7 +53,7 @@ const SongListByAuthors: FC = () => {
     <div className={styles.content}>
       <AlphabetPanel alphabet={showFavoritesOnly ? FavoriteSongsAlphabet : SongsAlphabet} onClick={onSignClick} />
       <div className={styles.list}>
-        {filteredSongs.map((song, index) => {
+        {songs.length ? songs.map((song, index) => {
           const { name, authors } = song;
           return (
             <div
@@ -67,7 +73,9 @@ const SongListByAuthors: FC = () => {
                 ))}
             </div>
           );
-        })}
+        }) : (
+          <p className={styles.emptyListError}>{EMPTY_LIST_ERROR}</p>
+        )}
       </div>
     </div>
   );
