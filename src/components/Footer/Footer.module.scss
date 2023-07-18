@@ -1,0 +1,63 @@
+@import '../../styles/mixins';
+
+.footer {
+  position: sticky;
+  box-sizing: border-box;
+  bottom: 0;
+  z-index: 50;
+  width: 100%;
+  max-width: $max-content-width;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  background-color: transparent;
+}
+
+.slots {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  gap: 25px;
+}
+
+.audioPlayer {
+  //height: 60px;
+  //width: 200px;
+  //margin: auto;
+  //background: red;
+}
+
+.settingsPanel {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:  50% 0 0 0;
+  background: rgba(169, 169, 169, 0.8);
+
+  & > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    & svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  & > * {
+    opacity: .7;
+    & svg path {
+      fill: #000000;
+    }
+  }
+}

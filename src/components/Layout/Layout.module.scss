@@ -28,37 +28,3 @@
   flex-grow: 1;
   background: #ffffff;
 }
-
-.settingsPanel {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  z-index: 50;
-  box-sizing: border-box;
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius:  50% 0 0 0;
-  background: rgba(169, 169, 169, 0.8);
-
-  & > span {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-
-    & svg {
-      width: 24px;
-      height: 24px;
-    }
-  }
-
-  & > * {
-    opacity: .7;
-    & svg path {
-      fill: #000000;
-    }
-  }
-}

@@ -2,6 +2,7 @@ import { sortByLocal, sortSongByLocal } from '../utils/stringHelper';
 import { charArrayToAlphabetData } from '../containers/Song/helper';
 import { AUTHORS_UNION_BLOCK } from './common';
 import songsJsonData from './songs.json';
+import mp3JsonData from './music.json';
 
 export type ISongRow = {
   line: string;
@@ -24,12 +25,14 @@ export interface ISong {
   genre: Genre[];
   songAlphabet: string;
   authorsAlphabet: string[];
+  mp3?: string | null;
 }
 
 export const SongList: ISong[] = songsJsonData.map((pathname) => {
   const pattern = / - |(_f_)?.txt$/;
   const [authorsName, , name, favorite] = pathname.split(pattern);
   const authors = authorsName.split(AUTHORS_UNION_BLOCK);
+  const mp3 = mp3JsonData.find((value) => value === `${authorsName} - ${name}.mp3`);
   const song: ISong = ({
     authors,
     authorsName,
@@ -38,7 +41,8 @@ export const SongList: ISong[] = songsJsonData.map((pathname) => {
     favorite: !!favorite,
     genre: [Genre.ALL],
     songAlphabet: name.charAt(0).toUpperCase(),
-    authorsAlphabet: Array.from(new Set(authors.map((el) => el.charAt(0).toUpperCase())))
+    authorsAlphabet: Array.from(new Set(authors.map((el) => el.charAt(0).toUpperCase()))),
+    mp3,
   });
 
   return song;
