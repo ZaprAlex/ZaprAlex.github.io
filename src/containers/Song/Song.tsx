@@ -11,6 +11,7 @@ import { useAppNavigation } from '../../components/Navigation';
 import { generateLyrics, isChorusLine } from './helper';
 
 import styles from './Song.module.scss';
+import AudioPlayer from '../../components/AudioPlayer';
 
 type SongProps = {
   song: ISong;
@@ -127,6 +128,7 @@ const Song: FC<SongProps> = ({ song, lyrics, speed: defaultSpeed }) => {
             );
           })}
         </div>
+        <AudioPlayer mp3={song.mp3} />
       </div>
     </>
   );

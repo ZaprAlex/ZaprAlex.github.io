@@ -2,7 +2,7 @@ import React, { FC, PropsWithChildren } from 'react';
 import cn from 'classnames';
 
 import { useSettings } from '../../hooks';
-import Header from '../../containers/MainHeader';
+import Header from '../Header';
 import Footer from '../Footer';
 import PopUp from '../PopUp';
 
