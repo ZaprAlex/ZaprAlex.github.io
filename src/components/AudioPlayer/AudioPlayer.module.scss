@@ -1,5 +1,22 @@
-.player {
+@import '../../styles/mixins';
+
+.playerWrapper {
+  box-sizing: border-box;
   position: fixed;
-  bottom: 0;
-  left: 0;
+  width: 100%;
+  max-width: $max-content-width;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.player {
+  box-sizing: border-box;
+  width: calc(100% - 60px - 16px);
+  margin: 0 8px;
+
+  @include adaptive-except-mobile {
+    // width: calc(100% - 120px);
+  }
 }

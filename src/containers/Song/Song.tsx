@@ -7,11 +7,11 @@ import { useInterval, useModal, useSettings, useWindowResize } from '../../hooks
 import { AUTHORS_UNION_BLOCK } from '../../constants/common';
 import { ISongRow, ISong, SongDictionaryByAuthors } from '../../constants/SongsData';
 import ModalTypes from '../../constants/ModalTypes';
+import AudioPlayer from '../../components/AudioPlayer';
 import { useAppNavigation } from '../../components/Navigation';
 import { generateLyrics, isChorusLine } from './helper';
 
 import styles from './Song.module.scss';
-import AudioPlayer from '../../components/AudioPlayer';
 
 type SongProps = {
   song: ISong;

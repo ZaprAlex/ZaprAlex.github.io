@@ -8,10 +8,10 @@ type Props = {
 };
 
 const AudioPlayer: FC<Props> = ({ mp3 }) => {
-  console.log(mp3);
   return mp3 ? (
-    <div className={styles.player}>
+    <div className={styles.playerWrapper}>
       <ReactAudioPlayer
+        className={styles.player}
         src={`/mp3/${mp3}`}
         autoPlay={false}
         controls
