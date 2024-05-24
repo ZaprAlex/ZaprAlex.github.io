@@ -4,16 +4,17 @@ import {
   CHANGE_THEME_ACTION,
   SettingsContext,
   SWITCH_FAVORITES_ACTION,
-  TOGGLE_AUTOSCROLL
+  TOGGLE_AUTOSCROLL,
+  TOGGLE_SHOW_CHORDS_ACTION
 } from '../components/SettingsContext';
-import { getShowFavoritesOnly, getTheme, saveShowFavoritesOnly, saveTheme } from '../api/settingService';
+import { getShowFavoritesOnly, getTheme, saveShowChords, saveShowFavoritesOnly, saveTheme } from '../api/settingService';
 import { Themes } from '../constants/Themes';
 
 const { DARK, LIGHT } = Themes;
 
 export const useSettings = () => {
   const {
-    state: { autoscrollEnabled, showFavoritesOnly, theme },
+    state: { autoscrollEnabled, showChords, showFavoritesOnly, theme },
     dispatch
   } = useContext(SettingsContext);
 
@@ -23,6 +24,11 @@ export const useSettings = () => {
       type: SWITCH_FAVORITES_ACTION,
       payload: { showFavoritesOnly: !showFavoritesOnly }
     });
+  };
+
+  const toggleShowChords = () => {
+    saveShowChords(!showChords);
+    dispatch({ type: TOGGLE_SHOW_CHORDS_ACTION });
   };
 
   const switchTheme = () => {
@@ -38,9 +44,11 @@ export const useSettings = () => {
 
   return {
     autoscrollEnabled,
+    showChords,
     showFavoritesOnly: showFavoritesOnly || getShowFavoritesOnly(),
     theme: theme || getTheme(),
     toggleAutoscroll,
+    toggleShowChords,
     switchFavorites,
     switchTheme,
   };

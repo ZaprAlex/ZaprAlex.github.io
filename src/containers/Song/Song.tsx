@@ -25,7 +25,7 @@ const DEFAULT_FONT_SIZE = 18;
 const Song: FC<SongProps> = ({ song, lyrics, speed: defaultSpeed }) => {
   const { goToAuthor } = useAppNavigation();
   const { isOpen: isModalOpen, openModal} = useModal();
-  const { autoscrollEnabled } = useSettings();
+  const { autoscrollEnabled, showChords } = useSettings();
   const [adaptiveLyrics, setAdaptiveLyrics] = useState<ISongRow[]>([]);
   const [fontSize, setFontSize] = useState(DEFAULT_FONT_SIZE);
   const [paused, setPaused] = useState<boolean>(false);
@@ -113,15 +113,19 @@ const Song: FC<SongProps> = ({ song, lyrics, speed: defaultSpeed }) => {
         </p>
         <div className={styles.lyrics}>
           {adaptiveLyrics.map(({line, isChordsRow}, index) => {
-            return isChordsRow ? (
-              <p
-                key={`chord-row-${index}`}
-                className={cn(styles.row, styles.chord)}
-                // onClick={() => onChordClick(line)}
-              >
-                {line}
-              </p>
-            ) : (
+            if (isChordsRow) {
+              return showChords ? (
+                <p
+                  key={`chord-row-${index}`}
+                  className={cn(styles.row, styles.chord)}
+                  // onClick={() => onChordClick(line)}
+                >
+                  {line}
+                </p>
+              ) : null;
+            }
+
+            return(
               <p key={`row-${index}`} className={cn(styles.row, {[styles.chorus]: isChorusLine(line)})}>
                 {line}
               </p>
