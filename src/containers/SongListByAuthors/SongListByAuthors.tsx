@@ -12,6 +12,7 @@ import {
 } from '../../constants/SongsData';
 import { useAppNavigation } from '../../components/Navigation';
 import AlphabetPanel from '../../components/AlphabetPanel';
+import { ReactComponent as MelodyIcon } from '../../assets/melody.svg';
 
 import styles from './SongListByAuthors.module.scss';
 
@@ -85,6 +86,7 @@ const SongListByAuthors: FC = () => {
                 className={styles.text}
               >
                 {song.name}
+                {song.mp3 && (<MelodyIcon className={styles.icon} />)}
               </div>
             ))
             : Object.keys(filteredAuthors).map((value, index) => (

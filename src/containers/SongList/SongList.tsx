@@ -14,6 +14,7 @@ import {
 import { useQuery, useSettings } from '../../hooks';
 import { useAppNavigation } from '../../components/Navigation';
 import AlphabetPanel from '../../components/AlphabetPanel';
+import { ReactComponent as MelodyIcon } from '../../assets/melody.svg';
 
 import styles from './SongList.module.scss';
 
@@ -54,23 +55,26 @@ const SongListByAuthors: FC = () => {
       <AlphabetPanel alphabet={showFavoritesOnly ? FavoriteSongsAlphabet : SongsAlphabet} onClick={onSignClick} />
       <div className={styles.list}>
         {songs.length ? songs.map((song, index) => {
-          const { name, authors } = song;
+          const { name, authors, mp3 } = song;
           return (
             <div
               key={`song-${index}`}
               onClick={() => goToSong(song, authors[0])}
               className={styles.text}
             >
-              {`${name} - `}
-              {authors.map((author, index1) =>
-                (
-                  <span key={`author-${index1}`}>
-                    {index1 > 0 && (
-                      <span>{AUTHORS_UNION_BLOCK}</span>
-                    )}
-                    <span key={`author-${index}-${index1}`} className={cn(styles.author, {[styles.active]: SongDictionaryByAuthors[author].length > 1})}>{author}</span>
-                  </span>
-                ))}
+              <p>
+                {`${name} - `}
+                {authors.map((author, index1) =>
+                  (
+                    <span key={`author-${index1}`}>
+                      {index1 > 0 && (
+                        <span>{AUTHORS_UNION_BLOCK}</span>
+                      )}
+                      <span key={`author-${index}-${index1}`} className={cn(styles.author, {[styles.active]: SongDictionaryByAuthors[author].length > 1})}>{author}</span>
+                    </span>
+                  ))}
+              </p>
+              {mp3 && (<MelodyIcon className={styles.icon} />)}
             </div>
           );
         }) : (

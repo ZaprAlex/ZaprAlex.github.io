@@ -44,12 +44,20 @@
   column-count: 3;
 
   & > .text {
+    display: flex;
+    align-items: center;
     color: mediumblue;
     cursor: pointer;
     text-align: left;
 
     :global(#base.dark) & {
       color: deepskyblue;
+    }
+
+    & > .icon {
+      width: 18px;
+      height: 18px;
+      margin-left: 8px;
     }
   }
 }
