@@ -1,18 +1,18 @@
 Limp Bizkit - Behind Blue Eyes
 
-Аккорды:
+Аккорды: _#
     Em, G6, Dsus2, Cadd9, Asus2, C, E, D, Bm, G  _#
-
-Схема переборов во вступлении:
+ _#
+Схема переборов во вступлении: _#
 Em:     6 5 4 3 1 2 3 4 (играем 1 раз) _#
 G6:     6 5 4 3 1 2 3 4 (играем 1 раз) _#
 Dsus2:  4 3 2 3 1 2 3 2 (играем 2 раза) _#
 Cadd9:  5 4 2 4 1 2 4 2 (играем 2 раза) _#
 Asus2:  5 4 2 4 1 2 4 2 (играем 2 раза) _#
-
-В куплете всё тоже самое, только на аккорде Asus2 играем боем: V^V_^V
-
-Припев:
+ _#
+В куплете всё тоже самое, только на аккорде Asus2 играем боем: V^V_^V _#
+ _#
+Припев: _#
 Cadd9 - V_V_V^
 D - V_V_V^
 G - V_V_^^VVV^
@@ -23,8 +23,7 @@ Bm - V_V_^^VVV^
 C - V_V_^^VVV^
 D - V_V_^^VV
 Asus2 - V^V_V_^^VV (Схему на последний аккорд Asus2 играем 2 раза )
-
-
+ _#
  Em                     G6 _#
 No one knows what it's like
            Dsus2 _#
@@ -44,19 +43,19 @@ To be faded
 To telling only lies 
 
 Припев:
-             Cadd9 D _#
-    But my dre-e-e-eams
-                   G _#
-    They aren't as empty
-           C          D        E _#
-    As my conscience seems to be 
+           Cadd9 D _#
+  But my dre-e-e-eams
+                 G _#
+  They aren't as empty
+         C          D        E _#
+  As my conscience seems to be 
 
-           Bm          C _#
-   I have hours, only lonely
-               D _#
-   My love is vengeance
-                  Asus2 _#
-   That's never free 
+          Bm          C _#
+  I have hours, only lonely
+              D _#
+  My love is vengeance
+                 Asus2 _#
+  That's never free 
 
  Em                     G6 _#
 No one knows what it's like
@@ -77,16 +76,16 @@ None of my pain woe
 Can show through
 
 Припев:
-             Cadd9 D _#
-    But my dre-e-e-eams
-                   G _#
-    They aren't as empty
-           C          D        E _#
-    As my conscience seems to be 
+           Cadd9 D _#
+  But my dre-e-e-eams
+                 G _#
+  They aren't as empty
+         C          D        E _#
+  As my conscience seems to be 
 
-           Bm          C _#
-   I have hours, only lonely
-               D _#
-   My love is vengeance
-                  Asus2 _#
-   That's never free
+          Bm          C _#
+  I have hours, only lonely
+              D _#
+  My love is vengeance
+                 Asus2 _#
+  That's never free

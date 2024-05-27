@@ -1,21 +1,21 @@
 Red Hot Chili Peppers - Otherside
 
 
-Strumming pattern: D DU UDU
-* = play the strumming pattern x2 on this chord
- 
+Strumming pattern: D DU UDU _#
+* = play the strumming pattern x2 on this chord _#
+ _#
 Intro:
-    Am   F   C   G _#
+  Am   F   C   G _#
  
 Chorus:
-    Am             F            C _#
-    How long, how long will I slide?
-    G            Am   F _#
-    Separate my siiii-iiide
-      C      G                  Am   F _#
-    I don't, don't believe it's baaa-aaad
-    C                       G _#
-    Slittin' my throat it's all I ever
+  Am             F            C _#
+  How long, how long will I slide?
+  G            Am   F _#
+  Separate my siiii-iiide
+    C      G                  Am   F _#
+  I don't, don't believe it's baaa-aaad
+  C                       G _#
+  Slittin' my throat it's all I ever
  
 Am                             Em _#
 I heard your voice through a photograph
@@ -42,14 +42,14 @@ A* _#
 Take it on
  
 Chorus:
-    Am             F           C _#
-     How long, how long will I slide?
-    G            Am   F _#
-    Separate my siiii-iiide
-      C      G                  Am   F _#
-    I don't, don't believe it's baaa-aaad
-    C                       G _#
-    Slittin' my throat it's all I ever
+  Am             F           C _#
+   How long, how long will I slide?
+  G            Am   F _#
+  Separate my siiii-iiide
+    C      G                  Am   F _#
+  I don't, don't believe it's baaa-aaad
+  C                       G _#
+  Slittin' my throat it's all I ever
  
 Am                   Em _#
 Pour my life into a paper cup
@@ -76,17 +76,17 @@ A* _#
 Take it on
  
 Chorus:
-    Am             F           C _#
-     How long, how long will I slide?
-    G            Am   F _#
-    Separate my siiii-iiide
-      C      G                  Am   F _#
-    I don't, don't believe it's baaa-aaad
-    C                       G _#
-    Slittin' my throat it's all I ever
+  Am             F           C _#
+   How long, how long will I slide?
+  G            Am   F _#
+  Separate my siiii-iiide
+    C      G                  Am   F _#
+  I don't, don't believe it's baaa-aaad
+  C                       G _#
+  Slittin' my throat it's all I ever
  
 Bridge: x2
-    Em* - C* _#
+  Em* - C* _#
 
 Em* _#
 Turn me on take me for a hard ride
@@ -101,14 +101,14 @@ Solo:
     Am   F   C   G _#
  
 Chorus:
-    Am              F           C _#
-      How long, how long will I slide?
-    G           Am    F _#
-    Separate my siiii-iiide
-      C      G                  Am   F _#
-    I don't, don't believe it's baaa-aaad
-    C                       G _#
-    Slittin' my throat it's all I ever
+  Am              F           C _#
+    How long, how long will I slide?
+  G           Am    F _#
+  Separate my siiii-iiide
+    C      G                  Am   F _#
+  I don't, don't believe it's baaa-aaad
+  C                       G _#
+  Slittin' my throat it's all I ever
  
 Am   F       C      G                  Am    F _#
 Haaa-aaad, I don't, don't believe it's saaa-aaad

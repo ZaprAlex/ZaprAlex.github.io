@@ -5,7 +5,7 @@ C2:   x 3 2 0 3 3 _#
 D:    x x 0 2 3 2 _#
 D/F#: 2 x 0 2 3 2 _#
 G:    3 2 0 0 3 3 _#
-
+ _#
 Em            C2 _#
 how long have I
                G _#
@@ -28,16 +28,16 @@ if I see you
 the darkness will turn to light
  
 Chorus:
-    Em    C              G _#
-      and I will walk on water
-    Em             D             G _#
-      and you will catch me if I fall
-    Em    C2         G    D/F#      Em _#
-      and I will get lost into your eyes
-    C2            D               G     D/F# _#
-      I know everything will be alright
-    Em          D/F#         Em _#
-      I know everything is alright
+  Em    C              G _#
+    and I will walk on water
+  Em             D             G _#
+    and you will catch me if I fall
+  Em    C2         G    D/F#      Em _#
+    and I will get lost into your eyes
+  C2            D               G     D/F# _#
+    I know everything will be alright
+  Em          D/F#         Em _#
+    I know everything is alright
  
 Em _#
 I know you didn't
@@ -61,21 +61,21 @@ if I see you
 the darkness will turn to light
  
 Chorus:
-    Em    C              G _#
-      and I will walk on water
-    Em             D             G _#
-      and you will catch me if I fall
-    Em    C2         G    D/F#      Em _#
-      and I will get lost into your eyes
-    C2            D               G _#
-      I know everything will be alright
-    Em    C              G _#
-      and I will walk on water
-    Em             D             G _#
-      and you will catch me if I fall
-    Em    C2         G    D/F#      Em _#
-      and I will get lost into your eyes
-    C2            D               G     D/F# _#
-      I know everything will be alright
-    Em          D/F#         Em _#
-      I know everything is alright
+  Em    C              G _#
+    and I will walk on water
+  Em             D             G _#
+    and you will catch me if I fall
+  Em    C2         G    D/F#      Em _#
+    and I will get lost into your eyes
+  C2            D               G _#
+    I know everything will be alright
+  Em    C              G _#
+    and I will walk on water
+  Em             D             G _#
+    and you will catch me if I fall
+  Em    C2         G    D/F#      Em _#
+    and I will get lost into your eyes
+  C2            D               G     D/F# _#
+    I know everything will be alright
+  Em          D/F#         Em _#
+    I know everything is alright
