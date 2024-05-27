@@ -2,12 +2,12 @@ Rise Against - Swing Life Away
 
 Intro:
                Cadd9 _#
-eb|--------------X---|
-Bb|--0-----------3---|
+eb|--------------X---| _#
+Bb|--0-----------3---| _#
 Gb|----0---2-0---0---| x3, then Dsus2 _#
-Db|------0-----4-X---|
-Ab|--------------3---|
-Eb|--------------X---|
+Db|------0-----4-X---| _#
+Ab|--------------3---| _#
+Eb|--------------X---| _#
  
               Em          G          Cadd9 _#
 Am I loud and clear or am I breaking up?
@@ -23,14 +23,14 @@ Let's compare scars I'll tell you whose is worse
 Let's unwrite these pages and replace them with our own words
  
 Chorus:
-       Em            G           Cadd9       Dsus2 _#
-    We live on front porches and swing life away
-       Em          G            Cadd9   Dsus2 _#
-    We get by just fine here on minimum wage
-       Em        G          Cadd9          Dsus2 _#
-    If love is a labor I'll slave 'til the end
-      Em                G             Cadd9       Dsus2 _#
-    I won't cross these streets until you hold my hand
+     Em            G           Cadd9       Dsus2 _#
+  We live on front porches and swing life away
+     Em          G            Cadd9   Dsus2 _#
+  We get by just fine here on minimum wage
+     Em        G          Cadd9          Dsus2 _#
+  If love is a labor I'll slave 'til the end
+    Em                G             Cadd9       Dsus2 _#
+  I won't cross these streets until you hold my hand
  
                   Em               G           Cadd9 _#
 I've been here so long; think that its time to move
@@ -46,14 +46,14 @@ But we've had some times I wouldn't trade for the world
 We chase these days down with talks of the places that we will go
  
 Chorus:
-       Em            G           Cadd9       Dsus2 _#
-    We live on front porches and swing life away
-       Em          G            Cadd9   Dsus2 _#
-    We get by just fine here on minimum wage
-       Em        G          Cadd9          Dsus2 _#
-    If love is a labor I'll slave 'til the end
-      Em                G             Cadd9       Dsus2 _#
-    I won't cross these streets until you hold my hand
+     Em            G           Cadd9       Dsus2 _#
+  We live on front porches and swing life away
+     Em          G            Cadd9   Dsus2 _#
+  We get by just fine here on minimum wage
+     Em        G          Cadd9          Dsus2 _#
+  If love is a labor I'll slave 'til the end
+    Em                G             Cadd9       Dsus2 _#
+  I won't cross these streets until you hold my hand
 
 Em    G    Cadd9 _#
 Swing life away
@@ -65,10 +65,9 @@ Em    G    Cadd9 _#
 Swing life away
  
 Outro:
-eb|--------|
-Bb|--0-----|
+eb|--------| _#
+Bb|--0-----| _#
 Gb|----0---| then G _#
-Db|------2-|
-Ab|--------|
-Eb|--------|
-
+Db|------2-| _#
+Ab|--------| _#
+Eb|--------| _#

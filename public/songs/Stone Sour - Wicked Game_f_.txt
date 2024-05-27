@@ -4,7 +4,7 @@ Bm:     x 2 4 4 3 2 _#
 A:      x 0 2 2 2 0 _#
 E:      0 2 2 1 0 0 _#
 F#m7:   2 4 2 2 5 2 _#
-
+ _#
 Intro: x2
     Bm A E _#
 
@@ -18,14 +18,14 @@ And I never dreamed that I'd meet somebody like you,
 And I never dreamed that I'd lose somebody like you.
 
 Chorus:
-     Bm      A                  E _#
-    No, I don't wanna fall in love
-      Bm      A                 E _#
-    No, I don't wanna fall in love
-       Bm  A E _#
-    With you
-       Bm  A E _#
-    With you
+   Bm      A                  E _#
+  No, I don't wanna fall in love
+    Bm      A                 E _#
+  No, I don't wanna fall in love
+     Bm  A E _#
+  With you
+     Bm  A E _#
+  With you
 
 Bm                A _#
 What a wicked game to play
@@ -45,14 +45,14 @@ E _#
 To make me dream of you
 
 Chorus:
-     Bm      A                  E _#
-    No, I don't wanna fall in love
-      Bm      A                 E _#
-    No, I don't wanna fall in love
-       Bm  A E _#
-    With you
-       Bm  A E _#
-    With you
+   Bm      A                  E _#
+  No, I don't wanna fall in love
+    Bm      A                 E _#
+  No, I don't wanna fall in love
+     Bm  A E _#
+  With you
+     Bm  A E _#
+  With you
 
  Bm                          A                    E _#
 World was on fire and no one could save me but you.
@@ -64,13 +64,13 @@ And I never dreamed that I'd meet somebody like you,
 And I never dreamed that I'd lose somebody like you.
 
 Chorus:
-     Bm      A                  E _#
-    No, I don't wanna fall in love
-      Bm      A                 E _#
-    No, I don't wanna fall in love
-       Bm  A E _#
-    No I
-       Bm  A E _#
-    No I
+   Bm      A                  E _#
+  No, I don't wanna fall in love
+    Bm      A                 E _#
+  No, I don't wanna fall in love
+     Bm  A E _#
+  No I
+     Bm  A E _#
+  No I
 
 Nobody loves no one

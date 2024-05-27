@@ -1,33 +1,33 @@
 Sting - Shape Of My Heart
 
-Main riff:
+Main riff: _#
         Em                Bm                 Am              B _#
-      3002x0            20x0xx             01220x          23332x
-e--3--------3-----|--2--------2-----|--0--------0-----|--0-----0--|
-B--------0-----0--|--------0-----0--|--4--------------|-----------|
-G-----------------|--------2-----2--|-----4-----------|-----------|
-D--2--2-----------|--0--0-----------|-----------------|-----------|
-A-----------------|--0--0-----------|--0--0-----------|--2--------|
-E-----------------|-----------------|-----------------|-----------|
-
+      3002x0            20x0xx             01220x          23332x _#
+e--3--------3-----|--2--------2-----|--0--------0-----|--0-----0--| _#
+B--------0-----0--|--------0-----0--|--4--------------|-----------| _#
+G-----------------|--------2-----2--|-----4-----------|-----------| _#
+D--2--2-----------|--0--0-----------|-----------------|-----------| _#
+A-----------------|--0--0-----------|--0--0-----------|--2--------| _#
+E-----------------|-----------------|-----------------|-----------| _#
+ _#
        C/E                Bm                 Am              B _#
-      3102x0            20x0xx             01220x         23332x
-e--3--------3-----|--2--------2-----|--0--------0-----|--0-----0--|
-B--------1-----1--|--------0-----0--|--4--------------|-----------|
-G-----------------|--------2-----2--|-----4-----------|-----------|
-D--2--2-----------|--0--0-----------|-----------------|-----------|
-A-----------------|--0--0-----------|--0--0-----------|--2--------|
-E-----------------|-----------------|-----------------|-----------|
-
+      3102x0            20x0xx             01220x         23332x _#
+e--3--------3-----|--2--------2-----|--0--------0-----|--0-----0--| _#
+B--------1-----1--|--------0-----0--|--4--------------|-----------| _#
+G-----------------|--------2-----2--|-----4-----------|-----------| _#
+D--2--2-----------|--0--0-----------|-----------------|-----------| _#
+A-----------------|--0--0-----------|--0--0-----------|--2--------| _#
+E-----------------|-----------------|-----------------|-----------| _#
+ _#
            C                                B7          C        Bb7 ?   Em _#
-         35553x                           24242x      35553x   00212x 00220
-e---------------3------- |--0----------|--0--------|-----------|-----|-----|
-B---------5--------5-----|-------1--0--|--------4--|--5--5--5--|--0--|--0--|
-G---------------------5--|-------0--0--|--------2--|--5--5--5--|--2--|--0--|
-D------5-----5-----------|-------0--0--|-----4-----|--5--5--5--|--1--|--2--|
-A---3--------------------|--2^0--------|--2--------|--3--3--3--|--2--|--2--|
-E------------------------|-------3--3--|--0--------|--0--------|-----|-----|
-
+         35553x                           24242x      35553x   00212x 00220 _#
+e---------------3------- |--0----------|--0--------|-----------|-----|-----| _#
+B---------5--------5-----|-------1--0--|--------4--|--5--5--5--|--0--|--0--| _#
+G---------------------5--|-------0--0--|--------2--|--5--5--5--|--2--|--0--| _#
+D------5-----5-----------|-------0--0--|-----4-----|--5--5--5--|--1--|--2--| _#
+A---3--------------------|--2^0--------|--2--------|--3--3--3--|--2--|--2--| _#
+E------------------------|-------3--3--|--0--------|--0--------|-----|-----| _#
+ _#
   Em     Bm          Am         B _#
 He deals the cards as a meditation
  C/E     Bm           Am       B _#
@@ -47,14 +47,14 @@ The hidden law of a probable outcome
 The numbers lead a dance
 
 Chorus:
-      Em     Bm          Am         B _#
-    I know that the spades are swords of a soldier
-     C/E     Bm           Am       B _#
-    I know that the clubs are weapons of war
-               C                    B7   _#
-    I know that diamonds mean money for this art
-      C        Bb7 ?   Em _#
-    But that´s not the shape of my heart
+    Em     Bm          Am         B _#
+  I know that the spades are swords of a soldier
+   C/E     Bm           Am       B _#
+  I know that the clubs are weapons of war
+             C                    B7   _#
+  I know that diamonds mean money for this art
+    C        Bb7 ?   Em _#
+  But that´s not the shape of my heart
 
   Em     Bm          Am         B _#
 He may play the jack of diamonds
@@ -66,14 +66,14 @@ He may conceal a king in his hand
 While the memory of it fades
 
 Chorus:
-      Em     Bm          Am         B _#
-    I know that the spades are swords of a soldier
-     C/E     Bm           Am       B _#
-    I know that the clubs are weapons of war
-               C                    B7   _#
-    I know that diamonds mean money for this art
-      C        Bb7 ?   Em _#
-    But that´s not the shape of my heart
+    Em     Bm          Am         B _#
+  I know that the spades are swords of a soldier
+   C/E     Bm           Am       B _#
+  I know that the clubs are weapons of war
+             C                    B7   _#
+  I know that diamonds mean money for this art
+    C        Bb7 ?   Em _#
+  But that´s not the shape of my heart
 
 Em  Em7  C _#
 That´s not the shape   
@@ -99,14 +99,14 @@ Like those who curse their luck in too many places
 And those who smile are lost
 
 Chorus:
-      Em     Bm          Am         B _#
-    I know that the spades are swords of a soldier
-     C/E     Bm           Am       B _#
-    I know that the clubs are weapons of war
-               C                    B7   _#
-    I know that diamonds mean money for this art
-      C        Bb7 ?   Em _#
-    But that´s not the shape of my heart
+    Em     Bm          Am         B _#
+  I know that the spades are swords of a soldier
+   C/E     Bm           Am       B _#
+  I know that the clubs are weapons of war
+             C                    B7   _#
+  I know that diamonds mean money for this art
+    C        Bb7 ?   Em _#
+  But that´s not the shape of my heart
 
 Em  Em7  C               Bb7   Em _#
 That´s not the shape of my heart
@@ -116,6 +116,6 @@ That´s not the shape
 The shape of my heart
 
 Outro:
-e----12--|
-B---12---|
-G--12----|
+e----12--| _#
+B---12---| _#
+G--12----| _#

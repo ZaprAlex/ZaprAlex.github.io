@@ -4,9 +4,9 @@ Em:      0 2 2 0 0 0 _#
 Cmaj7:   x 3 2 0 0 0 _#
 G6:      3 2 0 0 0 0 _#
 Em11/F#: 2 0 0 0 0 0 _#
-
-Бой: ↓↓↓ ↓↑↑↓ ↑↓↑
-
+ _#
+Бой: ↓↓↓ ↓↑↑↓ ↑↓↑ _#
+ _#
 Intro: x4
     Em | Cmaj7 | G6 | Em11/F# _#
 
@@ -30,14 +30,14 @@ With their tanks and their bombs and their bombs and their guns
 In your head, in your head, they are cryin’
 
 Chorus:
-             Em            Cmaj7 _#
-    In your head, in your head
-        G6              Em11/F# _#
-    Zombie, zombie, zombie-ie-ie
-                    Em            Cmaj7 _#
-    What’s in your head, in your head?
-        G6              Em11/F# _#
-    Zombie, zombie, zombie-ie-ie-ie, oh
+           Em            Cmaj7 _#
+  In your head, in your head
+      G6              Em11/F# _#
+  Zombie, zombie, zombie-ie-ie
+                  Em            Cmaj7 _#
+  What’s in your head, in your head?
+      G6              Em11/F# _#
+  Zombie, zombie, zombie-ie-ie-ie, oh
 
 Em _#
 Du, du, du, du
@@ -49,7 +49,7 @@ Em11/F# _#
 Du, du, du, du
 
 Bridge:
-    Em | Cmaj7 | G6 | Em11/F# _#
+  Em | Cmaj7 | G6 | Em11/F# _#
 
 Em       Cmaj7 _#
 Another mother’s breakin’
@@ -71,14 +71,14 @@ With their tanks and their bombs and their bombs and their guns
 In your head, in your head, they are dyin’
 
 Chorus:
-             Em            Cmaj7 _#
-    In your head, in your head
-        G6              Em11/F# _#
-    Zombie, zombie, zombie-ie-ie
-                    Em            Cmaj7 _#
-    What’s in your head, in your head?
-        G6              Em11/F# _#
-    Zombie, zombie, zombie-ie-ie-ie
+           Em            Cmaj7 _#
+  In your head, in your head
+      G6              Em11/F# _#
+  Zombie, zombie, zombie-ie-ie
+                  Em            Cmaj7 _#
+  What’s in your head, in your head?
+      G6              Em11/F# _#
+  Zombie, zombie, zombie-ie-ie-ie
 
 Outro: x8
-    Em | Cmaj7 | G6 | Em11/F# _#
+  Em | Cmaj7 | G6 | Em11/F# _#

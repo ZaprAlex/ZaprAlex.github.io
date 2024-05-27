@@ -6,7 +6,7 @@ C:   3 3 2 0 1 0 _#
 C/B: x 2 x 0 1 0 _#
 D:   x 0 0 2 3 2 _#
 A:   5 7 7 6 5 5 _#
- 
+ _#
 Intro: x2
     Am7 F  C  C/B _#
  
@@ -28,19 +28,19 @@ Running in circles, coming up tails
 Heads on a science apart
  
 Chorus:
-    F                         C _#
-    Nobody said it was easy
-                 C/B _#
-    It's such a shame for us to part
-    F                         C _#
-    Nobody said it was easy
-                 C/B                              G _#
-    No one ever said that it would be this hard
-    Dm7                       C _#
-    Oh take me back to the start
+  F                         C _#
+  Nobody said it was easy
+               C/B _#
+  It's such a shame for us to part
+  F                         C _#
+  Nobody said it was easy
+               C/B                              G _#
+  No one ever said that it would be this hard
+  Dm7                       C _#
+  Oh take me back to the start
  
 Interlude:
-    Am7 F  C  C  Am7 F  C  C/B _#
+  Am7 F  C  C  Am7 F  C  C/B _#
 
 Am7         F                       C _#
 I was just guessing at numbers and figures
@@ -60,20 +60,20 @@ Running in circles, chasing our tails
 Coming back as we are
  
 Chorus:
-    F                         C _#
-    Nobody said it was easy
-                 C/B _#
-    It's such a shame for us to part
-    F                         C _#
-    Nobody said it was easy
-                 C/B                        G _#
-    No one ever said it would be so hard
-    Dm7                      C _#
-    I'm going back to the start
+  F                         C _#
+  Nobody said it was easy
+               C/B _#
+  It's such a shame for us to part
+  F                         C _#
+  Nobody said it was easy
+               C/B                        G _#
+  No one ever said it would be so hard
+  Dm7                      C _#
+  I'm going back to the start
  
 Solo:
-    Am7 F  C  C _#
-    Am7 F  C  C/B _#
+  Am7 F  C  C _#
+  Am7 F  C  C/B _#
 
 Am7 F  C  C _#
 Ah-Oooohh...
