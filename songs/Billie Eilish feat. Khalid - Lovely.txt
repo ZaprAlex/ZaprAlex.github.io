@@ -31,8 +31,8 @@ Chorus:
   Heart made of glass, my mind of stone
   C  _#
   Tear me to pieces, skin and bone
-  Em         Bm            C  _#
-     Hello, welcome home
+  Em      Bm            C  _#
+  Hello, welcome home
 
 C  _#
 Walkin' out of time
@@ -60,13 +60,13 @@ Chorus:
   Heart made of glass, my mind of stone
   C  _#
   Tear me to pieces, skin and bone
-  Em         Bm  _#
-     Hello, welcome home
+  Em      Bm  _#
+  Hello, welcome home
 
 Outro:
 
-C          Em         Bm  _#
-     Woah-oah, yeah-yeah, ah
+C     Em         Bm  _#
+Woah-oah, yeah-yeah, ah
 C                        Em  _#
 Yeahhhhhhh, Oh-oh-oh-oh-ohhh-ohhh
 Bm  _#
@@ -75,5 +75,5 @@ Woah, woah
 C      Em   Bm  _#
 
 C      Em         Bm                Em  _#
- Hello, welcome ho-o-o-o-ome            
+Hello, welcome ho-o-o-o-ome            
  

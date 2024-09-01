@@ -3,16 +3,16 @@ System of a Down - Lonely Day
 Перебор: 5 4 3 2 3 4 _#
  _#
 Intro:
-    Am F C E7 } x2 _#
+  Am F C E7 } x2 _#
  
-Am        F          C         E7 _#
-   Such a lonely day, and it's mine
-Am          F                   C    E7 _#
-   The most loneliest day of my life
-Am        F          C          E7 _#
-   Such a lonely day, should be banned
-Am        F                C     E7 _#
-   It's a day that I can't stand
+Am      F          C         E7 _#
+Such a lonely day, and it's mine
+Am        F                   C    E7 _#
+The most loneliest day of my life
+Am      F          C          E7 _#
+Such a lonely day, should be banned
+Am      F                C     E7 _#
+It's a day that I can't stand
 
 Chorus:
   Am        F                   C   E7 _#
@@ -20,22 +20,22 @@ Chorus:
   Am        F                   C   E7 _#
   The most loneliest day of my life
 
-Am        F          C           E7 _#
-   Such a lonely day, shouldn't exist
-Am        F                   C   E7 _#
-   It's a day that I'll never miss
-Am        F          C         E7 _#
-   Such a lonely day, and it's mine
-Am          F                   C    E7 _#
-   The most loneliest day of my life 
+Am      F          C           E7 _#
+Such a lonely day, shouldn't exist
+Am      F                   C   E7 _#
+It's a day that I'll never miss
+Am      F          C         E7 _#
+Such a lonely day, and it's mine
+Am        F                   C    E7 _#
+The most loneliest day of my life 
 
 Bridge:
-F            E7 G        Am _#
-  And if you go, I wanna go with you
-F            E7  G        Am _#
-  And if you die, I wanna die with you
-F            E7 _#
-  Take your hand and walk away
+F           E7 G        Am _#
+And if you go, I wanna go with you
+F           E7  G        Am _#
+And if you die, I wanna die with you
+F          E7 _#
+Take your hand and walk away
  
  
 Solo:
@@ -52,7 +52,7 @@ Chorus:
 Outro:
   Am F C E7 _#
  
-Am        F          C         E7 _#
-   Such a lonely day, and it's mine
-Am        F                      C  E7 _#
-   It's a day that I'm glad I survived
+Am      F          C         E7 _#
+Such a lonely day, and it's mine
+Am      F                      C  E7 _#
+It's a day that I'm glad I survived
